@@ -63,7 +63,7 @@
 <hr>
 <h2 align="center">Теми:</h2>
 <ul>
-    <li> <a href="#">01 - RESOURCES</a> </li>
+    <li> <a href="/Problems And Files/01 RESOURCES - 16-ти септември, 1830 - 2130/">01 - RESOURCES</a> </li>
     <li> <a href="#">02 - LANGUAGE COMPARISON</a> </li>
     <li> <a href="#">03 - IT TALKS</a> </li>
     <li> <a href="#">04 - BASIC SYNTAX, CONDITIONAL STATEMENTS AND LOOPS</a> </li>
