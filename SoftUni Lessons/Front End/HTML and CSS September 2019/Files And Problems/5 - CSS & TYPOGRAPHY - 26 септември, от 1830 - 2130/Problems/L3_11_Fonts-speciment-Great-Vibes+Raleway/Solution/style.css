@@ -1,0 +1,19 @@
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+ul.sqare {
+    list-style-type: square;
+}
+ul.disc {
+    list-style-type: disc;
+}
+ul.circle {
+    list-style-type: circle;
+}
+h1, h2{
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}

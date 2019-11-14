@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<title>CSS &amp; Typography</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="reveal/css/reveal.min.css">
+	<link rel="stylesheet" href="reveal/css/theme/SoftUni.css" id="theme">
+	<link rel="stylesheet" href="css/solarized_light.css"><!-- For syntax highlighting -->
+
+	<script>document.write( '<link rel="stylesheet" href="reveal/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script><!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<!--[if lt IE 9]><script src="../reveal/lib/js/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides"><!-- Any section element inside of this container is displayed as a slide -->
+			
+			<section>
+	<p>Front End Development Part 1</p>
+	<p><img alt="Site Logo" src="reveal/media/logo.png" width="120"></p>
+	<h1 class="center">CSS &amp; Typography</h1>
+</section>
+
+<section>
+	<section>
+		<h1 class="center">Last time ...</h1>
+	</section>
+
+	<section>
+		<h2>What we learned so far?</h2>
+		<ul>
+			<li class="fragment">HTML Syntax</li>
+			<li class="fragment">HTML Tags</li>
+			<li class="fragment">HTML Attributes</li>
+
+			<li class="fragment">CSS Syntax</li>
+			<li class="fragment">CSS Selector types</li>
+			<li class="fragment">CSS Selector specificity</li>
+			<li class="fragment">CSS Selector inheritance</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Questions?</h2>
+	</section>
+</section>
+
+<section>
+	<section>
+		<h1 class="center">What is Typography?</h1>
+	</section>
+
+	<section>
+		<h2>What is Typography?</h2>
+		<blockquote class="fragment">
+			<p>Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed.</p>
+		</blockquote>
+	</section>	
+
+	<section>
+		<h2>What is Typography?</h2>
+		<ul>
+			<li class="fragment">Typography is the visual component of the written word</li>
+			<li class="fragment">Style or appearance of text</li>
+			<li class="fragment">The art of working with text</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>The Book</h2>
+		<p><a href="http://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style">The Elements of Typographic Style</a></p>
+		<br /><br /><br />
+		<div class="fragment">
+			<h2>What we care about</h2>
+			<p><a href="http://webtypography.net">The Elements of Typographic Style Applied to the Web</a></p>
+			<p>An unaffiliated webpage applying the same principles to web typography.</p>
+		</div>
+	</section>
+
+	<section>
+		<h2>Typography and the Web</h2>
+		<blockquote>
+			<p>For too long typographic style and its accompanying attention to detail have been overlooked by website designers, particularly in body copy. In years gone by this could have been put down to the technology, but now the web has caught up. The advent of much improved browsers, text rendering and high resolution screens, combine to negate technology as an excuse.</p>
+			<p style="text-align: right; display: block; padding-right: 1em;">The Elements of Typographic Style Applied to the Web<br>Introduction</p>
+		</blockquote>
+	</section>
+
+	<section>
+		<h2>Choose a comfortable measure</h2>
+		<blockquote>
+			<p>The measure is the number of characters in single line of a column of text. HTML doesn’t have a concept of columns per se, instead text is held within boxes. In CSS the width of a box is set using the width property with any unit of length</p>
+		</blockquote>
+	</section>
+
+	<section>
+		<h2>Choose a comfortable measure</h2>
+		<blockquote>
+			<p>Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters.</p>
+		</blockquote>
+	</section>
+
+	<section>
+		<h2>Choose a basic leading</h2>
+		<blockquote>
+			<p>Leading (pronounced “ledding”) is so called because, in mechanical presses, strips of lead are placed between lines of type to space the lines apart. Leading is achieved in css through the line-height property.</p>
+		</blockquote>
+	</section>
+
+	<section>
+		<h2 class="center">Demo</h2>
+	</section>
+</section>
+
+<section>
+	<section>
+		<h1 class="center">Fonts and Font Families</h1>
+	</section>
+
+	<section>
+		<h2>Font Family</h2>
+		<blockquote>
+			<p>In typography, a font family (also known as typeface) is a set of one or more fonts each composed of glyphs that share common design features. Each font of a typeface has a specific weight, style, condensation, width, slant, italicization, ornamentation, and designer or foundry.</p>
+		</blockquote>
+	</section>	
+
+	<section>
+		<h2>Font</h2>
+		<blockquote>
+			<p>A computer font (or font) is implemented as a digital data file containing a set of graphically related glyphs, characters, or symbols such as dingbats. Although the term font first referred to a set of movable metal type pieces in one style and size, since the 1990s it is generally used to refer to a set of digital shapes in a single style, scalable to different sizes.</p>
+		</blockquote>
+	</section>
+
+	<section>
+		<h2>Generic font families</h2>
+		<ul>
+			<li>serif</li>
+			<li>sans-serif</li>
+			<li>monospace</li>
+			<li>cursive</li>
+			<li>fantasy</li>
+		</ul>
+	</section>
+
+	<section>
+		<link href="https://fonts.googleapis.com/css?family=Creepster|Eater|Faster+One|Spirax&text=SoftUni" rel="stylesheet">
+
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit;">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: serif;">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: monospace;">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: cursive;">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: fantasy;">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: 'Creepster';">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: 'Eater';">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: 'Faster One';">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+		<h1 class="center fragment fade-in" style="font-size: 11rem; text-transform: inherit; font-family: 'Spirax';">
+			<span class="fragment fade-out">SoftUni</span>
+		</h1>
+	</section>
+
+	<section>
+		<h2>Web fonts</h2>
+		<blockquote>
+			<p>A technique to refer to and automatically download remote fonts was first specified in the CSS2 specification, which introduced the `@font-face` construct. At the time, fetching font files from the web was controversial because fonts meant to be used only for certain web pages could also be downloaded and installed in breach of the font license</p>
+		</blockquote>
+	</section>
+	<section>
+		<h2>Web fonts - EOT</h2>
+		<blockquote>
+			<p>Microsoft first added support for downloadable EOT fonts in Internet Explorer 4 in 1997</p>
+		</blockquote>
+	</section>
+	<section>
+		<h2>Web fonts - WOFF</h2>
+		<blockquote>
+			<p>In 2010, the WOFF compression method for TrueType and OpenType fonts was submitted to W3C by the Mozilla Foundation, Opera Software and Microsoft, and browsers have since added support</p>
+		</blockquote>
+	</section>
+	
+	<section>
+		<h2 class="center">Demo</h2>
+	</section>
+</section>
+
+<section>
+	<section>
+		<h1 class="center">CSS Units</h1>
+	</section>
+	<section>
+		<h2>CSS Units & Values</h2>
+		<ul>
+			<li class="fragment">Numeric values</li>
+			<li class="fragment">Percentages</li>
+			<li class="fragment">Colors</li>
+			<li class="fragment">Coordinate positions</li>
+			<li class="fragment">Functions</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>Numeric values - absolute units</h2>
+		<ul>
+			<li class="fragment">px: Pixels</li>
+			<li class="fragment">mm, cm, in: Millimeters, centimeters, or inches.</li>
+			<li class="fragment">pt, pc: Points (1/72 of an inch) or picas (12 points.)</li>
+		</ul>
+	</section>
+	
+	<section>
+		<h2>Numeric values - relative units</h2>
+		<ul>
+			<li class="fragment">em: 1em is the same as the font-size of the current element</li>
+			<li class="fragment">rem: The rem (root em)</li>
+			<li class="fragment">ex, ch: Respectively these are the height of a lower case x, and the width of the number 0</li>
+			<li class="fragment">pt, pc: Points (1/72 of an inch) or picas (12 points)</li>
+			<li class="fragment">vw, vh: Relative to the Viewport - width and height</li>
+		</ul>
+	</section>
+	
+	<section>
+		<h2>Numeric values - Unitless values</h2>
+		<ul>
+			<li class="fragment">margin, padding</li>
+			<li class="fragment">line-height</li>
+		</ul>
+	</section>
+</section>
+
+<section>
+	<section>
+		<h1 class="center">em &amp; rem</h1>
+	</section>
+	<section>
+		<h2>An explanation of ems</h2>
+	</section>
+	<section data-markdown>
+		<script type="text/template">
+			## An explanation of ems
+
+			Ems are so-called because they are thought to approximate the size of an uppercase letter M, although 1 em is actually significantly larger than this.
+
+		</script>
+		<aside class="notes" data-markdown></aside>
+	</section>
+	<section data-markdown>
+		<script type="text/template">
+			## An explanation of ems
+
+			Bringhurst describes the em thus:
+
+			> _The em is a sliding measure. One em is a distance equal to the type size. In 6 point type, an em is 6 points; in 12 point type an em is 12 points and in 60 point type an em is 60 points. Thus a one em space is proportionately the same in any size._
+
+		</script>
+		<aside class="notes" data-markdown>
+			Note that both boxes have a height and width of 1 em but because they have different font sizes, one box is bigger than the other. Box 1 has a font-size of 12 px so its width and height is also 12 px; similarly the text of box 2 is set to 60 px and so its width and height are also 60 px.
+		</aside>
+	</section>
+	
+	<section>
+		<h2 class="center">Demo</h2>
+	</section>
+</section>
+
+<section>
+	<h1 class="center">Lab 1<br>Simple Article page</h1>
+</section>
+
+<section>
+	<h1 class="center">Lab 2<br>Create Typography CSS</h1>
+</section>
+
+<section>
+	<h1 class="center">Lab 2<br>Styling tables</h1>
+</section>
+
+<section>
+	<section>
+		<h1 class="center">Resources</h1>
+	</section>
+	<section>
+		<h2>Resources - Wikipedia</h2>
+		<ul>
+			<li><a href="https://en.wikipedia.org/wiki/Typography">https://en.wikipedia.org/wiki/Typography</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Typeface">https://en.wikipedia.org/wiki/Typeface</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Computer_font">https://en.wikipedia.org/wiki/Computer_font</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Legibility">https://en.wikipedia.org/wiki/Legibility</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Line_length">https://en.wikipedia.org/wiki/Line_length</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Readability">https://en.wikipedia.org/wiki/Readability</a></li>
+		</ul>
+	</section>
+	<section>
+		<h2>Resources - Comercial Webfonts</h2>
+		<ul>
+			<li><a href="https://typekit.com/">https://typekit.com/</a></li>
+			<li><a href="https://www.fonts.com/">https://www.fonts.com/</a></li>
+		</ul>
+	</section>
+	<section>
+		<h2>Resources - Icon Fonts</h2>
+		<ul>
+			<li><a href="https://css-tricks.com/examples/IconFont/">https://css-tricks.com/examples/IconFont/</a></li>
+			<li><a href="https://icomoon.io/icon-font.html">https://icomoon.io/icon-font.html</a></li>
+			<li><a href="http://fontello.com/">http://fontello.com/</a></li>
+			<li><a href="https://fontawesome.com/">https://fontawesome.com/</a></li>
+		</ul>
+	</section>
+</section>
+
+
+		</div>
+	</div>
+	<script src="reveal/lib/js/head.min.js"></script>
+	<script src="reveal/js/reveal.min.js"></script>
+	<script>
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+
+		// The "normal" size of the presentation, aspect ratio will be preserved
+		// when the presentation is scaled to fit different resolutions. Can be
+		// specified using percentage units.
+		width: 1600,
+		height: 850,
+
+		// Factor of the display size that should remain empty around the content
+		margin: 0.1,
+
+		// Bounds for smallest/largest possible scale to apply to content
+		minScale: 0.2,
+		maxScale: 1.0,
+		controls: false,
+		progress: false,
+		history: true,
+		keyboard: true,
+		overview: true,
+		center: false,
+		loop: false,
+		autoSlide: 0,
+		mouseWheel: false,
+		rollingLinks: false,
+		transitionSpeed: 'fast', // default/fast/slow
+		transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+		dependencies: [
+			{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+			{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+			{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+			{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+	});
+	</script>
+</body>
+</html>
+

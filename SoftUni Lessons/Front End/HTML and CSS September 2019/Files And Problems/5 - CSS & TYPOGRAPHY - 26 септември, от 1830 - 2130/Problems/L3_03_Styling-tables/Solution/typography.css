@@ -1,0 +1,21 @@
+table tbody tr:nth-child(odd) {
+    background: rgb(241, 241, 241);
+}
+table tbody tr:nth-child(odd) td {
+    background: rgb(241, 241, 241);
+}
+table, td, th {
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+}
+table tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+blockquote {
+    font-style: italic;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color:rgb(221,221,221);
+}

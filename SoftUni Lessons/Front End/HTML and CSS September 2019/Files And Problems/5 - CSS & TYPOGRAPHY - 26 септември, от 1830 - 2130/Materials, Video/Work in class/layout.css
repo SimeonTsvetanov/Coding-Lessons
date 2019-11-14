@@ -1,0 +1,36 @@
+body {
+
+}
+
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-spacing: 0.2em;
+    margin-bottom: 1.5em;
+}
+
+table td,
+table th {
+    border: 1px solid #CCC;
+    padding: 0.4em, 0.8em; 
+}
+
+table td {
+    background: #EEE;
+}
+
+table thead th,
+table tfoot td {
+    font-weight: bold;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #CCC;
+}

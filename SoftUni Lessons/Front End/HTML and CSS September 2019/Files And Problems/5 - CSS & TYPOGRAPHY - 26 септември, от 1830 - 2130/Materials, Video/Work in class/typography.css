@@ -1,0 +1,50 @@
+html {
+    font: 12px/1.5 Georgia, Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 800px) {
+    html { font-size: 14px; }
+}
+
+@media (min-width: 1024px) {
+    html { font-size: 16px; }
+}
+
+@media (min-width: 1280px) {
+    html { font-size: 16px; }
+}
+
+body, form, table, input, textarea, option, select {
+    font: inherit;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 1.5em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 { 
+    padding-top: 0.5em;  
+}
+
+body {
+    padding: 50px 100px;
+}

@@ -1,0 +1,14 @@
+html {
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+ul.sqare {
+    list-style-type: square;
+}
+ul.disc {
+    list-style-type: disc;
+}
+ul.circle {
+    list-style-type: circle;
+}
