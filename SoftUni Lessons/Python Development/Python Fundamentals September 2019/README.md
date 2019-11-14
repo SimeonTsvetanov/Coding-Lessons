@@ -103,4 +103,5 @@
     <li> <a href="#">38 - RETAKE MID EXAM</a> </li>
     <li> <a href="#">39 - RETAKE THEORETICAL EXAM</a> </li>
     <li> <a href="#">40 - RETAKE PRACTICAL EXAM</a> </li>
+    <li> <a href="#">41 - PAST EXAMS</a> </li>
 </ul>
