@@ -49,7 +49,7 @@
 
 <hr>
 <h2 align="center">Теми:</h2>
-<ol>
+<ul>
     <li> <a href="#">01 - RESOURCES<a> </li>
     <li> <a href="#">02 - COURSE OVERVIEW<a> </li>
     <li> <a href="#">03 - INTRODUCTION TO HTML & CSS<a> </li>
@@ -69,5 +69,5 @@
     <li> <a href="#">17 - EXAM<a> </li>
     <li> <a href="#">18 - RETAKE THEORETICAL EXAM<a> </li>
     <li> <a href="#">19 - RETAKE EXAM<a> </li>
-</ol>
+</ul>
 
