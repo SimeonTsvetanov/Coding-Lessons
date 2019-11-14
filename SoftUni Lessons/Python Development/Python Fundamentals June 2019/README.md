@@ -56,7 +56,7 @@
 
 <hr>
 <h2 align="center">Теми:</h2>
-<ol>
+<ul>
     <li> <a href="#">01 - RESOURCES<a> </li>
     <li> <a href="#">02 - COURSE OVERVIEW<a> </li>
     <li> <a href="#">03 - PYTHON INTRO, FUNCTIONS, DEBUGGING<a> </li>
@@ -71,5 +71,5 @@
     <li> <a href="#">12 - EXAM PREPARATION<a> </li>
     <li> <a href="#">13 - EXAM<a> </li>
     <li> <a href="#">14 - RETAKE<a> </li>
-</ol>
+</ul>
 
