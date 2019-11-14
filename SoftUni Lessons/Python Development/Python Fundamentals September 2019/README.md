@@ -62,7 +62,7 @@
 
 <hr>
 <h2 align="center">Теми:</h2>
-<ol>
+<ul>
     <li> <a href="#">01 - RESOURCES</a> </li>
     <li> <a href="#">02 - LANGUAGE COMPARISON</a> </li>
     <li> <a href="#">03 - IT TALKS</a> </li>
@@ -103,4 +103,4 @@
     <li> <a href="#">38 - RETAKE MID EXAM</a> </li>
     <li> <a href="#">39 - RETAKE THEORETICAL EXAM</a> </li>
     <li> <a href="#">40 - RETAKE PRACTICAL EXAM</a> </li>
-</ol>
+</ul>
