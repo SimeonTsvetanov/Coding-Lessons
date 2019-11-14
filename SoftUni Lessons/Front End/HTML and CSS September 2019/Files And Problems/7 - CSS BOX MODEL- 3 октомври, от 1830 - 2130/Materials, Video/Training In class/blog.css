@@ -1,0 +1,19 @@
+.site-header,
+.site-footer {
+    border: 0 solid #CCC;
+    padding: 1em 1.5em; 
+}
+
+.site-header {
+    border-bottom-width: 2px;
+    padding-top: 2em; 
+}
+
+.site-header h1 {
+    padding-top: 0; 
+    line-height: 1;
+}
+
+.site-footer {
+    border-top-width: 2px;
+}

@@ -1,0 +1,16 @@
+.gallery li {
+    display: inline-block;
+    width: 30.5%;
+    vertical-align: middle;
+    margin: 1.2% 1%;
+    border: 0.5em solid black; 
+    padding: 0.5em;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.5);
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

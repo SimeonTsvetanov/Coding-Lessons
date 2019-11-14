@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+/* Remove all defalt whitespace*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Reset CSS Box model sizing calculations*/
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+li {
+    display: inline-block;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+}
+
+

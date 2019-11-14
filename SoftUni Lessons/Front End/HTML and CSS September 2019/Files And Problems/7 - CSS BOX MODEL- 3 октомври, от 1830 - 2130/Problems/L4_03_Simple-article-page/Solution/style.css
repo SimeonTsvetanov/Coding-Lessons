@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Reset CSS Box model sizing calculations*/
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+header {
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: disc;
+}
+img {
+    width: 550px;
+    height: 400px;
+}

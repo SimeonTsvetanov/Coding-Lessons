@@ -1,0 +1,33 @@
+@import url("reset.css");
+@import url("gallery.css");
+
+body {
+    font-size: 21px;
+}
+
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.grid {
+    
+}
+.grid li {
+    display: inline-block;
+    background: #666;
+    color: #666;
+    margin-bottom: 0.5%;
+}
+
+.grid.columns-c4 li {
+    width: 24%;
+}
+
+.grid.columns-c3 li {
+    width: 31%;
+}
+
+.grid.columns-c2 li {
+    width: 48%;
+}
