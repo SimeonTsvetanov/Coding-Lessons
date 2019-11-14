@@ -1,0 +1,3 @@
+1 - https://www.w3schools.com/python/python_classes.asp?fbclid=IwAR014fjzUQZmmbUnow3yVF0SogHZ6I4Mq_INcpt-CWaPqCC-QecuItD4hMo
+2 - https://www.youtube.com/watch?v=apACNr7DC_s&fbclid=IwAR06GTy0PtX9tZpO69Stl3t5L6Vzw0M_Xyw3havTWnVsjXcNxHhFR1CoBhU
+3 - https://www.learnpython.org/en/Classes_and_Objects?fbclid=IwAR19Io1dk5QPVzlbOa0H7MjCEy7H7uHaFc6NC2yrAJ-k-SGoi4sLAOyP0t4
