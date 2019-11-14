@@ -2,10 +2,10 @@
 
 <hr>
     <p><i>
-        Сертификат за успешно завършен курс: <a href="https://softuni.bg/certificates/details/70203/b9534e0b">тук.</a><br>
-        Директорията на курса в Софтуни: <a href="https://softuni.bg/trainings/2329/python-fundamentals-june-2019">тук.</a><br>
-        Директорията за проверки на задачите в Judge: <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/39/Python-Fundamentals-Exercises">тук.</a><br>
-        Клипове от лекциите могат да се намерят: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n8dzD2VHDjkABaWhNTqs1dH">тук.</a><br>
+        Сертификат за успешно завършен курс: <a href="https://softuni.bg/certificates/details/70203/b9534e0b" target="_blank">тук.</a><br>
+        Директорията на курса в Софтуни: <a href="https://softuni.bg/trainings/2329/python-fundamentals-june-2019" target="_blank">тук.</a><br>
+        Директорията за проверки на задачите в Judge: <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/39/Python-Fundamentals-Exercises" target="_blank">тук.</a><br>
+        Клипове от лекциите могат да се намерят: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n8dzD2VHDjkABaWhNTqs1dH" target="_blank">тук.</a><br>
     </i></p>
 <hr>
 
