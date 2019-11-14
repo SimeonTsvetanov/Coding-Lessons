@@ -2,10 +2,10 @@
 
 <hr>
     <p><i>
-        Сертификат за успешно завършен курс: <a href="https://softuni.bg/certificates/details/70203/b9534e0b">тук.</a><br>
-        Директорията на курса в Софтуни: <a href="https://softuni.bg/trainings/2329/python-fundamentals-june-2019">тук.</a><br>
-        Директорията за проверки на задачите в Judge: <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/39/Python-Fundamentals-Exercises">тук.</a><br>
-        Клипове от лекциите могат да се намерят: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n8dzD2VHDjkABaWhNTqs1dH">тук.</a><br>
+        Сертификат за успешно завършен курс: <a href="https://softuni.bg/certificates/details/70203/b9534e0b" target="_blank>тук.</a><br>
+        Директорията на курса в Софтуни: <a href="https://softuni.bg/trainings/2329/python-fundamentals-june-2019" target="_blank>тук.</a><br>
+        Директорията за проверки на задачите в Judge: <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/39/Python-Fundamentals-Exercises" target="_blank>тук.</a><br>
+        Клипове от лекциите могат да се намерят: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n8dzD2VHDjkABaWhNTqs1dH" target="_blank>тук.</a><br>
     </i></p>
 <hr>
 
@@ -57,18 +57,18 @@
 <hr>
 <h2 align="center">Теми:</h2>
 <ul>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/01.%20AND%2002.%20RESOURCES%20%2C%20COURSE%20OVERVIEW">01 - RESOURCES<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/03.%20PYTHON%20INTRO%2C%20FUNCTIONS%2C%20DEBUGGING">02 - COURSE OVERVIEW<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/03.%20PYTHON%20INTRO%2C%20FUNCTIONS%2C%20DEBUGGING">03 - PYTHON INTRO, FUNCTIONS, DEBUGGING<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/04.%20LISTS">04 - LISTS<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/05.%20DICTIONARIES">05 - DICTIONARIES<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/06.%20LAMBDA%20FUNCTIONS%20%26%20EXERCISE">06 - LAMBDA FUNCTIONS & EXERCISE<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/07.%20OBJECT%20AND%20CLASSES">07 - OBJECT AND CLASSES<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/08.%20EXERCISE">08 - EXERCISE<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/09.%20BASICS%20OOP%20PRINCIPLES">09 - BASICS OOP PRINCIPLES<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/10.%20MAGIC%20METHODS%20%26%20EXERCISE">10 - MAGIC METHODS & EXERCISE<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/11.%20STRING%2C%20FILES%2C%20FUNCTIONAL%20PROGRAMMING">11 - STRINGS, FILES, FUNCTIONAL PROGRAMMING<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/12.%20EXAM%20PREPARATION">12 - EXAM PREPARATION<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/13.%20EXAM">13 - EXAM<a> </li>
-    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/14.%20PAST%20EXAMS">14 - PAST EXAMS<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/01.%20AND%2002.%20RESOURCES%20%2C%20COURSE%20OVERVIEW" target="_blank>01 - RESOURCES<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/03.%20PYTHON%20INTRO%2C%20FUNCTIONS%2C%20DEBUGGING" target="_blank>02 - COURSE OVERVIEW<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/03.%20PYTHON%20INTRO%2C%20FUNCTIONS%2C%20DEBUGGING" target="_blank>03 - PYTHON INTRO, FUNCTIONS, DEBUGGING<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/04.%20LISTS" target="_blank>04 - LISTS<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/05.%20DICTIONARIES" target="_blank>05 - DICTIONARIES<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/06.%20LAMBDA%20FUNCTIONS%20%26%20EXERCISE" target="_blank>06 - LAMBDA FUNCTIONS & EXERCISE<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/07.%20OBJECT%20AND%20CLASSES" target="_blank>07 - OBJECT AND CLASSES<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/08.%20EXERCISE" target="_blank>08 - EXERCISE<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/09.%20BASICS%20OOP%20PRINCIPLES" target="_blank>09 - BASICS OOP PRINCIPLES<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/10.%20MAGIC%20METHODS%20%26%20EXERCISE" target="_blank>10 - MAGIC METHODS & EXERCISE<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/11.%20STRING%2C%20FILES%2C%20FUNCTIONAL%20PROGRAMMING" target="_blank>11 - STRINGS, FILES, FUNCTIONAL PROGRAMMING<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/12.%20EXAM%20PREPARATION" target="_blank>12 - EXAM PREPARATION<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/13.%20EXAM" target="_blank>13 - EXAM<a> </li>
+    <li> <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Fundamentals%20June%202019/Problems%20and%20Files/14.%20PAST%20EXAMS" target="_blank>14 - PAST EXAMS<a> </li>
 </ul>
