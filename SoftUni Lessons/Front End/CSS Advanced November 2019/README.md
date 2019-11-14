@@ -51,7 +51,7 @@
 
 <hr>
 <h2 align="center">Теми:</h2>
-<ol>
+<ul>
     <li> <a href="#">01 - RESOURCES<a> </li>
     <li> <a href="#">02 - COURSE INTRODUCTION<a> </li>
     <li> <a href="#">03 - DEV WORKFLOWS & TOOLS<a> </li>
@@ -66,4 +66,4 @@
     <li> <a href="#">12 - PROJECT CONSULTATION<a> </li>
     <li> <a href="#">13 - EXAM<a> </li>
     <li> <a href="#">14 - RETAKE EXAM<a> </li>
-</ol>
+</ul>
