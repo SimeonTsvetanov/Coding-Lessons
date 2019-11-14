@@ -1,0 +1,10 @@
+After the exam number if the problem number is added then the task is completed! Else: it is not :D
+
+Exams:        
+01 - 1 - 100/100, 2 - 100/100, 3 - regex..
+02 - 1 - 100/100, 2 - 100/100, 3 - 100/100 4 - 100/100
+03 - 1 - 100/100, 2 - 100/100, 3 - 100/100 4 - 100/100
+04 - 1 - 100/100, 2 - 100/100, 3 - tooHard
+05 - 1 - 100/100, 2 - 100/100
+06 - 1 - 100/100,
+
