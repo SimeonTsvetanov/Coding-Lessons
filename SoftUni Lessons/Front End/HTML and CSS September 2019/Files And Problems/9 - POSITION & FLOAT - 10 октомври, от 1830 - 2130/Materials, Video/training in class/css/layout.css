@@ -1,0 +1,82 @@
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+    background: #EEE;
+}
+
+.site-header .site-title {
+    float: left;
+}
+
+.site-header {
+    padding: 1em;
+}
+
+.site-header .site-nav {
+    float: right;
+}
+
+.site-main {
+    padding: 1em;
+    width: 60%;
+    float: left;
+}
+
+.site-sidebar {
+    padding: 1em; 
+    width: 40%;
+    float: left;
+}
+
+.site-footer {
+    padding: 1em;
+    clear: both;
+}
+
+/* Cleanier
+ */
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+/* AR Box
+*/
+.ar-box {
+    display: block;
+    background-color: #333;
+    border-radius: 0.5em;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    position: relative;
+}
+
+.ar-box:after {
+    display: block;
+    content: '';
+    /* height: 200px; */
+    background-color: red;
+    padding-top: calc( (9 / 16) * 100 * 1% );
+}
+
+.ar-box .inner {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #F0F;
+}
+
+.ar-box img {
+    display: block;
+    width: 100;
+    height: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ar-box iframe {
+    display: block;
+    width: 100%;
+    height: 100%; 
+}

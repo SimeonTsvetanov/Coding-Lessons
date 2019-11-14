@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2em;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.site-footer,
+.site-header {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%;
+} 
+
+.site-header {
+    display: flex;
+}
+
+.site-content {
+    flex: 1 0 60%;
+    padding-right: 2em;
+}
+
+.site-sidebar {
+    flex: 0 0 40%;
+}

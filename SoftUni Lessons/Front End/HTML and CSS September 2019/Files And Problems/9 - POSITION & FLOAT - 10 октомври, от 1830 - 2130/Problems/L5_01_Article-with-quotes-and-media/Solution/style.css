@@ -1,0 +1,22 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+
+}
+
+header {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+blockquote {
+    float: right;
+}

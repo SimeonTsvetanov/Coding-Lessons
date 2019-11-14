@@ -1,0 +1,15 @@
+html {
+    font: 16px/1.5 Georgia, serif;
+}
+
+body, button, input, option, select, form {
+    font: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+li {
+    list-style-position: inside;
+}

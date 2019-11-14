@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4em;
+}
+
+.site {
+    width: 8em;
+    height: 8em;
+    background: #000;
+}
+
+@media ( max-width: 800px ) {
+    .site {
+        background: yellow;
+    }
+}
+
+@media ( max-width: 600px ) {
+    .site {
+        background: red;
+    }
+}

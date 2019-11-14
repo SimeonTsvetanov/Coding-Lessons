@@ -1,0 +1,11 @@
+html {
+    font: 16px/1.5 Georgia, serif;
+}
+
+body, form, input, button, select, option {
+    font: inherit;
+}
+
+ul, ol, p {
+    padding-bottom: 1.5em;
+}

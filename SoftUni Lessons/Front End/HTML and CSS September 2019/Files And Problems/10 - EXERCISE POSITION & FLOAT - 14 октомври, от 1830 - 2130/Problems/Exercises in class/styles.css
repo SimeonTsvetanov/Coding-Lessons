@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: gray;
+    padding: 2em;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+.wraper {
+    position: relative;
+    border: 10px solid red;
+}
+
+.site {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2em;
+    background: white;
+    border: 10px solid black;
+    /* z-index: 10; */
+    /* position: relative; */
+} 
+
+p {
+    position: relative;
+    /* z-index: 10; */
+    color: white;
+}
+
+.button {
+    /* display: none; */
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    right: 1em;
+    bottom: 1em;
+}

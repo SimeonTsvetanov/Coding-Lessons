@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.viewport {
+    height: 100vw;
+    background-color: lightblue;
+    position: relative;
+}
+
+.viewport:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+.card {
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12em;
+    overflow: hidden;
+}
+
+.card::before {
+    display: block;
+    content: '';
+    background-color: red;
+    padding-top: 100%;
+}
+
+.card.media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blue;
+}
