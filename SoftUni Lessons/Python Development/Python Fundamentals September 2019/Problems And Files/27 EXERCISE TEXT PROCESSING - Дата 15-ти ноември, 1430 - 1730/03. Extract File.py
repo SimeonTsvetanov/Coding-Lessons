@@ -20,6 +20,9 @@ Output:
 File name: LinkedList
 File extension: cs
 """
+
+# This was the initial Solution:
+"""
 text = input()[::-1]
 new_text = ""
 
@@ -30,4 +33,47 @@ for letter in text:
 file, extension = new_text[::-1].split(".")
 print(f"File name: {file}")
 print(f"File extension: {extension}")
+"""
+
+# Second Solution at Class
+
+full_file = input().split("\\")[-1]
+file_name = full_file.split(".")[0]
+file_extension = full_file.split(".")[1]
+
+print(f"File name: {file_name}")
+print(f"File extension: {file_extension}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
