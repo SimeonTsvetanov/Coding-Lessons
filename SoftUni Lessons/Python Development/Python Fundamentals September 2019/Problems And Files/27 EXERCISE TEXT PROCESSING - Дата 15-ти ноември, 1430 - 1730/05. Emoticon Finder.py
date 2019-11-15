@@ -16,9 +16,35 @@ Output:
 :O
 :)
 """
+
+# This was the Initial Solution:
+
+"""
 text = input()
 counter = 0
 for i in text:
     if i == ":":
         print(":" + text[counter + 1])
     counter += 1
+"""
+
+# And this is the Solution from the lesson:
+
+text = input()
+for i in range(len(text)):
+    if text[i] == ":":
+        print(f"{text[i]}{text[i + 1]}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
