@@ -49,7 +49,9 @@ ASDASD&&&&&S@
 Comments:
 "aSd" is converted to "ASD" and repeated twice; "&" is repeated 5 times; "s@" is converted to "S@" and repeated once.
 5 symbols are used: 'A', 'S', 'D', '&' and '@'.
-# TODO 50/100 Judge - TASK IS CORRECT time limit needs to be at least 0.205s to pass (at the moment is 0.100s)
+"""
+
+# This was the initial Solution:
 """
 rage = [item for item in input()]
 index = 0
@@ -79,6 +81,27 @@ while index != (len(rage) - 1):
     result += current_text * int(current_num)
     current_text = ""
     current_num = ""
+
+print(f"Unique symbols used: {len(set(result))}")
+print(result)
+"""
+
+# And this is the Solution in Class:
+text = input()
+result = ""
+current_string = ""
+
+for i in range(len(text)):
+    if text[i].isdigit():
+        num = text[i]
+        counter = i + 1
+        while counter < len(text) and text[counter].isdigit():
+            num += text[counter]
+            counter += 1
+        result += current_string.upper() * int(num)
+        current_string = ""
+    else:
+        current_string += text[i]
 
 print(f"Unique symbols used: {len(set(result))}")
 print(result)
