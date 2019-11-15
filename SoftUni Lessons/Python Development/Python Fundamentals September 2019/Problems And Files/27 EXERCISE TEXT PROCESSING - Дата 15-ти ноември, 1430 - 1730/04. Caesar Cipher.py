@@ -15,6 +15,14 @@ Programming is cool!	Surjudpplqj#lv#frro$
 One year has 365 days.	Rqh#|hdu#kdv#698#gd|v1
 """
 
-print(''.join(chr(ord(letter) + 3) for letter in input()))
+# The coolest way to sole this solution is:
+# print(''.join(chr(ord(letter) + 3) for letter in input()))
+
+# The longer option from work at class:
+
+text = input()
+result = [chr((ord(x) + 3)) for x in text]
+print(''.join(result))
+
 
 
