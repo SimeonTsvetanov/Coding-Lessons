@@ -16,6 +16,7 @@ Gosho Pesho	    53253
 123 522	        7647
 a aaaa	        9700
 """
+"""
 one, two = input().split()
 total = 0
 for i in range(max(len(one), len(two))):
@@ -33,4 +34,50 @@ for i in range(max(len(one), len(two))):
             except Exception:
                 continue
 print(total)
+"""
+
+# Second Option from work at Class:
+
+first_string, second_string = input().split()
+
+total_sum = 0
+
+for i in range(max(len(first_string), len(second_string))):
+    if i < len(first_string) and i < len(second_string):
+        total_sum += ord(first_string[i]) * ord(second_string[i])
+    else:
+        if i < len(first_string):
+            total_sum += ord(first_string[i])
+        else:
+            total_sum += ord(second_string[i])
+
+print(total_sum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
