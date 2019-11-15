@@ -30,10 +30,17 @@ for i in text:
 
 # And this is the Solution from the lesson:
 
+"""
 text = input()
 for i in range(len(text)):
     if text[i] == ":":
         print(f"{text[i]}{text[i + 1]}")
+"""
+
+# Third "COOLEST" option:
+
+text = input()
+[print(f":{text[i + 1]}") for i in range(len(text)) if text[i] == ":"]
 
 
 
