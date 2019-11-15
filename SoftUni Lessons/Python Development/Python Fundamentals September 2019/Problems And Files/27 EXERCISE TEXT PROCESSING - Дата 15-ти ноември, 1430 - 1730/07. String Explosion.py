@@ -39,6 +39,9 @@ we add the strength of the current explosion to what is left and that adds up to
 We delete the next three characters and we receive the string abv>>>>dasd
 We do not have any more explosions and we print the result: abv>>>>dasd
 """
+
+# This was the Initial Solution (I hate this task :D):
+"""
 text = [item for item in input()]
 bomb = 0
 i = 0
@@ -55,5 +58,27 @@ while True:
         bomb += int(text[i + 1])
     i += 1
 print(''.join(text))
+"""
 
+# And this is the Solution in class:
+text = input()
 
+i = 0  # this is the index
+count = 0  # This is the explosions count
+result = ""  # This is the current result
+
+while i < len(text):
+    if text[i] != ">":
+        result += text[i]
+        i += 1
+    else:
+        result += ">"
+        i += 1
+        count += int(text[i])
+        while count > 0 and text[i] != ">":
+            i += 1
+            count -= 1
+            if i >= len(text):
+                break
+
+print(result)
