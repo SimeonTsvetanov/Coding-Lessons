@@ -15,6 +15,7 @@
 <hr>
 
 <h3>Simple Code Snipets (Cheat-sheet)</h3>
+
     .       - Any Character Except New Line
     \d      - Digit (0-9)
     \D      - Not a Digit (0-9)
