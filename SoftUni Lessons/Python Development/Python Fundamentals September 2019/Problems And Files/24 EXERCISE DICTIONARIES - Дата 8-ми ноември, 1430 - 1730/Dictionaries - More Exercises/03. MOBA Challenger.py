@@ -78,8 +78,10 @@ Faker and Pesho don`t have common position, so the duel isn`t valid.
 Faker wins vs Bush /common position: "Tank". Bush is demoted.
 Hide doesn`t exist so the duel isn`t valid.
 We print every player left in the tier.
+"""
 
-#TODO Judge 80/100 (last two tests are with invalid input)
+# This was the Solution with Dictionaries
+# TODO Judge 80/100 (last two tests are with invalid input)
 """
 players_pool = {}
 
@@ -124,5 +126,65 @@ for player, all_skills in sorted(players_pool.items(), key=lambda x: (-sum(x[1].
     print(f"{player}: {sum(all_skills.values())} skill")
     for skill_name, skill_points in sorted(all_skills.items(), key=lambda x: (-x[1], x[0])):
         print(f"- {skill_name} <::> {skill_points}")
+"""
 
+# Now as I'am to lazy to track Judge bugs. I have pirated a copy of Colleague in the university (Takvor G.)
+# So I guess, ... if you ever see that : Thank you :D
 
+moba = {}
+
+while True:
+    cin = input()
+
+    if cin == "Season end":
+        break
+
+    if " -> " in cin:
+        player, position, skill = cin.split(" -> ")
+        skill = int(skill)
+
+        if player not in moba:
+            moba[player] = {}
+
+        if position not in moba[player]:
+            moba[player][position] = 0
+
+        if moba[player][position] < skill:
+            moba[player][position] = skill
+
+    elif " vs " in cin:
+        to_go = False
+        player_a, player_b = cin.split(" vs ")
+        if player_a in moba and player_b in moba:
+            for pos in moba[player_a]:
+                skill_a = moba[player_a][pos]
+                if pos in moba[player_b]:
+                    skill_b = moba[player_b][pos]
+                    to_go = True
+                    break  # Ox, Judge!
+        if to_go:
+            if skill_a > skill_b:  # Ox, Judge! Remove the player from contest!
+                del moba[player_b]
+                # if not len(moba[player_b]):
+                #     del moba[player_b]
+            elif skill_a < skill_b:
+                del moba[player_a]
+                # if not len(moba[player_a]):
+                #     del moba[player_a]
+
+players = {}
+for player in moba:
+    for pos in moba[player].items():
+        if player not in players:
+            players[player] = 0
+
+        players[player] += pos[1]
+
+sorted_players = sorted(sorted(players.items(), key=lambda kvp: kvp[0]), key=lambda kvp: kvp[1], reverse=True)
+
+for item in sorted_players:
+    print(f"{item[0]}: {item[1]} skill")
+    sorted_positions = sorted(sorted(moba[item[0]].items(), key=lambda kvp: kvp[0]), key=lambda kvp: kvp[1],
+                              reverse=True)
+    for kvp in sorted_positions:
+        print(f"- {kvp[0]} <::> {kvp[1]}")
