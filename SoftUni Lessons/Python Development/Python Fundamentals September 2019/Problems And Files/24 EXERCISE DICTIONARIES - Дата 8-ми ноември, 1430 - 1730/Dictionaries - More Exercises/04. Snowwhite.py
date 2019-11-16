@@ -62,7 +62,8 @@ Output:
 (Red) Pesho <-> 10000
 """
 
-
+# The first way of sorting this problem is using Classes:
+"""
 class Dwarf:
     def __init__(self, name: str, hat_color: str, physics: int):
         self.name = name
@@ -103,3 +104,54 @@ for dwarf in all_dwarfs:
 
 for dwarf in sorted(all_dwarfs, key=lambda x: (-x.physics, -x.color_count)):
     print(f"({dwarf.hat_color}) {dwarf.name} <-> {dwarf.physics}")
+"""
+
+# And the second way will be, to solve it with Dictionary ... as intended:
+
+all_dwarfs = {}
+colors = {}
+
+while True:
+    data = input().split(" <:> ")
+    if data[0] == "Once upon a time":
+        break
+
+    # Here I will Create the name of the Dwarf but it will include the COLOR in the name as in the expected print:
+    # For Example the name will be "(RED) Pesho" and the value will be a list with one value for now which will be
+    # just the Physics Example: {"(RED) Pesho": [1000]} It is a list so that later I can add the color count as a
+    # second item in the list (when I take all the input) Check in the comment down below to see how:
+    dwarf_name = f"({data[1]}) {data[0]}"
+    dwarf_physics = int(data[2])
+
+    if dwarf_name not in all_dwarfs:
+        all_dwarfs[dwarf_name] = [dwarf_physics]
+
+        # Here I will pull just the color adn I will create a second dictionary just for colors and their count
+        # and eventually when I finish with all the input I'll add the colors count in the dwarfs value list.
+        # For Example {dwarf_name: [dwarf_physics, dwarf_color_count]}
+        # We add the colors only when adding new dwarfs. As otherwise we are just updating the physics :)
+        color = data[1]
+        if color not in colors:
+            colors[color] = 1
+        else:
+            colors[color] += 1
+
+    else:
+        if all_dwarfs[dwarf_name][0] < dwarf_physics:
+            all_dwarfs[dwarf_name][0] = dwarf_physics
+
+# Now, that we have all the input added in the dictionaries we can append the color count to the dwarfs them self.
+# Using simple For Loop:
+
+for color, color_count in colors.items():
+    for dwarf_name, dwarf_list_values in all_dwarfs.items():
+        # Here we need to check if we have the color in the name:
+        # First I will extract the color from the name:
+        color_in_name = dwarf_name.split(")")[0][1:]
+        if color == color_in_name:
+            # And if we do, we will simply append the color count as a second item in it's values list:
+            all_dwarfs[dwarf_name] += [color_count]
+
+# And Finally the best part is the F*****g print :D:
+for dwarf_name, dwarf_list_values in sorted(all_dwarfs.items(), key=lambda x: (-x[1][0], -x[1][1])):
+    print(f"{dwarf_name} <-> {dwarf_list_values[0]}")
