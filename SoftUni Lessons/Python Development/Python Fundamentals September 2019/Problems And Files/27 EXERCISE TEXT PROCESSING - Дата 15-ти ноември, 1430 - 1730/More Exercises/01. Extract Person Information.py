@@ -31,8 +31,24 @@ lilly is 5 years old.
 Marry is 19 years old.
 Garry is 48 years old.
 """
+
+# There are two ways I can solve this problem. One of them will be with the use of Regex
+# But unfortunately I can't check it if it's correct or not as the Time limit in Judge
+# doesn't allow as to. But Still there is the solution:
+"""
+import re
+
+for i in range(int(input())):
+    text = input()
+    name = re.findall(r"@\w+\|", text)[0].strip("@").strip("|")
+    age = re.findall(r"#\d+\*", text)[0].strip("#").strip("*")
+    print(f"{name} is {age} years old.")
+"""
+
+# And the Second Solution, which will be accepted, one way ot another is this:
 for text in range(int(input())):
     line = [letter for letter in input()]
     name = ''.join(line[(line.index("@") + 1):line.index("|")])
     age = ''.join(line[(line.index("#") + 1):line.index("*")])
     print(f"{name} is {age} years old.")
+
