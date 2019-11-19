@@ -9,7 +9,7 @@
 <br>
 
 <p>
-    Video from the Lection: <a href="#">will be here</a>
+    Video from the Lection: <a href="https://www.youtube.com/watch?v=IqcGsib5Nj0&list=PLdu5EMqCM5n9dVaydZdRvycQf3WRrpbVW&index=30&t=0s">here</a>
 </p>
 
 <hr>
