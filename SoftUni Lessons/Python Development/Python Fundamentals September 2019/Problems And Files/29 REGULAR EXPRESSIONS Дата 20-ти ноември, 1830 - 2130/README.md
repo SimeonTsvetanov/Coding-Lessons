@@ -40,7 +40,18 @@
     ?       - 0 or One
     {3}     - Exact Number
     {3,4}   - Range of Numbers (Minimum, Maximum)
-
+    
+    EXAMPLES:
+    
+    ### Naming groups:
+     - To create the group_with name: (?P<separator>[\.\-\/])
+     - To reuse the group_with name: (?P=separator)
+    
+    ### Using the Start and end for numbers:
+        prefix_pattern = r"(^|(?<=\s))"
+        number_pattern = r"(?P<number>-?\d+([.]\d+)?)"
+        suffix_pattern = r"($|(?=\s))"
+        pattern = prefix_pattern + number_pattern + suffix_pattern
 
     #### Sample Regexs ####
 
