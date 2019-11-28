@@ -45,3 +45,48 @@ True
 16
 my string!//
 """
+import re
+
+text = input()
+
+while True:
+    command = input().split()
+    if command[0] == "End":
+        break
+
+    elif command[0] == "Translate":
+        char_to_replace = command[1]
+        replacement = command[2]
+        text = re.sub(char_to_replace, replacement, text)  # Replace all the letters with the new ones
+        print(text)
+
+    elif command[0] == "Includes":
+        string_to_include = command[1]
+        if string_to_include in text:
+            print("True")
+        else:
+            print("False")
+
+    elif command[0] == "Start":
+        word_to_start = command[1]
+        if text.startswith(word_to_start):
+            print("True")
+        else:
+            print("False")
+
+    elif command[0] == "Lowercase":
+        text = text.lower()
+        print(text)
+
+    elif command[0] == "FindIndex":
+        last_character = command[1]
+        index = text.rindex(last_character)
+        print(index)
+
+    elif command[0] == "Remove":
+        start_index = int(command[1])
+        count = int(command[2])
+        stop_index = start_index + count
+        text = text[:start_index] + text[stop_index::]
+        print(text)
+
