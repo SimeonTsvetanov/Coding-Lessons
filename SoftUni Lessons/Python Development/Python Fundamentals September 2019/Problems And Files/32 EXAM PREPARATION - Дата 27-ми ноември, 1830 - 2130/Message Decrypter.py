@@ -58,3 +58,19 @@ Valid message not found!
 Valid message not found!
 Valid message not found!
 """
+import re
+
+regex = r"^(?P<tag>[$|%])(?P<name>[A-Z][a-z][a-z]+)(?P=tag):[ ](\[(?P<one>\d+)\]\|)(\[(?P<two>\d+)\]\|)(\[(?P<three>\d+)\]\|)$"
+
+for i in range(int(input())):
+    line = input()
+    matches = re.match(regex, line)
+    if matches:
+        name = matches.group("name")
+        one = int(matches.group("one"))
+        two = int(matches.group("two"))
+        three = int(matches.group("three"))
+        code = f"{chr(one)}{chr(two)}{chr(three)}"
+        print(f"{name}: {code}")
+    else:
+        print("Valid message not found!")
