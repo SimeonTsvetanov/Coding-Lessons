@@ -45,6 +45,51 @@ True
 16
 my string!//
 """
+
+# This is the solution from in class:
+"""
+string = input()
+
+com = input()
+while com != "End":
+    com = com.split(" ")
+    command = com[0]
+
+    if command == "Translate":
+        char = com[1]
+        repl = com[2]
+        string = string.replace(char, repl)
+        print(string)
+
+    elif command == "Includes":
+        char = com[1]
+        if char in string:
+            print("True")
+        else:
+            print("False")
+
+    elif command == "Start":
+        start = com[1]
+        print(string.startswith(start))
+
+    elif command == "Lowercase":
+        string = string.lower()
+        print(string)
+
+    elif command == "FindIndex":
+        char = com[1]
+        print(string.rfind(char))
+
+    elif command == "Remove":
+        start = int(com[1])
+        count = int(com[2])
+        string = string.replace(string[start:start+count], "")
+        print(string)
+
+    com = input()
+"""
+
+# And this was mine solution: 
 import re
 
 text = input()
@@ -89,4 +134,3 @@ while True:
         stop_index = start_index + count
         text = text[:start_index] + text[stop_index::]
         print(text)
-
