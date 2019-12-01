@@ -55,3 +55,70 @@ Isih
 Th*sIsMyStr*ng
 Th*sIsStr*ng
 """
+
+# This is my initial solution using only Functions:
+username = input()
+
+
+def case(lower_or_upper: str):
+    global username
+    if lower_or_upper == "lower":
+        username = username.lower()
+    elif lower_or_upper == "upper":
+        username = username.upper()
+    print(username)
+
+
+def reverse(start_index: int, end_index: int, current_username: str):
+    if 0 <= start_index < end_index < len(current_username):
+        reversed_part = username[start_index:end_index+1][::-1]
+        print(reversed_part)
+
+
+def cut(substring: str):
+    global username
+    if substring in username:
+        username = username.replace(substring, "")
+        print(username)
+    elif substring not in username:
+        print(f"The word {username} doesn't contain {substring}.")
+
+
+def replace(char: str):
+    global username
+    username = username.replace(char, "*")
+    print(username)
+
+
+def check(char: str, current_username: str):
+    if char in current_username:
+        print("Valid")
+    elif char not in current_username:
+        print(f"Your username must contain {char}.")
+
+
+def main():
+    while True:
+        command = input().split()
+
+        if command[0] == "Sign":
+            break
+
+        elif command[0] == "Case":
+            case(lower_or_upper=command[1])
+
+        elif command[0] == "Reverse":
+            reverse(start_index=int(command[1]), end_index=int(command[2]), current_username=username)
+
+        elif command[0] == "Cut":
+            cut(substring=command[1])
+
+        elif command[0] == "Replace":
+            replace(char=command[1])
+
+        elif command[0] == "Check":
+            check(char=command[1], current_username=username)
+
+
+if __name__ == '__main__':
+    main()
