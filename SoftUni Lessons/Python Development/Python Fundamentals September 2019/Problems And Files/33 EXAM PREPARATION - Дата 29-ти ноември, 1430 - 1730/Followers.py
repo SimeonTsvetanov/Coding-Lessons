@@ -68,6 +68,11 @@ C: 5
 D: 5
 B: 1
 """
+
+# There are two solutions I've created for this problem:
+
+# Solution number one is as intended using Dictionaries:
+"""
 followers = {}
 
 
@@ -127,6 +132,93 @@ def run():
 
         elif command[0] == "Log out":
             sort_and_print()
+
+
+if __name__ == '__main__':
+    run()
+"""
+
+# And Solution number two is using Object/Classes and functions :):
+
+followers = []
+
+
+class Follower:
+    def __init__(self, name: str, likes=0, comments=0):
+        self.name = name
+        self.likes = likes
+        self.comments = comments
+
+
+def new_follower(username: str):
+    global followers
+    follower_is_present = False
+    for follower in followers:
+        if follower.name == username:
+            follower_is_present = True
+    if not follower_is_present:
+        followers += [Follower(name=username)]
+
+
+def like(username: str, count: int):
+    global followers
+    follower_is_present = False
+    for follower in followers:
+        if follower.name == username:
+            follower_is_present = True
+            follower.likes += count
+    if not follower_is_present:
+        followers += [Follower(name=username, likes=count)]
+
+
+def comment(username: str):
+    global followers
+    follower_is_present = False
+    for follower in followers:
+        if follower.name == username:
+            follower_is_present = True
+            follower.comments += 1
+    if not follower_is_present:
+        followers += [Follower(name=username, comments=1)]
+
+
+def blocked(username: str):
+    global followers
+    follower_is_present = False
+    for follower in followers:
+        if follower.name == username:
+            follower_is_present = True
+            followers.remove(follower)
+    if not follower_is_present:
+        print(f"{username} doesn't exist.")
+
+
+def sort_and_print():
+    global followers
+    print(f"{len(followers)} followers")
+    for follower in sorted(followers, key=lambda x: (-x.likes, x.name)):
+        print(f"{follower.name}: {follower.likes + follower.comments}")
+
+
+def run():
+    while True:
+        command = input().split(": ")
+
+        if command[0] == "New follower":
+            new_follower(username=command[1])
+
+        elif command[0] == "Like":
+            like(username=command[1], count=int(command[2]))
+
+        elif command[0] == "Comment":
+            comment(username=command[1])
+
+        elif command[0] == "Blocked":
+            blocked(username=command[1])
+
+        elif command[0] == "Log out":
+            sort_and_print()
+            break
 
 
 if __name__ == '__main__':
