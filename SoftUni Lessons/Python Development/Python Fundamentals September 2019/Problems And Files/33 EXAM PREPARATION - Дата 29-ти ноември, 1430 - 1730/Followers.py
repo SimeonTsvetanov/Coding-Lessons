@@ -68,3 +68,66 @@ C: 5
 D: 5
 B: 1
 """
+followers = {}
+
+
+def new_follower(username: str):
+    global followers
+    if username not in followers:
+        followers[username] = [0, 0]
+
+
+def like(username: str, count: int):
+    global followers
+    if username not in followers:
+        followers[username] = [count, 0]
+    elif username in followers:
+        followers[username][0] += count
+
+
+def comment(username: str):
+    global followers
+    if username not in followers:
+        followers[username] = [0, 1]
+    elif username in followers:
+        followers[username][1] += 1
+
+
+def blocked(username: str):
+    global followers
+    if username in followers:
+        del followers[username]
+    elif username not in followers:
+        print(f"{username} doesn't exist.")
+
+
+def sort_and_print():
+    global followers
+    print(f"{len(followers)} followers")
+    for follower, values in sorted(followers.items(), key=lambda x: (-x[1][0], x[0])):
+        print(f"{follower}: {sum(values)}")
+    exit(0)
+
+
+def run():
+    while True:
+        command = input().split(": ")
+
+        if command[0] == "New follower":
+            new_follower(username=command[1])
+
+        elif command[0] == "Like":
+            like(username=command[1], count=int(command[2]))
+
+        elif command[0] == "Comment":
+            comment(username=command[1])
+
+        elif command[0] == "Blocked":
+            blocked(username=command[1])
+
+        elif command[0] == "Log out":
+            sort_and_print()
+
+
+if __name__ == '__main__':
+    run()
