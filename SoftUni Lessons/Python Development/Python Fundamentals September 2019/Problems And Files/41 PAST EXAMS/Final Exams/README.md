@@ -21,9 +21,9 @@
   <li>
     02. Final Exam - 03 August 2019 Group 2
     <ul>
-    <li>1- 0/100</li>
-    <li>2- 0/100</li>
-    <li>3- 0/100</li>
+    <li>1- 100/100</li>
+    <li>2- 100/100</li>
+    <li>3- 100/100</li>
     </ul>
   </li>
   
