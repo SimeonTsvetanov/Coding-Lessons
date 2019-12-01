@@ -93,3 +93,112 @@ Output:
 Users count: 1
 Bonnie - 6
 """
+
+# This is the solution from in class. ... Done the worst way, but still ... correct:
+"""
+capacity = int(input())
+
+users = []
+
+command = input()
+while command != "Statistics":
+
+    commands_list = command.split("=")
+    current_command = commands_list[0]
+
+    if current_command == "Add":
+        username = commands_list[1]
+        sent = int(commands_list[2])
+        received = int(commands_list[3])
+        user = {"name": username, "sent": sent, "received": received}
+        found = False
+        for user_in_list in users:
+            if user_in_list["name"] == username:
+                found = True
+        if not found:
+            users.append(user)
+
+    elif current_command == "Message":
+        sender = commands_list[1]
+        sender_found = False
+        receiver = commands_list[2]
+        receiver_found = False
+        sender_dict = {}
+        receiver_dict = {}
+        for user_in_list in users:
+            if user_in_list["name"] == sender:
+                sender_found = True
+                sender_dict = user_in_list
+            if user_in_list["name"] == receiver:
+                receiver_found = True
+                receiver_dict = user_in_list
+        if sender_found and receiver_found:
+            sender_dict["sent"] += 1
+            if sender_dict["sent"] + sender_dict["received"] >= capacity:
+                print(f"{sender} reached the capacity!")
+                users.remove(sender_dict)
+            receiver_dict["received"] += 1
+            if receiver_dict["sent"] + receiver_dict["received"] >= capacity:
+                print(f"{receiver} reached the capacity!")
+                users.remove(receiver_dict)
+
+    elif current_command == "Empty":
+        username = commands_list[1]
+        if username == "All":
+            users.clear()
+        else:
+            for user_in_list in users:
+                if user_in_list["name"] == username:
+                    users.remove(user_in_list)
+                    break
+
+    command = input()
+
+print(f"Users count: {len(users)}")
+sorted_list = sorted(users, key=lambda x: (-x["received"], x["name"]))
+
+for user in sorted_list:
+    print(f"{user['name']} - {(user['received'] + user['sent'])}")
+"""
+
+# Tis is the initial solution in which I have used the normal way with Dictionary
+capacity = int(input())
+
+users = {}
+
+while True:
+    command = input().split("=")
+    if command[0] == "Statistics":
+        break
+
+    elif command[0] == "Add":
+        username = command[1]
+        send = int(command[2])
+        received = int(command[3])
+        if username not in users:
+            users[username] = [send, received]
+
+    elif command[0] == "Message":
+        sender = command[1]
+        receiver = command[2]
+        if sender in users and receiver in users:
+            users[sender][0] += 1
+            users[receiver][1] += 1
+            if sum(users[sender]) >= capacity:
+                print(f"{sender} reached the capacity!")
+                del users[sender]
+            if sum(users[receiver]) >= capacity:
+                print(f"{receiver} reached the capacity!")
+                del users[receiver]
+
+    elif command[0] == "Empty":
+        user_or_all = command[1]
+        if user_or_all == "All":
+            users.clear()
+        elif user_or_all in users:
+            del users[user_or_all]
+
+print(f"Users count: {len(users)}")
+
+for user, messages in sorted(users.items(), key=lambda x: (-(x[1][1]), x[0])):
+    print(f"{user} - {sum(messages)}")
