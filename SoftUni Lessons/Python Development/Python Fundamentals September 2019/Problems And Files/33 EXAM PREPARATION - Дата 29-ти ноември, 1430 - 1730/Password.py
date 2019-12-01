@@ -65,3 +65,18 @@ Password: 088abcAAA***
 Try another password!
 Try another password!
 """
+# This is my initial solution to this problem:
+import re
+regex = r"^(?P<startEnd>.+)>(?P<nums>\d{3})\|(?P<lletters>[a-z]{3})\|(?P<uletters>[A-Z]{3})\|(?P<symbols>[^><;]{3})<(?P=startEnd)$"
+
+for each_time in range(int(input())):
+    valid_password = re.match(regex, input())
+    if valid_password:
+        numbers = valid_password.group("nums")
+        lower_letters = valid_password.group("lletters")
+        upper_letters = valid_password.group("uletters")
+        symbols = valid_password.group("symbols")
+        encrypted_password = f"{numbers}{lower_letters}{upper_letters}{symbols}"
+        print(f"Password: {encrypted_password}")
+    else:
+        print("Try another password!")
