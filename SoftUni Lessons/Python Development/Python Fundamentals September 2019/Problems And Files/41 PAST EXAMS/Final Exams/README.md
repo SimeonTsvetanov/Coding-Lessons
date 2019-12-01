@@ -3,7 +3,7 @@
 <hr>
 <blockquote>
   <p>
-    <b>The tasks Ive solved so far:</b>
+    <b>The Exams I've solved so far:</b>
   </p>
 </blockquote>
 
