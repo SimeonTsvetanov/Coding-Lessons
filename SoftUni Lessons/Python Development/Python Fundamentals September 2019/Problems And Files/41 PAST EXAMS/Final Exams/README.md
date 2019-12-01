@@ -19,7 +19,7 @@
   </li>
   
   <li>
-    02. Final Exam - 03 August 2019 Group 2
+    02. Final Exam - 03 August 2019 Group 1
     <ul>
     <li>1- 100/100</li>
     <li>2- 100/100</li>
