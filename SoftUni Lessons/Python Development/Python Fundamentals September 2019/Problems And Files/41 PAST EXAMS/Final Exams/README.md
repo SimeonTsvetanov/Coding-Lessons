@@ -53,4 +53,14 @@
       <li>3- No option for Python</li>
     </ul>
   </li>
+  
+  <li>
+    06. Final Exam - 14 April 2019 Group 2
+    <ul>
+      <li>1- 100/100</li>
+      <li>2- 100/100</li>
+      <li>3- No option for Python</li>
+    </ul>
+  </li>
+  
 </ul>
