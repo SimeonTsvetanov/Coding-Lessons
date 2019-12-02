@@ -71,5 +71,14 @@
       <li>3- No option for Python</li>
     </ul>
   </li>
-  
+
+  <li>
+    08. Final Exam - 06 April 2019
+    <ul>
+      <li>1- 100/100</li>
+      <li>2- 100/100</li>
+      <li>3- No option for Python</li>
+    </ul>
+  </li>
+ 
 </ul>
