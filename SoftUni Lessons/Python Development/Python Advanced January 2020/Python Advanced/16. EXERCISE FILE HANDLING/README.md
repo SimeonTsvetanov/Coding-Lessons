@@ -3,4 +3,11 @@
 
 <h3>7-ми февруари, 14:00 - 17:30</h3>
 
-
+<blockquote>
+    <i>
+        Short Link: <br> 
+        <b>
+            shorturl.at/cgsvJ
+        </b> 
+    </i>
+</blockquote>
