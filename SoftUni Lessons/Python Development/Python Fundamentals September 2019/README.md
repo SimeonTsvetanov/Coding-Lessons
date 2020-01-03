@@ -2,7 +2,7 @@
 
 <hr>
     <p><i>
-        Сертификат за успешно завършен курс: <a href="">Няма още</a><br>
+        Сертификат за успешно завършен курс: <a href="https://softuni.bg/certificates/details/74950/06f30b39">ТУК</a><br>
         Директорията на курса в Софтуни: <a href="https://softuni.bg/trainings/2442/python-fundamentals-september-2019#lesson-14375">тук.</a><br>
         Директорията за проверки на задачите в Judge: <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/191/Python-Fundamentals">тук.</a><br>
         Клипове от лекциите могат да се намерят: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n9dVaydZdRvycQf3WRrpbVW">тук.</a><br>
