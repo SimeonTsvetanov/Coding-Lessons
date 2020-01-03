@@ -3,3 +3,11 @@
 
 <h3>6-ти февруари, 18:00 - 21:30</h3>
 
+<blockquote>
+    <i>
+        Short Link: <br> 
+        <b>
+            shorturl.at/prGW4
+        </b> 
+    </i>
+</blockquote>
