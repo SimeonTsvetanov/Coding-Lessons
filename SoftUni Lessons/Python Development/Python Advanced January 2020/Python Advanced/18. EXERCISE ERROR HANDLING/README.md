@@ -3,3 +3,11 @@
 
 <h3>11-ти февруари, 14:00 - 17:30</h3>
 
+<blockquote>
+    <i>
+        Short Link: <br> 
+        <b>
+            shorturl.at/anpIM
+        </b> 
+    </i>
+</blockquote>
