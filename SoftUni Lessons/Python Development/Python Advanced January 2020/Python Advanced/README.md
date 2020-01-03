@@ -3,30 +3,30 @@
     
 <h2 align="center">ТЕМИ:</h2>
 <ol>
-    <li><a href="">RESOURCES</a></li>
-    <li><a href="">COURSE INTRODUCTION</a></li>
-    <li><a href="">LISTS AS STACKS AND QUEUES</a></li>
-    <li><a href="">EXERCISE: LISTS AS STACKS AND QUEUES</a></li>
-    <li><a href="">TUPLES AND SETS</a></li>
-    <li><a href="">EXERCISE: TUPLES AND SETS</a></li>
-    <li><a href="">MULTIDIMENSIONAL LISTS</a></li>
-    <li><a href="">EXERCISE: MULTIDIMENSIONAL LISTS</a></li>
-    <li><a href="">COMPREHENSION</a></li>
-    <li><a href="">EXERCISE: COMPREHENSION</a></li>
-    <li><a href="">FUNCTIONS ADVANCED</a></li>
-    <li><a href="">EXERCISE: FUNCTIONS ADVANCED</a></li>
-    <li><a href="">LAMBDAS AND BUILT-IN FUNCTIONS</a></li>
-    <li><a href="">EXERCISE: LAMBDAS AND BUILT-IN FUNCTIONS</a></li>
-    <li><a href="">FILE HANDLING</a></li>
-    <li><a href="">EXERCISE: FILE HANDLING</a></li>
-    <li><a href="">ERROR HANDLING</a></li>
-    <li><a href="">EXERCISE: ERROR HANDLING</a></li>
-    <li><a href="">MODULES</a></li>
-    <li><a href="">EXAM PREPARATION</a></li>
-    <li><a href="">EXAM PREPARATION</a></li>
-    <li><a href="">WORKSHOP</a></li>
-    <li><a href="">EXAM</a></li>
-    <li><a href="">RETAKE</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-13120">RESOURCES</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14219">COURSE INTRODUCTION</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14220">LISTS AS STACKS AND QUEUES</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14221">EXERCISE: LISTS AS STACKS AND QUEUES</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14222">TUPLES AND SETS</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14223">EXERCISE: TUPLES AND SETS</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14224">MULTIDIMENSIONAL LISTS</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14225">EXERCISE: MULTIDIMENSIONAL LISTS</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14226">COMPREHENSION</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14227">EXERCISE: COMPREHENSION</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14228">FUNCTIONS ADVANCED</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14229">EXERCISE: FUNCTIONS ADVANCED</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14230">LAMBDAS AND BUILT-IN FUNCTIONS</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14231">EXERCISE: LAMBDAS AND BUILT-IN FUNCTIONS</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14232">FILE HANDLING</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14233">EXERCISE: FILE HANDLING</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14234">ERROR HANDLING</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14235">EXERCISE: ERROR HANDLING</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14236">MODULES</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14238">EXAM PREPARATION</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14239">EXAM PREPARATION</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14240">WORKSHOP</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14241">EXAM</a></li>
+    <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-14242">RETAKE</a></li>
 </ol>
 
 <h2 align="center">ЗА КУРСА</h2>
