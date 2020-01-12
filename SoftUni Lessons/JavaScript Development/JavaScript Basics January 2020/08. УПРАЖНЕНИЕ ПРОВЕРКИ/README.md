@@ -16,7 +16,7 @@
     <i>
         Short Link: <br> 
         <b>
-            ...TBA
+            shorturl.at/agsDM
         </b> 
     </i>
 </blockquote>
