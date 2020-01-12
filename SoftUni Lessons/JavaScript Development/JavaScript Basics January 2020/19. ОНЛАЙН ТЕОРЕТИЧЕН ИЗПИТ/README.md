@@ -17,7 +17,7 @@
     <i>
         Short Link: <br> 
         <b>
-            ...TBA
+            shorturl.at/hxIV4
         </b> 
     </i>
 </blockquote>
