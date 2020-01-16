@@ -1,2 +1,2 @@
-<h1 align="center">Problems</h1>
+<h1 align="center">Presentation and Problems Lab</h1>
 
