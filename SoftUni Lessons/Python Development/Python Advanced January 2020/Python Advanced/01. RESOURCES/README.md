@@ -11,4 +11,10 @@
         </b> 
     </i>
 </blockquote>
+
+<hr>
+
+<p>Link for facebook group (Python Advanced 2020): <a href ="https://www.facebook.com/groups/SoftUniPythonCommunity/">here</a></p>
+<p>Link for facebook group (Python Comunity): <a href ="https://www.facebook.com/groups/SoftUniPythonCommunity/">here</a></p>
+
    
