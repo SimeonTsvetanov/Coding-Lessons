@@ -1,6 +1,8 @@
 <h1 align="center">EXERCISE: LISTS AS STACKS AND QUEUES</h1>
     <br>
 
+<p><b>#TODO - I need to resole all the tasks... </b></p>
+
 <h3>17-ти януари, 14:00 - 17:30</h3>
 
 <blockquote>
