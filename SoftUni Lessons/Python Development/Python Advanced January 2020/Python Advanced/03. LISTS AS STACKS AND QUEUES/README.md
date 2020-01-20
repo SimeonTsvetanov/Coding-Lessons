@@ -17,3 +17,7 @@
 <p>
     Link for Judge: <a href="https://judge.softuni.bg/Contests/Practice/Index/1830#0">Click here</a>
 </p>
+
+<p>
+    Video: <a href="https://www.youtube.com/watch?v=Y_fQXG5njYw&list=PLdu5EMqCM5n_VJYA0vOGaaFmuucMciBtQ&index=1">Click here</a>
+</p>
