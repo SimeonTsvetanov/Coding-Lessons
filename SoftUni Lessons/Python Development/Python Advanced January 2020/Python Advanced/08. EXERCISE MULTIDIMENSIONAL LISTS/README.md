@@ -7,7 +7,7 @@
     <i>
         Short Link: <br> 
         <b>
-            shorturl.at/hiOX9
+            http://bit.ly/2NMXgpg
         </b> 
     </i>
 </blockquote>
