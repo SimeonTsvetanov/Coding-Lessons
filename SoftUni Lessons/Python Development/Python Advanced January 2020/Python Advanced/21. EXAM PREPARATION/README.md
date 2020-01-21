@@ -7,7 +7,7 @@
     <i>
         Short Link: <br> 
         <b>
-            shorturl.at/gnox0
+            http://bit.ly/37iJS47
         </b> 
     </i>
 </blockquote>
