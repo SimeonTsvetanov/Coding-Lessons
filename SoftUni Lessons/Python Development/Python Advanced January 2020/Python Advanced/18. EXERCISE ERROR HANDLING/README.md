@@ -7,7 +7,7 @@
     <i>
         Short Link: <br> 
         <b>
-            shorturl.at/anpIM
+            http://bit.ly/3ayXudp
         </b> 
     </i>
 </blockquote>
