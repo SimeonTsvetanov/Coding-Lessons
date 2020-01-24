@@ -11,3 +11,12 @@
         </b> 
     </i>
 </blockquote>
+<hr>
+
+<p>
+    Link for Judge: <a href="https://judge.softuni.bg/Contests/Practice/Index/1834#0">Click here</a>
+</p>
+
+<p>
+    Video: <a href="https://www.youtube.com/watch?v=uVvGykBRfUQ&feature=emb_title">Click here</a>
+</p>
