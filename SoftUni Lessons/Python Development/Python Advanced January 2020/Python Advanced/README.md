@@ -1,5 +1,8 @@
 <h1 align="center">Python Advanced - януари 2020</h1>
     <br>
+
+<hr>
+<h2>Classes Video Playlist: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n_VJYA0vOGaaFmuucMciBtQ">here</a></h2>
     
 <h2 align="center">ТЕМИ:</h2>
 <ol>
