@@ -11,3 +11,11 @@
         </b> 
     </i>
 </blockquote>
+
+<p>
+    Link for Judge: <a href="https://judge.softuni.bg/Contests/Compete/Index/1841#0">Click here</a>
+</p>
+
+<p>
+    Video: <a href="">Will be here</a>
+</p>
