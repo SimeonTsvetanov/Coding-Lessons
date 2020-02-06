@@ -11,3 +11,10 @@
         </b> 
     </i>
 </blockquote>
+
+<p>
+    Video: <a href="#">Will be here</a>
+</p>
+
+</hr>
+<p>P.S. >>> Bare in mind that there is no way to check the tasks in Judge as for security reasons they don't allow file uploads. <<< </p>
