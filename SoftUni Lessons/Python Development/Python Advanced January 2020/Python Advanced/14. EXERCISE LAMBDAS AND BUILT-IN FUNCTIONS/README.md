@@ -17,5 +17,5 @@
 </p>
 
 <p>
-    Video: <a href="">Will be here</a>
+    Video: <a href="https://www.youtube.com/watch?time_continue=4&v=8-OIvXcfn7k&feature=emb_title">Click here</a>
 </p>
