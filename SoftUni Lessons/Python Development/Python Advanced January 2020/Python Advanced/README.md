@@ -3,7 +3,11 @@
 
 <hr>
 <h2>Classes Video Playlist: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n_VJYA0vOGaaFmuucMciBtQ">here</a></h2>
-    
+
+<blockquote>
+    Short link: http://bit.ly/2uoCOoo
+</blockquote>
+
 <h2 align="center">ТЕМИ:</h2>
 <ol>
     <li><a href="https://softuni.bg/trainings/2496/python-advanced-january-2020#lesson-13120">RESOURCES</a></li>
