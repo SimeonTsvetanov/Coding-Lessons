@@ -17,4 +17,4 @@
 </p>
 
 </hr>
-<p>P.S. >>> Bare in mind that there is no way to check the tasks in Judge as for security reasons they don't allow file uploads. <<< </p>
+<p>P.S. >>> Bare in mind that there is no way to check the tasks in Judge as for security reasons they don't allow file uploads.</p>
