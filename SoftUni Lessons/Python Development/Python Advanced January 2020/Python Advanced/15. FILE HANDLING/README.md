@@ -13,7 +13,7 @@
 </blockquote>
 
 <p>
-    Video: <a href="https://www.youtube.com/watch?v=ZDh0NaDLdbo&feature=emb_title">Will be here</a>
+    Video: <a href="https://www.youtube.com/watch?v=ZDh0NaDLdbo&feature=emb_title">Click here</a>
 </p>
 
 </hr>
