@@ -2,7 +2,7 @@
     <br>
 <blockquote>
     <p>
-        Short link: 
+        Short link: http://bit.ly/386MmTL
         <br>
         Here I'am uploading past Exams (that I can find) for the same Course. 
     </p>
