@@ -10,7 +10,7 @@
 
 <hr>
 
-<h2>Current Progress:<h2>
+<h2>Current Progress:</h2>
 
 <ol>
 
