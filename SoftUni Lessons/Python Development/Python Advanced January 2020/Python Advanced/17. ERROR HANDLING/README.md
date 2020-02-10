@@ -15,5 +15,5 @@
 <p>There isn't a way to teset your solutions in Judge for this exercise.</p>
 
 <p>
-   <a href="#">Vide will be here</a> 
+   <a href="#">Video will be here</a> 
 </p>
