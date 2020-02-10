@@ -11,4 +11,9 @@
         </b> 
     </i>
 </blockquote>
-https://www.youtube.com/watch?time_continue=1&v=yuWYW0-Cfcg&feature=emb_title
+
+<p>FYI: Thire is only one Problem to solve in this lection.</p>
+
+<p>
+    Video: <a href="https://www.youtube.com/watch?time_continue=1&v=yuWYW0-Cfcg&feature=emb_title">Click Here</a>
+</p>
