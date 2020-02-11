@@ -1,5 +1,7 @@
 <h1 align="center">Python Advanced Exam Preparation - 17 February 2020</h1>
 
+<p># TODO: the second task only gives 66/100... It needs to be fixed</p>
+
 <blockquote>
     Short link: http://bit.ly/2UxdY0f
     <br>
