@@ -15,5 +15,5 @@
 <p>There isn't a way to teset your solutions in Judge for this exercise.</p>
 
 <p>
-   <a href="#">Video will be here</a> 
+   <a href="https://www.youtube.com/watch?v=P6lWUPFItbo&feature=emb_title">Click here</a> 
 </p>
