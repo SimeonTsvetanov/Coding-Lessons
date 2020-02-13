@@ -2,6 +2,7 @@
 
 <hr>
     <p><i>
+        Кратък линк: http://bit.ly/37p55bN
         Сертификат за успешно завършен курс: <a href="https://softuni.bg/certificates/details/67562/f6df6244">тук.</a><br>
         Директорията на курса в Софтуни: <a href="https://softuni.bg/trainings/2328/programming-basics-with-python-april-2019">тук.</a><br>
         Директорията за проверки на задачите в Judge: <a href="https://judge.softuni.bg/Contests/#!/List/ByCategory/130/PB-Exercises">тук.</a><br>
