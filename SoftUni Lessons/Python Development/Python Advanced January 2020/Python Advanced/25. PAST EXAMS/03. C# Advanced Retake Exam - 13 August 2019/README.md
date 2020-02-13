@@ -1,7 +1,7 @@
 <h1 align="center">C# Advanced Retake Exam - 13 August 2019</h1>
 
 <blockquote>
-    Short link: 
+    Short link: http://bit.ly/2SnByes
     <br>
     Check Your Solution: <a href="https://judge.softuni.bg/Contests/Practice/Index/1782#0">with Judge</a>
 </blockquote>
