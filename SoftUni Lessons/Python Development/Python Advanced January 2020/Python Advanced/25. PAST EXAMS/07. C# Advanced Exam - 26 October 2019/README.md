@@ -1,7 +1,7 @@
 <h1 align="center">C# Advanced Exam - 26 October 2019</h1>
 
 <blockquote>
-    Short link: 
+    Short link: http://bit.ly/2waGpqx
     <br>
     Check Your Solution: <a href="https://judge.softuni.bg/Contests/Practice/Index/1853#0">with Judge</a>
 </blockquote>
