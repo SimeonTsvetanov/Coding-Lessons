@@ -39,6 +39,14 @@
         <li>2. Seashell Treasure - 100/100</li>
     </ul>
 </li>
+
+<li>
+    C# Advanced Retake Exam - 16 April 2019
+    <ul>
+        <li>1. Trojan Invasion - 100/100</li>
+        <li>2. Helen's Abduction - 100/100</li>
+    </ul>
+</li>
 </ol>
 
 
