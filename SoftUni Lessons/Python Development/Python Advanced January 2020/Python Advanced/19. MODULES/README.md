@@ -14,5 +14,5 @@
 
 <p>FYI: There is now way that you can check your solutions in Judge.</p>
 <p>
-    Video<a href="#">Will be here</a>
+    Video <a href="#">Will be here</a>
 </p>
