@@ -53,7 +53,7 @@ while not crash:
     two_next_move = \
         change_position_if_out([moves[x[1]][0] + player_two_position[0], moves[x[1]][1] + player_two_position[1]])
 
-    # Now lets check if player ONE next is cell if free and we can step on it:
+    # Now lets check if player ONE - next cell is free and we can step on it:
     if matrix[one_next_move[0]][one_next_move[1]] in ["*", "f"]:
         matrix[one_next_move[0]][one_next_move[1]] = "f"
         player_one_position = [one_next_move[0], one_next_move[1]]
@@ -62,7 +62,7 @@ while not crash:
         crash = True
         continue
 
-    # Now lets check if player TWO next is cell if free and we can step on it:
+    # Now lets check if player TWO - next cell is free and we can step on it:
     if matrix[two_next_move[0]][two_next_move[1]] in ["*", "s"]:
         matrix[two_next_move[0]][two_next_move[1]] = "s"
         player_two_position = [two_next_move[0], two_next_move[1]]
