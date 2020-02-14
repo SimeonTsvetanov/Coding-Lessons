@@ -59,8 +59,8 @@
 <li>
     <b>C# Advanced Exam - 24 February 2019</b>
     <ul>
-        <li>1. Club Party - 0/100</li>
-        <li>2. Tron Racers - 0/100</li>
+        <li>1. Club Party - 100/100</li>
+        <li>2. Tron Racers - 100/100</li>
     </ul>
 </li>
 
