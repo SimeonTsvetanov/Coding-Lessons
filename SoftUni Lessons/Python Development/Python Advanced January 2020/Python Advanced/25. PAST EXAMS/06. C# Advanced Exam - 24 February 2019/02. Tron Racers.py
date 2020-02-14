@@ -22,9 +22,9 @@ for row in range(int(input())):  # Get the matrix, first and second player coord
 def change_position_if_out(player: list):
     """
     This Function will check if players next position will be still in the matrix.
-    Ann if is out of the matrix will change it to the other side instead.
+    And if is out of the matrix it will change it to the other side instead.
     :param player: The player we want to check and/or change
-    :return: the old or new coordinates of the player
+    :return: the modified(or not) coordinates of the player
     """
     if 0 <= player[0] < len(matrix):
         if 0 <= player[1] < len(matrix[0]):
