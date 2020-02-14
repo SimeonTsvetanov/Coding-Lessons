@@ -51,8 +51,8 @@
 <li>
     <b>C# Advanced Exam - 23 June 2019</b>
     <ul>
-        <li>1. Spaceship Crafting - 0/100</li>
-        <li>3. Space Station Establishment - 0/100</li>
+        <li>1. Spaceship Crafting - 100/100</li>
+        <li>3. Space Station Establishment - 100/100</li>
     </ul>
 </li>
 
