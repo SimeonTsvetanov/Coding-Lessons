@@ -47,6 +47,30 @@
         <li>2. Helen's Abduction - 100/100</li>
     </ul>
 </li>
+
+<li>
+    <b>C# Advanced Exam - 23 June 2019</b>
+    <ul>
+        <li>1. Spaceship Crafting - 0/100</li>
+        <li>3. Space Station Establishment - 0/100</li>
+    </ul>
+</li>
+
+<li>
+    <b>C# Advanced Exam - 24 February 2019</b>
+    <ul>
+        <li>1. Club Party - 0/100</li>
+        <li>2. Tron Racers - 0/100</li>
+    </ul>
+</li>
+
+<li>
+    <b>C# Advanced Exam - 26 October 2019</b>
+    <ul>
+        <li>1. Dating App - 0/100</li>
+        <li>2. Book Worm - 0/100</li>
+    </ul>
+</li>
 </ol>
 
 
