@@ -18,7 +18,7 @@
     <b>Python Advanced Exam Preparation - 17 February 2020</b>
     <ul>
         <li>1. Santa's Present Factory - 100/100</li>
-        <li>2. Present Delivery - 66/100</li>
+        <li>2. Present Delivery - 83/100</li>
         <li>3. Advent Calendar - 100/100</li>
     </ul>
 </li>
