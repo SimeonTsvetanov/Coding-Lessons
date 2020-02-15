@@ -67,8 +67,8 @@
 <li>
     <b>C# Advanced Exam - 26 October 2019</b>
     <ul>
-        <li>1. Dating App - 0/100</li>
-        <li>2. Book Worm - 0/100</li>
+        <li>1. Dating App - 100/100</li>
+        <li>2. Book Worm - 100/100</li>
     </ul>
 </li>
 </ol>
