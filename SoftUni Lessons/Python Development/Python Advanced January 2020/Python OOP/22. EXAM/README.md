@@ -5,16 +5,15 @@
 
 <blockquote>
     <p>
+        Link for Judge: 
+        <a href="#">NA IT WILL BE UPDATED IN THE FUTURE</a>
+    </p>
+<p>
         <i>
             Short Link: <br> 
             <b>
                 http://bit.ly/2VtrqD0
             </b> 
         </i>
-    </p>
-
-    <p>
-        Link for Judge: 
-        <a href="#">NA IT WILL BE UPDATED IN THE FUTURE</a>
     </p>
 </blockquote>
