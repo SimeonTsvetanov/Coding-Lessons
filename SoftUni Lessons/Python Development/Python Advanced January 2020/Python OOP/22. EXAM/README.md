@@ -15,6 +15,6 @@
 
     <p>
         Link for Judge: 
-        <a href="#">NA/ IT WILL BE UPDATED IN THE FUTURE</a>
+        <a href="#">NA IT WILL BE UPDATED IN THE FUTURE</a>
     </p>
 </blockquote>
