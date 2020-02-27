@@ -4,18 +4,18 @@
     <p>
         Short Link: http://bit.ly/2w9CUke
     </p>
-    
-    <p>
-        Judge link: 
-        <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/198/Python-OOP"> here</a>
-    </p>
-    
-    <p>
-        Sli.do group: 
-        <a href="https://app.sli.do/event/3qjctgck/live/questions"> here</a>
-    </p>
 </blockquote>
-    
+
+<p>
+    Judge link: 
+    <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/198/Python-OOP"> here</a>
+</p>
+
+<p>
+    Sli.do group: 
+    <a href="https://app.sli.do/event/3qjctgck/live/questions"> here</a>
+</p>
+
 <h2 align="center">ТЕМИ:</h2>
 <ol>
     <li><a href="https://softuni.bg/trainings/2497/python-oop-february-2020#lesson-13121">RESOURCES</a></li>
