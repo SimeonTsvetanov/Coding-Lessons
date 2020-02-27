@@ -4,6 +4,10 @@
     <p>
         Short Link: http://bit.ly/2w9CUke
     </p>
+    <p>
+        Sli.do group: 
+        <a href="https://app.sli.do/event/3qjctgck/live/questions"> here</a>
+    </p>
 </blockquote>
     
 <h2 align="center">ТЕМИ:</h2>
