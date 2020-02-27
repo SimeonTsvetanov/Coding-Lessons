@@ -11,3 +11,10 @@
         </b> 
     </i>
 </blockquote>
+
+<p>The second task is not fully solved as the Problem Description was missleading and I hate it.</p>
+<p>To see the correct solution watch the video.</p>
+
+<p>
+    Video <a href="https://www.youtube.com/watch?v=Ni7ksoVRMtQ&feature=emb_title">Click here</a>
+</p>
