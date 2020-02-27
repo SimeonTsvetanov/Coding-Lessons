@@ -17,3 +17,7 @@
 <p>
 Video: <a href="https://www.youtube.com/watch?v=0V89iIMsWOE&feature=emb_title">Click here</a>
 </p>
+
+<p>
+Check Your Solutions: <a href="https://judge.softuni.bg/Contests/Practice/Index/2023#0"> here</a>
+</p>
