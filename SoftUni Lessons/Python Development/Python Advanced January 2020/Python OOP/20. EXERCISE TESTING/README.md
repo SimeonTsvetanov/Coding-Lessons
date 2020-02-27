@@ -18,6 +18,6 @@
     </p>
         <p>
         Link for Judge: 
-        <a href="#">here</a>
+        <a href="https://judge.softuni.bg/Contests/Practice/Index/1949#0">here</a>
     </p>
 </blockquote>
