@@ -1,6 +1,12 @@
 <h1 align="center">Python Advanced - януари 2020</h1>
     <br>
 
+<p>I did finish this course with 300/300 points on the exam.</p>
+<p>
+    Certificate:
+    <a href="#">Will be here (as soon it comes out)</a>
+</p>
+
 <hr>
 <h2>Classes Video Playlist: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n_VJYA0vOGaaFmuucMciBtQ">here</a></h2>
 
