@@ -1,5 +1,10 @@
 <h1 align="center">Python OOP - февруари 2020</h1>
     <br>
+<blockquote>
+    <p>
+        Short Link: http://bit.ly/2w9CUke
+    </p>
+</blockquote>
     
 <h2 align="center">ТЕМИ:</h2>
 <ol>
