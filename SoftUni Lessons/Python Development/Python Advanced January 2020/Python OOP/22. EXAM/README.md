@@ -4,10 +4,20 @@
 <h3>Date: 5-ти април, 9:00-13:00</h3>
 
 <blockquote>
-    <i>
-        Short Link: <br> 
-        <b>
-            shorturl.at/kCFY5
-        </b> 
-    </i>
+    <p>
+        <i>
+            Short Link: <br> 
+            <b>
+                #
+            </b> 
+        </i>
+    </p>
+    <p>
+        Link for video: 
+        <a href="#">Will be here</a>
+    </p>
+        <p>
+        Link for Judge: 
+        <a href="#">here</a>
+    </p>
 </blockquote>
