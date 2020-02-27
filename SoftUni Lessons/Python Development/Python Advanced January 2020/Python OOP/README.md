@@ -4,6 +4,12 @@
     <p>
         Short Link: http://bit.ly/2w9CUke
     </p>
+    
+    <p>
+        Judge link: 
+        <a href="https://judge.softuni.bg/Contests#!/List/ByCategory/198/Python-OOP"> here</a>
+    </p>
+    
     <p>
         Sli.do group: 
         <a href="https://app.sli.do/event/3qjctgck/live/questions"> here</a>
