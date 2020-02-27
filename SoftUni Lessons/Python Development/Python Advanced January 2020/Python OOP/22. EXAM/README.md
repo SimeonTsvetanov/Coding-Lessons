@@ -12,12 +12,9 @@
             </b> 
         </i>
     </p>
+
     <p>
-        Link for video: 
-        <a href="#">Will be here</a>
-    </p>
-        <p>
         Link for Judge: 
-        <a href="#">here</a>
+        <a href="#">NA/ IT WILL BE UPDATED IN THE FUTURE</a>
     </p>
 </blockquote>
