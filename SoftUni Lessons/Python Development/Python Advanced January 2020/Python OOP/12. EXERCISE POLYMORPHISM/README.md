@@ -8,7 +8,7 @@
         <i>
             Short Link: <br> 
             <b>
-                #
+                http://bit.ly/32upsU4
             </b> 
         </i>
     </p>
