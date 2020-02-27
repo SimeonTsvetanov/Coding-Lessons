@@ -11,3 +11,9 @@
         </b> 
     </i>
 </blockquote>
+
+<p>As we had time in class, we did managed to solve a few more tasks. If you want to know more, just watch the video (don't be that lazy).</p>
+
+<p>
+Video: <a href="https://www.youtube.com/watch?v=0V89iIMsWOE&feature=emb_title">Click here</a>
+</p>
