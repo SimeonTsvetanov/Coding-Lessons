@@ -18,3 +18,8 @@
 <p>
     Video <a href="https://www.youtube.com/watch?v=Ni7ksoVRMtQ&feature=emb_title">Click here</a>
 </p>
+
+<p>
+    Check your Solutions: 
+    <a href="https://judge.softuni.bg/Contests/Practice/Index/2004#0">here</a>
+</p>
