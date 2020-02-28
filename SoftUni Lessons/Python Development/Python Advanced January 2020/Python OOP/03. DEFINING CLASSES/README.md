@@ -14,7 +14,7 @@
     </p>
     <p>
         Link for video: 
-        <a href="#">Will be here</a>
+        <a href="https://www.youtube.com/watch?time_continue=1&v=ANVKqFxUhp0&feature=emb_title"> here</a>
     </p>
         <p>
         Link for Judge: 
