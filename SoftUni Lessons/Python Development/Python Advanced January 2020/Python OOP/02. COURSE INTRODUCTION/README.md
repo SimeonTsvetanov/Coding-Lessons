@@ -10,4 +10,10 @@
             http://bit.ly/2PotCrt
         </b> 
     </i>
+        <i>
+        Video: <br> 
+        <b>
+            <a href="https://www.youtube.com/watch?v=Dn-kA53aYT4&list=PLdu5EMqCM5n8sQjhbdhfIyc0-qBU-EqQX&index=2&t=0s">here</a>
+        </b> 
+    </i>
 </blockquote>
