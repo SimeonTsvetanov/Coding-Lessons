@@ -5,7 +5,7 @@
 
 <blockquote>
     <i>
-        Short Link: <br> 
+        Short Link: 
         <b>
             http://bit.ly/2PotCrt
         </b> 
