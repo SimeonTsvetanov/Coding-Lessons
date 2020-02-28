@@ -16,6 +16,11 @@
     <a href="https://app.sli.do/event/3qjctgck/live/questions"> here</a>
 </p>
 
+<p>
+    Youtube Playlist of Classes: 
+    <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n8sQjhbdhfIyc0-qBU-EqQX"> here</a>
+</p>
+
 <h2 align="center">ТЕМИ:</h2>
 <ol>
     <li><a href="https://softuni.bg/trainings/2497/python-oop-february-2020#lesson-13121">RESOURCES</a></li>
