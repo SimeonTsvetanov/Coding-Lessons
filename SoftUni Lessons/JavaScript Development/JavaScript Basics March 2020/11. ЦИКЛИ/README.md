@@ -1,0 +1,19 @@
+<h1 align="center">ЦИКЛИ</h1>
+<i>For-цикъл-конструкция</i>
+<br>
+
+<p><b>Дата: 4 април, 14:00 - 17:00 часа</b></p>
+
+<blockquote>
+    <i>
+        Video: <a href="#">Will be here</a>
+    </i>
+    <br>
+    <i>
+        Short Link:
+    </i>
+    <br>
+    <i>
+        Link Judge: <a href="https://judge.softuni.bg/Contests/Compete/Index/1015#0">here</a>
+    </i>
+</blockquote>
