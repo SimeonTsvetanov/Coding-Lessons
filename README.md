@@ -5,6 +5,9 @@
   <p>
     <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/Python%20Development/Python%20Advanced%20January%202020/Python%20OOP">Current Python</a>
   </p>
+  <p>
+      <a href="https://github.com/SimeonTsvetanov/Coding-Lessons/tree/master/SoftUni%20Lessons/JavaScript%20Development/JavaScript%20Basics%20March%202020">Current JS
+  </p>
 </blockquote>
 <hr>
 
