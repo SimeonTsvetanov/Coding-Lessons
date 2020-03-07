@@ -27,7 +27,7 @@
 
 <hr>
 <blockquote>
-    <i> Sort link: http://bit.ly/2xknBWD </i>
+    <i> Short link: http://bit.ly/2xknBWD </i>
 </blockquote>
 </hr>
 
