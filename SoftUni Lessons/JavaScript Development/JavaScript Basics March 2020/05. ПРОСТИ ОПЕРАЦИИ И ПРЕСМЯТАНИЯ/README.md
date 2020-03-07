@@ -5,6 +5,7 @@
 <p><b>Дата: 14 март, 14:00 - 17:00 часа</b></p>
 
 <blockquote>
+    <p>Don't forget to upload the correct Presentation and Problems Lab! And remove the issue</p>
     <i>
         Video: <a href="#">Will be here</a>
     </i>
