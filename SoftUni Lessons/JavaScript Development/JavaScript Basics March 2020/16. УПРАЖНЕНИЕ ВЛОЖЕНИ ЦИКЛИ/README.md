@@ -10,7 +10,7 @@
     </i>
     <br>
     <i>
-        Short Link:
+        Short Link: http://bit.ly/2Ith1PK
     </i>
     <br>
     <i>
