@@ -1,3 +1,5 @@
+# Short link for this code : http://bit.ly/333rN8J
+
 class Vehicle:
     DEFAULT_FUEL_CONSUMPTION = 1.25
 
