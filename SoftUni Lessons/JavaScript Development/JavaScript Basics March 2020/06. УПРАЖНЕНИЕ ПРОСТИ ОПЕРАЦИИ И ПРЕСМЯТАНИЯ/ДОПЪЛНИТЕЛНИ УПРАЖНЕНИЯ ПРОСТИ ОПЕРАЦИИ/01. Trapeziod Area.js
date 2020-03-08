@@ -1,3 +1,5 @@
+// Short link for this task: http://bit.ly/2TxDem3
+
 function trapezoidArea(input) {
     let b1 = Number(input.shift());
     let b2 = Number(input.shift());
