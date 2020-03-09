@@ -1,8 +1,5 @@
 # Short link for this task :) - http://bit.ly/2IwC6sF
 
-# At the moment this solution gives 68 / 100 It will need future improvements...
-# And it seems that all the invalid tests are with invalid input.
-# So the logic it self is correct but I have messed up some where with the Abstractions ...
 from abc import ABC, abstractmethod
 
 
@@ -27,7 +24,7 @@ class Meat(Food):
         super().__init__(quantity)
 
 
-class Seeds(Food):
+class Seed(Food):
     def __init__(self, quantity):
         super().__init__(quantity)
 
