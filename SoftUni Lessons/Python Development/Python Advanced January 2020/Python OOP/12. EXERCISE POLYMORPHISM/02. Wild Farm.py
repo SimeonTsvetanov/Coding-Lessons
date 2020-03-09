@@ -1,4 +1,5 @@
 # Short link for this task :) - http://bit.ly/2IwC6sF
+# class Seeds needed to be Seed to go for 100/100 in Judge
 
 from abc import ABC, abstractmethod
 
