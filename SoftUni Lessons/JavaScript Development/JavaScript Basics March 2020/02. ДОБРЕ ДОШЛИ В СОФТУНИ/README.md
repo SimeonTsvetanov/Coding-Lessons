@@ -6,10 +6,6 @@
 
 <blockquote>
     <i>
-        Video: <a href="#">Will be here</a>
-    </i>
-    <br>
-    <i>
         Short Link: http://bit.ly/2Tt3TjU
     </i>
 </blockquote>
