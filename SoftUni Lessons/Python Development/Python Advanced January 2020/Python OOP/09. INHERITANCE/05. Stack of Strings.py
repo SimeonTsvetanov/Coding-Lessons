@@ -1,5 +1,5 @@
 # There is a problem in this task, because the stack in other languages is printed in reverse.
-
+# And it stupid that it was not explained correctly. 
 """
 Create a class Stack which can store only strings and has the following functionality:
 •	Private field: data: list
@@ -25,5 +25,7 @@ class Stack:
         return self.__data[-1]
 
     def is_empty(self):
-        return self.__data == 0
+        return len(self.__data) == 0
 
+    def __str__(self):
+        return str(self.__data[::-1])
