@@ -4,7 +4,7 @@ function skiTrip(input) {
     let evaluation = input.shift();
     
     // How it works:
-    // "type of acc.": [(base day price), (dissc. < 10 days), (discount 10 <= days <= 15), (discount days > 15)] 
+    // "type of acc.": [(base day price), (discount for days: < 10), (discount for: 10 <= days <= 15), (discount for: days > 15)] 
     let rates = {
         "room for one person": [18, 1, 1, 1],
         "apartment": [25, 0.7, 0.65, 0.5],
