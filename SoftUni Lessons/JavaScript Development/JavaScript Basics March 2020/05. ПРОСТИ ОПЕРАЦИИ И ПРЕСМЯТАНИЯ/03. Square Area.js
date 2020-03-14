@@ -1,7 +1,6 @@
-function sqareArea(input) {
-    let side = Number(input.shift());
+function sqareArea(side) {
     let area = side * side;
     console.log(area);
 }
 
-sqareArea(["5"]);
+sqareArea(5);
