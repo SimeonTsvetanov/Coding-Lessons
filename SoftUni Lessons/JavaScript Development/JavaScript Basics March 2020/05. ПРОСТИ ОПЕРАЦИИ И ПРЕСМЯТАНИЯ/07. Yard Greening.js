@@ -1,5 +1,4 @@
-function yardGreening(input) {
-    let sqareMeters = Number(input.shift());
+function yardGreening(sqareMeters) {
     let full_price = sqareMeters * 7.61;
     let discount = (full_price * 0.18).toFixed(2);
     let final_price = (full_price - discount).toFixed(2);
@@ -7,5 +6,6 @@ function yardGreening(input) {
     console.log(`The discount is: ${discount} lv.`);
 }
 
-yardGreening(["540"]);
-yardGreening(["135"]);
+yardGreening(540);
+yardGreening(135);
+
