@@ -2,7 +2,6 @@
 
 function toyShop(input) {
     
-    // This Dictionary Object is not needed.... But I wanted to flex a bit :D
     let toy_prices = {
         "puzzel": 2.60,
         "speakingDoll": 3,
