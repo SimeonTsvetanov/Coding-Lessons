@@ -1,8 +1,6 @@
-function projectCreation(name, projectsCount) {
-    let timeNeeded = projectsCount * 3;
-    let message = `The architect ${name} will need ${timeNeeded} hours to complete ${projectsCount} project/s.`;
-    console.log(message);
+function inchesToCentimeters(inches) {
+    let centimeters = inches * 2.54;
+    console.log(centimeters);
 }
 
-projectCreation("George", 4);
-projectCreation("Sonya", 9);
+inchesToCentimeters(2);
