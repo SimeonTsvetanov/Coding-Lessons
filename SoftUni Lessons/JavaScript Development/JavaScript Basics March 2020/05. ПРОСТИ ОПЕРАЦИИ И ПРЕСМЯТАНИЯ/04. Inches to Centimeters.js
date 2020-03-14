@@ -1,6 +1,8 @@
-function inchesToCentimeters(inches) {
-    let centimeters = inches * 2.54;
-    console.log(centimeters);
+function projectCreation(name, projectsCount) {
+    let timeNeeded = projectsCount * 3;
+    let message = `The architect ${name} will need ${timeNeeded} hours to complete ${projectsCount} project/s.`;
+    console.log(message);
 }
 
-inchesToCentimeters(2);
+projectCreation("George", 4);
+projectCreation("Sonya", 9);
