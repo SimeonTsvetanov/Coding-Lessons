@@ -1,4 +1,4 @@
-function AreaOfFigures(input) {
+function AreaOfFigures(...input) {
     figure = input.shift();
     area = 0;
 
