@@ -1,4 +1,5 @@
 // Not included in final score
+// Short link: http://bit.ly/2WpVYWH
 function scholarship(...input) {
     let income = Number(input.shift());
     let score = Number(input.shift());
