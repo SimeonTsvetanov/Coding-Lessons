@@ -1,5 +1,5 @@
 // Not included in final score
-function scholarship(input) {
+function scholarship(...input) {
     let income = Number(input.shift());
     let score = Number(input.shift());
     let minimumSalary = Number(input.shift());
