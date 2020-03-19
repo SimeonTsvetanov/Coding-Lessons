@@ -20,6 +20,21 @@ Input:	            Output
 5-Work
 End
 """
+
+# This is the corrected solution:
+notes = []
+
+while True:
+    note = input().split("-")
+    if note[0] == "End":
+        break
+    notes.append([int(note[0]), note[1]])
+
+print([(note[1]) for note in list(sorted(notes, key=lambda x: x[0]))])
+
+
+# For some reason this code was giving 80/100:
+"""
 commands = []
 
 while True:
@@ -37,3 +52,4 @@ for note in commands:
     notes.insert(note_priority, note_message)
 
 print([note for note in notes if note != "None"])
+"""
