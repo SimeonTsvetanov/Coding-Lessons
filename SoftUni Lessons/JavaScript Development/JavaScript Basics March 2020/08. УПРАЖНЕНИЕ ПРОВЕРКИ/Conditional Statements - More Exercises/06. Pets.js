@@ -1,4 +1,4 @@
-function pets(input) {
+function pets(...input) {
     let days = Number(input.shift());
     let leftFood = Number(input.shift());
     let dogDayFood = Number(input.shift()) * days;

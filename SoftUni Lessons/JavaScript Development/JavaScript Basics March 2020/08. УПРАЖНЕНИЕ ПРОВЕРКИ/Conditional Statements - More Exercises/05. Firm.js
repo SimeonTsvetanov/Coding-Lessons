@@ -1,4 +1,4 @@
-function firm(input) {
+function firm(...input) {
     let neededHours = Number(input.shift());
     let daysAvaiable = Number(input.shift());
     let extraWorkers = Number(input.shift());  // That poor bastards!!!

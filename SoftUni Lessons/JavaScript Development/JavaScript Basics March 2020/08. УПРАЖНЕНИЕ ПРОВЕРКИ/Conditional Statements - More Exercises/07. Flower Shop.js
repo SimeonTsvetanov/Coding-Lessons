@@ -1,4 +1,4 @@
-function flowerShop(input) {
+function flowerShop(...input) {
     let magnolias = Number(input.shift()) * 3.25;  // манголии - magnolias - 3.25
     let hyacinths = Number(input.shift()) * 4;  // зюмбюли - hyacinths - 4
     let roses = Number(input.shift()) * 3.50;  // рози - roses - 3.50

@@ -1,4 +1,4 @@
-function sleepyCat(input) {
+function sleepyCat(...input) {
     let hollydays = Number(input.shift());
     let normalDays = 365 - hollydays;
 

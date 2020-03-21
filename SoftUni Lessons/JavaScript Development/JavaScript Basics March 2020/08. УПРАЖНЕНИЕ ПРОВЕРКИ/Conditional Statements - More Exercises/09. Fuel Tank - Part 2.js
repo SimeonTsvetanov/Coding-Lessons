@@ -1,4 +1,4 @@
-function fuelTankTwo(input) {
+function fuelTankTwo(...input) {
     let typeFuel = input.shift();
     let litersFuel = Number(input.shift());
     let clubCard = input.shift();

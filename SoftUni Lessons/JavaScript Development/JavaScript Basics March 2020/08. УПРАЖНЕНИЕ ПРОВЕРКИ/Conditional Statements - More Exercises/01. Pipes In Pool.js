@@ -1,4 +1,4 @@
-function pipesInPool(input) {
+function pipesInPool(...input) {
     let volume = Number(input.shift());
     let debitP1 = Number(input.shift());
     let debitP2 = Number(input.shift());

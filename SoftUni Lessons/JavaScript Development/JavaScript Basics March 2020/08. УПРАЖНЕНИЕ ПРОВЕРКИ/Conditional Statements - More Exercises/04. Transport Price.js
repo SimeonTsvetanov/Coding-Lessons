@@ -1,4 +1,4 @@
-function transportPrice(input) {
+function transportPrice(...input) {
     let distance = Number(input.shift());
     let period = input.shift();
 

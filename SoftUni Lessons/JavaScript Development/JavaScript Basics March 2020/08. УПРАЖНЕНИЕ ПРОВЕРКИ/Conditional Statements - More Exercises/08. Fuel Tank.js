@@ -1,4 +1,4 @@
-function fuelTank(input) {
+function fuelTank(...input) {
     let fueltype = input.shift();
     let leftFuel = Number(input.shift());
 

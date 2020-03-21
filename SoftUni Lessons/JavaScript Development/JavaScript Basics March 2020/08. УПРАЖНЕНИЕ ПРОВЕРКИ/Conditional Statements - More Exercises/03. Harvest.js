@@ -1,4 +1,4 @@
-function harvest(input) {
+function harvest(...input) {
     let sizeGargen = Number(input.shift());
     let grapesFor1sqare = Number(input.shift());
     let neededLiters = Number(input.shift());
