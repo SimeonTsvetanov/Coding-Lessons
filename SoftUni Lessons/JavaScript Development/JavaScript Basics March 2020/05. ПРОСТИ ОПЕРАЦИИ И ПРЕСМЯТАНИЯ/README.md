@@ -7,7 +7,7 @@
 <blockquote>
     <p>Don't forget to upload the correct Presentation and Problems Lab! And remove the issue</p>
     <i>
-        Video: <a href="#">Will be here</a>
+        Video: <a href="https://softuni.bg/trainings/resources/video/47693/video-14-march-2019-ivaylo-papazov-programming-basics-with-javascript-march-2020%20-%20copy/2813"> here</a>
     </i>
     <br>
     <i>
