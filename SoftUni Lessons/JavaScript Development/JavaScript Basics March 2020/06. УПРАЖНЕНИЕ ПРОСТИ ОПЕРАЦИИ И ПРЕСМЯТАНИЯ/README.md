@@ -6,7 +6,7 @@
 
 <blockquote>
     <i>
-        Video: <a href="#">Will be here</a>
+        Video: <a href="https://softuni.bg/trainings/resources/video/47709/video-15-march-2019-kiril-kirilov-programming-basics-with-javascript-march-2020%20-%20copy/2813"> here</a>
     </i>
     <br>
     <i>
