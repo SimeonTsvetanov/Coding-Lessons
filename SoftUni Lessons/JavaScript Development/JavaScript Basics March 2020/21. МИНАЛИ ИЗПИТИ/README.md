@@ -39,7 +39,7 @@
 <blockquote>
     <br>
     <i>
-        Short Link:
+        Short Link: https://bit.ly/39cxDGl
     </i>
     <br>
     <i>
