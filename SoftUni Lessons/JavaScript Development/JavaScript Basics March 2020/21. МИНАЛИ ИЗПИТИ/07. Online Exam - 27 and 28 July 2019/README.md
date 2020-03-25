@@ -33,7 +33,7 @@
 </li>
 
 <li>
-    03. Cruise Ship - 0/100
+    03. Cruise Ship - 100/100
 </li>
 
 <li>
