@@ -2,7 +2,7 @@
 
 <blockquote>
     <i>
-        Short Link: 
+        Short Link: https://bit.ly/2xjh3rk
     </i>
     <br>
     <i>
@@ -11,52 +11,52 @@
 </blockquote>
 
 <h3>Problems Progress:</h3>
-    <ul>
-        <li>
-            01. Pool Day - 100/100
-        </li>
+<ul>
+<li>
+    01. Pool Day - 100/100
+</li>
 
-        <li>
-            01. Repainting - 100/100
-        </li>
+<li>
+    01. Repainting - 100/100
+</li>
 
-        <li>
-            02. Family Trip - 100/100
-        </li>
+<li>
+    02. Family Trip - 100/100
+</li>
 
-        <li>
-            02. Shopping - 100/100
-        </li>
+<li>
+    02. Shopping - 100/100
+</li>
 
-        <li>
-            03. Coffee Machine - 100/100
-        </li>
+<li>
+    03. Coffee Machine - 100/100
+</li>
 
-        <li>
-            03. Travel Agency - 100/100
-        </li>
+<li>
+    03. Travel Agency - 100/100
+</li>
 
-        <li>
-            04. Club - 0/100
-        </li>
+<li>
+    04. Club - 0/100
+</li>
 
-        <li>
-            04. Renovation - 0/100
-        </li>
+<li>
+    04. Renovation - 0/100
+</li>
 
-        <li>
-            05. PC Game Shop - 0/100
-        </li>
+<li>
+    05. PC Game Shop - 0/100
+</li>
 
-        <li>
-            05. Football Tournament - 0/100
-        </li>
+<li>
+    05. Football Tournament - 0/100
+</li>
 
-        <li>
-            06. Name Game - 0/100
-        </li>
+<li>
+    06. Name Game - 0/100
+</li>
 
-        <li>
-            06. The Most Powerful Word - 0/100
-        </li>
-    </ul>
+<li>
+    06. The Most Powerful Word - 0/100
+</li>
+</ul>
