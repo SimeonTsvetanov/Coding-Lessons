@@ -2,7 +2,7 @@
 
 <blockquote>
     <i>
-        Short Link: 
+        Short Link: https://bit.ly/33HKC1C
     </i>
     <br>
     <i>
@@ -12,27 +12,27 @@
 
 <h3>Problems Progress:</h3>
 <ul>
-    <li>
-        01. Oscars ceremony - 100/100
-    </li>
+<li>
+    01. Oscars ceremony - 100/100
+</li>
 
-    <li>
-        02. Godzilla vs. Kong - 100/100
-    </li>
+<li>
+    02. Godzilla vs. Kong - 100/100
+</li>
 
-    <li>
-        03. Oscars week in cinema - 100/100
-    </li>
+<li>
+    03. Oscars week in cinema - 100/100
+</li>
 
-    <li>
-        04. Cinema Voucher - 0/100
-    </li>
+<li>
+    04. Cinema Voucher - 0/100
+</li>
 
-    <li>
-        05. Movie Ratings - 0/100
-    </li>
+<li>
+    05. Movie Ratings - 0/100
+</li>
 
-    <li>
-        06. Cinema Tickets - 0/100
-    </li>
+<li>
+    06. Cinema Tickets - 0/100
+</li>
 </ul>
