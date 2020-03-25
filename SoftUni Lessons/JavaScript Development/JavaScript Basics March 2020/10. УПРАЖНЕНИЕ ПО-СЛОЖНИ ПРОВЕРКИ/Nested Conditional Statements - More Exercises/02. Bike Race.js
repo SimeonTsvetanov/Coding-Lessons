@@ -1,3 +1,5 @@
+// Short link: https://bit.ly/2JhgeBP
+
 function bikeRace(input) {
     let countJuniors = Number(input.shift());
     let countSeniors = Number(input.shift());
