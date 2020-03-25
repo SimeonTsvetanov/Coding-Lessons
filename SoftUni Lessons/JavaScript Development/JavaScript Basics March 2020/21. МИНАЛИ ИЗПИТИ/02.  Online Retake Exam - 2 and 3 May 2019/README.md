@@ -2,7 +2,7 @@
 
 <blockquote>
     <i>
-        Short Link: 
+        Short Link: https://bit.ly/2Uhvoxx
     </i>
     <br>
     <i>
@@ -11,28 +11,28 @@
 </blockquote>
 
 <h3>Problems Progress:</h3>
-    <ul>
-        <li>
-            01. Food Delivery - 100/100
-        </li>
+<ul>
+<li>
+    01. Food Delivery - 100/100
+</li>
 
-        <li>
-            02. Safari - 100/100
-        </li>
+<li>
+    02. Safari - 100/100
+</li>
 
-        <li>
-            03. Mobile operator - 100/100
-        </li>
+<li>
+    03. Mobile operator - 100/100
+</li>
 
-        <li>
-            04. Tourist Shop - 0/100
-        </li>
+<li>
+    04. Tourist Shop - 0/100
+</li>
 
-        <li>
-            05. Division Without Remainder - 0/100
-        </li>
+<li>
+    05. Division Without Remainder - 0/100
+</li>
 
-        <li>
-            06. Vet Parking - 0/100
-        </li>
-    </ul>
+<li>
+    06. Vet Parking - 0/100
+</li>
+</ul>
