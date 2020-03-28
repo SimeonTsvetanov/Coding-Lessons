@@ -1,4 +1,4 @@
-function flowersShop(input) {
+function flowersShop(...input) {
     let countChrysanthemums = Number(input.shift());
     let countRoses = Number(input.shift());
     let countTulips = Number(input.shift());

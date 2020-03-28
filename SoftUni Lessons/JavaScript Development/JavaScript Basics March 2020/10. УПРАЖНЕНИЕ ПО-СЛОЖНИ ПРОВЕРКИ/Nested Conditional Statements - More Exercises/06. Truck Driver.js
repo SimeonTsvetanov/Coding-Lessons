@@ -1,4 +1,4 @@
-function truckDriver(input) {
+function truckDriver(...input) {
     let season = input.shift();  // "Spring", "Summer", "Autumn" or "Winter"
     let kilometers = Number(input.shift());
 

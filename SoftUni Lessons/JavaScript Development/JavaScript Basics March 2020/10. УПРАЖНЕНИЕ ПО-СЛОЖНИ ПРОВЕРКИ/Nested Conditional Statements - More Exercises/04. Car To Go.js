@@ -1,4 +1,4 @@
-function carToGO(input) {
+function carToGO(...input) {
     let budget = Number(input.shift());
     let season = input.shift();  // Summer or Winter
     

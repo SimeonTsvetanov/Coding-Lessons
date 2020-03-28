@@ -1,4 +1,4 @@
-function schoolCamp(input) {
+function schoolCamp(...input) {
     let season = input.shift();  // Winter, Spring or Summer
     let groupType = input.shift();  // boys, girls or mixed
     let studentsCount = Number(input.shift());

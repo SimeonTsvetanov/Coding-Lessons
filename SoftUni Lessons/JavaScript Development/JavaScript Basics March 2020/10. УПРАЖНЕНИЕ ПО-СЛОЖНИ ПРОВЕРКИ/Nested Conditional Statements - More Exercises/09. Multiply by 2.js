@@ -1,4 +1,4 @@
-function multiplyByTwo(input) {
+function multiplyByTwo(...input) {
     while(true) {
         number = Number(input.shift());
         if (number < 0) {

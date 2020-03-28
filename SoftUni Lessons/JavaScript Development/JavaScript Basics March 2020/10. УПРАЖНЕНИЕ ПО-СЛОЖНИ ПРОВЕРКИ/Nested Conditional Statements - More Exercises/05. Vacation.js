@@ -1,4 +1,4 @@
-function vacantion(input) {
+function vacantion(...input) {
     let budget = Number(input.shift());
     let season = input.shift();  // Winter or Summer
 

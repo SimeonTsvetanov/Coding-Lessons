@@ -1,4 +1,4 @@
-function matchTickets(input) {
+function matchTickets(...input) {
     let budget = Number(input.shift());
     let category = input.shift();  // "VIP": 499.99 or "Normal: 249.99"
     let countPeople = Number(input.shift());
