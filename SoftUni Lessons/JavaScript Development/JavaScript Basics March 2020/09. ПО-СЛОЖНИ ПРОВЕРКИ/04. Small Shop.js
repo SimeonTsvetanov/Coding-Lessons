@@ -1,3 +1,5 @@
+// Short (like my memmory) link : https://bit.ly/2WPwD8L
+
 function smallShop(...input) {
     let product = input.shift();
     let city = input.shift();
