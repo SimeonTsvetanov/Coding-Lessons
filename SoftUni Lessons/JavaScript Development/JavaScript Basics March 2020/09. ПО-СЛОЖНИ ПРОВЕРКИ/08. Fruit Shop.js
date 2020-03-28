@@ -1,3 +1,5 @@
+// Short link bru: https://bit.ly/3bwnN3O
+
 function fruitShop(...input) {
     let fruit = input.shift();
     let day = input.shift();
