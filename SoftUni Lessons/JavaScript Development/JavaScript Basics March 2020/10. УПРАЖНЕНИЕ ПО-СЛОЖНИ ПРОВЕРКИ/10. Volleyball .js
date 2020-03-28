@@ -1,5 +1,5 @@
 // Not included in final score
-function volleyball(input) {
+function volleyball(...input) {
     let y = input.shift();
     let p = Number(input.shift());
     let h = Number(input.shift());

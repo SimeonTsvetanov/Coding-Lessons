@@ -1,4 +1,4 @@
-function HotelRoom(input) {
+function HotelRoom(...input) {
     let month = input.shift();
     let nights = Number(input.shift());
 

@@ -1,4 +1,4 @@
-function summerOutfit(input) {
+function summerOutfit(...input) {
     let temperature = Number(input.shift());
     let period = input.shift();
 

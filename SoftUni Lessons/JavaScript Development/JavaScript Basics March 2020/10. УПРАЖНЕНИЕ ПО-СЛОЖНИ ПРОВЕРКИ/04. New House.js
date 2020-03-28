@@ -1,4 +1,4 @@
-function newHouse(input) {
+function newHouse(...input) {
     let flower = input.shift();
     let count = Number(input.shift());
     let budget = Number(input.shift());

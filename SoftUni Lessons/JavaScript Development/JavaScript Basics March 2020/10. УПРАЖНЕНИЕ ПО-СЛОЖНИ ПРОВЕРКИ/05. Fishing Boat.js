@@ -1,4 +1,4 @@
-function fishingBoat(input) {
+function fishingBoat(...input) {
     let budget = Number(input.shift());
     let season = input.shift();
     let fishermen = Number(input.shift());

@@ -1,4 +1,4 @@
-function cinema(input) {
+function cinema(...input) {
     let projectionType = input.shift();
     let rows = Number(input.shift());
     let cols = Number(input.shift());

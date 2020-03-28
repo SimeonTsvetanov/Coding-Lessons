@@ -1,4 +1,4 @@
-function journey(input) {
+function journey(...input) {
     let budget = Number(input.shift());
     let season = input.shift();
 
@@ -31,7 +31,6 @@ function journey(input) {
 
     console.log(`Somewhere in ${location}`);
     console.log(`${accommodation} - ${price.toFixed(2)}`);
-
 }
 
 journey(['50', 'summer']);  // Expected Output:

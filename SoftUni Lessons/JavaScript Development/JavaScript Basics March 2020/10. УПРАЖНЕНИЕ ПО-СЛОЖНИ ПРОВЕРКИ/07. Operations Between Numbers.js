@@ -1,4 +1,4 @@
-function OperationsBetweenNumbers(input) {
+function OperationsBetweenNumbers(...input) {
     let n1 = Number(input.shift());
     let n2 = Number(input.shift());
     let delitel = input.shift();

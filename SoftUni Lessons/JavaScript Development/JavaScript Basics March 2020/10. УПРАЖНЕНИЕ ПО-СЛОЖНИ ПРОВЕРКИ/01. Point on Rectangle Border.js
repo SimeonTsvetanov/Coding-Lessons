@@ -1,4 +1,4 @@
-function pointOnRectangleBorder(input) {
+function pointOnRectangleBorder(...input) {
     let x1 = Number(input.shift());
     let y1 = Number(input.shift());
     let x2 = Number(input.shift());
