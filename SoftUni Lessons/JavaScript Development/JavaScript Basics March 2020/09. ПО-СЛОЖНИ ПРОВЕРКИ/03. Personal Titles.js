@@ -1,4 +1,4 @@
-function personalTitles(input) {
+function personalTitles(...input) {
     let age = Number(input.shift());
     let sex = input.shift();
 

@@ -1,4 +1,4 @@
-function animalTye(input) {
+function animalTye(...input) {
     let animal = input.shift();
 
     switch(animal) {

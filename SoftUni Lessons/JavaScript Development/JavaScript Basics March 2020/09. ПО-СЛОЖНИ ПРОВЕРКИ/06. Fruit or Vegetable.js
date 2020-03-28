@@ -1,4 +1,4 @@
-function fruitOrVegetable(input) {
+function fruitOrVegetable(...input) {
     let fruits = ['banana', 'apple', 'kiwi', 'cherry', 'lemon', 'grapes'];
     let vegetables = ['tomato', 'cucumber', 'pepper', 'carrot'];
 

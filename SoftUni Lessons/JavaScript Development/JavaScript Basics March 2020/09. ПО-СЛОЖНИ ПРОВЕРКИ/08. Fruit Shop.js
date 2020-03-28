@@ -1,4 +1,4 @@
-function fruitShop(input) {
+function fruitShop(...input) {
     let fruit = input.shift();
     let day = input.shift();
     let valume = Number(input.shift());

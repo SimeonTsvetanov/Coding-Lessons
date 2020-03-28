@@ -1,4 +1,4 @@
-function tradeCommissitons(input) {
+function tradeCommissitons(...input) {
     let city = input.shift();
     let volume = Number(input.shift());
 

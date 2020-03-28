@@ -1,4 +1,4 @@
-function smallShop(input) {
+function smallShop(...input) {
     let product = input.shift();
     let city = input.shift();
     let volume = Number(input.shift());

@@ -1,6 +1,6 @@
 // Just for the sake of if I will try using two spaces for ident insted of 4;
 
-function DayOfWeek(input) {
+function DayOfWeek(...input) {
   let day = Number(input.shift());
 
   switch(day) {
