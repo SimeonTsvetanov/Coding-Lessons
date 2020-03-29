@@ -1,4 +1,5 @@
 // This is probably, most likly, for sure the ugliest TASK SoftUni has...!
+// Short link: https://bit.ly/2xAC1Cc
 
 function onTimeForTheExam(...input) {
     let hourExam = Number(input.shift());
