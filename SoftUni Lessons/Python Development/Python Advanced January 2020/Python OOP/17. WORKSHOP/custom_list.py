@@ -3,7 +3,8 @@ class CustomList:
         """It can initiate object with attribute data[list].
         If no arguments are given they are added to the data."""
         self.data = [item for item in args]
-
+    
+    # Basic Functions:
     def append(self, value):
         """ Adds a value to the end of the list. Returns the list."""
         self.data += [value]
