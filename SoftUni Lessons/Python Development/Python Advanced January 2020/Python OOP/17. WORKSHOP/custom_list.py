@@ -1,7 +1,7 @@
 class CustomList:
     def __init__(self, *args):
         """It can initiate object with attribute data[list].
-        If no arguments are given they are added to the data."""
+        If any arguments are given they are added to the data."""
         self.data = [item for item in args]
     
     # Basic Functions:
