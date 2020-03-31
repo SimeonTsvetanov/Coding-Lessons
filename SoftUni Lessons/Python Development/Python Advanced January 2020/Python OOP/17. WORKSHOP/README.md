@@ -14,5 +14,5 @@
     </p>
     <p>
         Link for video: 
-        <a href="#">Will be here</a>
+        <a href="https://softuni.bg/trainings/resources/video/48509/video-30-march-2020-ivo-kolev-python-oop-february-2020/2497"> here</a>
 </blockquote>
