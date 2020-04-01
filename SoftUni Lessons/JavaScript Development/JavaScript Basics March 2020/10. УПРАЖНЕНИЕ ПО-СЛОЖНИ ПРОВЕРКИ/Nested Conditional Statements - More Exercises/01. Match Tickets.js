@@ -1,3 +1,5 @@
+// Short link: https://bit.ly/2UXdrTO
+
 function matchTickets(...input) {
     let budget = Number(input.shift());
     let category = input.shift();  // "VIP": 499.99 or "Normal: 249.99"
