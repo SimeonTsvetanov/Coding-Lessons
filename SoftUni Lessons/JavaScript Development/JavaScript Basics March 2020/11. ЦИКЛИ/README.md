@@ -14,7 +14,7 @@
     </i>
     <br>
     <i>
-        Link Judge: <a href = "https://judge.softuni.bg/Contests/Compete/Index/2321#0"> here </a> and 
+        Links Judge: <a href = "https://judge.softuni.bg/Contests/Compete/Index/2321#0"> here </a> and 
             <a href="https://judge.softuni.bg/Contests/Compete/Index/1015#0"> here</a>
     </i>
 </blockquote>
