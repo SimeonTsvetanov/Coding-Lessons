@@ -1,4 +1,4 @@
-function sumNumbers(params) {
+function sumNumbers(...params) {
     let times = Number(params.shift());
 
     let total = 0;
@@ -10,4 +10,4 @@ function sumNumbers(params) {
     console.log(total);
 }
 
-sumNumbers([2, 10, 20]);
+sumNumbers(2, 10, 20);

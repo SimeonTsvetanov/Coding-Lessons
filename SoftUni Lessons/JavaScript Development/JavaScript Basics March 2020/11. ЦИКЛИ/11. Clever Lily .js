@@ -1,6 +1,6 @@
 // Not included in final score
 
-function cleverLily(params) {
+function cleverLily(...params) {
     let lilyAge = Number(params.shift());
     let washingMachinePrice = Number(params.shift());
     let oneToyPrice = Number(params.shift());
@@ -23,4 +23,4 @@ function cleverLily(params) {
 }
 
 
-cleverLily([10, 170.00, 6])
+cleverLily(10, 170.00, 6);

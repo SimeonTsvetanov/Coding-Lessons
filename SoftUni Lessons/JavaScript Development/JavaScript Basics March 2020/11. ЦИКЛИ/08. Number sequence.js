@@ -1,7 +1,7 @@
 // I have two versions for this solution:
 
 // Basic Version:
-function numberSequenceONE(params) {
+function numberSequenceONE(...params) {
     let times = Number(params.shift());
 
     let maxNumber = Number.MIN_SAFE_INTEGER;
@@ -25,7 +25,7 @@ function numberSequenceONE(params) {
 
 
 // Advanced Version:
-function numberSequenceTWO(params) {
+function numberSequenceTWO(...params) {
     let times = Number(params.shift());
 
     let numbers = [];
@@ -38,4 +38,4 @@ function numberSequenceTWO(params) {
     console.log(`Min number: ${Math.min.apply(null, numbers)}`);
 }
 
-numberSequenceONE([5, 10, 20, 304, 0, 50]);
+numberSequenceONE(5, 10, 20, 304, 0, 50);

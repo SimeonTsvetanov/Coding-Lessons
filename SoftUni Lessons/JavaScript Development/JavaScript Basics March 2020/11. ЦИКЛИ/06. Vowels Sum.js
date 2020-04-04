@@ -1,6 +1,6 @@
 // I have a few ways to solve this taks.
 
-function vowelsSumONE(params) {
+function vowelsSumONE(...params) {
     let word = params.shift();
 
     let points = {
@@ -19,7 +19,7 @@ function vowelsSumONE(params) {
 }
 
 // Secon option is from the presentation:
-function vowelsSumTWO(params) {
+function vowelsSumTWO(...params) {
     let word = params.shift();
 
     let total = 0
@@ -37,4 +37,4 @@ function vowelsSumTWO(params) {
     console.log(total);    
 }
 
-vowelsSumTWO(['bamboo']);
+vowelsSumTWO('bamboo');

@@ -1,4 +1,4 @@
-function leftAndRightSum(params) {
+function leftAndRightSum(...params) {
     let times = Number(params.shift());
     
     let leftSum = 0;
@@ -19,6 +19,6 @@ function leftAndRightSum(params) {
     }
 }
 
-leftAndRightSum([2, 10, 90, 60, 40]);  // Expected Output: Yes, sum = 100
-leftAndRightSum([2, 90, 9, 50, 50]);  // Expected Output: No, diff = 1
+leftAndRightSum(2, 10, 90, 60, 40);  // Expected Output: Yes, sum = 100
+leftAndRightSum(2, 90, 9, 50, 50);  // Expected Output: No, diff = 1
 

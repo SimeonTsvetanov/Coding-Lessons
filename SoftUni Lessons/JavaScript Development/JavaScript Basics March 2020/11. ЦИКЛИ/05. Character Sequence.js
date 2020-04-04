@@ -1,6 +1,6 @@
 // I have added two different methods for solving this task.
 
-function characterSquenceONE(params) {
+function characterSquenceONE(...params) {
     word = params.shift();
     for (let letter of word) {
         console.log(letter);
@@ -16,4 +16,4 @@ function characterSquenceTWO(params) {
 }
 
 
-characterSquenceTWO(['Softuni']);
+characterSquenceTWO('Softuni');

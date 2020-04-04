@@ -1,6 +1,6 @@
 //  Very UGLY task. It smells like sh**.
 
-function evenPowersOfTwo(params) {
+function evenPowersOfTwo(...params) {
     let n = Number(params.shift());
     let num = 1;
     for (let i = 0; i <= n; i += 2) {
@@ -9,4 +9,4 @@ function evenPowersOfTwo(params) {
     }
 }
 
-evenPowersOfTwo([1])
+evenPowersOfTwo(1)

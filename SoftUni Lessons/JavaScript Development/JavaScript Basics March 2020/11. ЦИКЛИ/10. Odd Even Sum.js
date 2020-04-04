@@ -1,4 +1,4 @@
-function oddEvenSum(params) {
+function oddEvenSum(...params) {
     let times = Number(params.shift());
 
     let evenSum = 0;
@@ -13,4 +13,4 @@ function oddEvenSum(params) {
     else {console.log(`No\nDiff = ${Math.abs(evenSum - oddSum)}`);}
 }
 
-oddEvenSum([4, 10, 50, 60, 20]);
+oddEvenSum(4, 10, 50, 60, 20);

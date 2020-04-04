@@ -1,4 +1,4 @@
-function nToOne(number) {
+function nToOne(...number) {
     number = number.shift()
     for (number; number >= 1; number--) {
         console.log(number);
