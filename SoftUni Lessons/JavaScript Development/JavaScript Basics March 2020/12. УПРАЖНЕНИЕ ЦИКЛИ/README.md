@@ -15,5 +15,6 @@
     <br>
     <i>
         Link Judge: <a href="https://judge.softuni.bg/Contests/Compete/Index/1164#0">here</a>
+        and <a href="https://judge.softuni.bg/Contests/Compete/Index/2322#3"> here</a>
     </i>
 </blockquote>
