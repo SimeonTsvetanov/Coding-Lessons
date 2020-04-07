@@ -6,7 +6,7 @@
 
 <blockquote>
     <i>
-        Short Link:
+        Short Link: https://bit.ly/34kXZ8q
     </i>
     <br>
     <i>
