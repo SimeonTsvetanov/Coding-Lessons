@@ -6,7 +6,7 @@
 <blockquote>
     <p>
         Link for Judge: 
-        <a href="#">NA IT WILL BE UPDATED IN THE FUTURE</a>
+        <a href="https://judge.softuni.bg/Contests/Practice/Index/2301#0"> here</a>
     </p>
 <p>
         <i>
