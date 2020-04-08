@@ -37,19 +37,19 @@
 </li>
 
 <li>
-    04. Game Number Wars - 0/100
+    04. Game Number Wars - 100/100
 </li>
 
 <li>
-    04. Darts - 0/100
+    04. Darts - 100/100
 </li>
 
 <li>
-    05. Tennis Ranklist - 0/100
+    05. Tennis Ranklist - 100/100
 </li>
 
 <li>
-    05. Fitness Center - 0/100
+    05. Fitness Center - 100/100
 </li>
 
 <li>
