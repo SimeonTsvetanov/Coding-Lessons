@@ -37,19 +37,19 @@
 </li>
 
 <li>
-    04. Easter Eggs Battle - 0/100
+    04. Easter Eggs Battle - 100/100
 </li>
 
 <li>
-    04. Easter Shop - 0/100
+    04. Easter Shop - 100/100
 </li>
 
 <li>
-    05. Easter Eggs - 0/100
+    05. Easter Eggs - 100/100
 </li>
 
 <li>
-    05. Easter Bake - 0/100
+    05. Easter Bake - 100/100
 </li>
 
 <li>
