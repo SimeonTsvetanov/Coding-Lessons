@@ -1,3 +1,5 @@
+// Short link: https://git.io/Jvxr4
+
 function diamond(input) {
     // Mask
     let n = Number(input.shift());
