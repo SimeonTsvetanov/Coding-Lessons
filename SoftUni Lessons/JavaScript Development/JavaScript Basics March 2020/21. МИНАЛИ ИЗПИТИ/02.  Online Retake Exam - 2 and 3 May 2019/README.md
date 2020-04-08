@@ -25,11 +25,11 @@
 </li>
 
 <li>
-    04. Tourist Shop - 0/100
+    04. Tourist Shop - 100/100
 </li>
 
 <li>
-    05. Division Without Remainder - 0/100
+    05. Division Without Remainder - 100/100
 </li>
 
 <li>
