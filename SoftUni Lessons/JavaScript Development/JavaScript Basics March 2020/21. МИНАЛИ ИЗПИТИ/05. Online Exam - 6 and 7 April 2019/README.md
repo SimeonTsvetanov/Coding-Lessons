@@ -25,11 +25,11 @@
 </li>
 
 <li>
-    04. Cinema Voucher - 0/100
+    04. Cinema Voucher - 100/100
 </li>
 
 <li>
-    05. Movie Ratings - 0/100
+    05. Movie Ratings - 100/100
 </li>
 
 <li>
