@@ -2,7 +2,7 @@
 
 <blockquote>
     <i>
-        Short Link: 
+        Short Link: https://bit.ly/3e8uT0F
     </i>
     <br>
     <i>
