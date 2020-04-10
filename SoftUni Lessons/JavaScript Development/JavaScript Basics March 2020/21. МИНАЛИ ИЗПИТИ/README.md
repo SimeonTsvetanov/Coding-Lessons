@@ -32,8 +32,13 @@
 </li>
 
 <li>
-    Programming Basics Online Exam - 27 and 28 July 2019
+    Programming Basics Online Exam - 27 and 28 July 2019 (unfortunate)
 </li>
+
+<li>
+    Programming Basics Online Exam - 28 and 29 March 2020
+</li>
+
 </ol>
 
 <blockquote>
