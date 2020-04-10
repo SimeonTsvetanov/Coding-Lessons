@@ -1,4 +1,13 @@
 <h1 align="center">Programming Basics Online Exam - 27 and 28 July 2019</h1>
+<hr>
+<h3>
+    FYI: 
+    <br>
+    Due to unknown reasons SOftuni has deleted this Judge section. So now I can't find the tasks :(
+    <br>
+    I'll still keep whatever I have solved here. So pls. enjoy
+</h3>
+<hr>
 
 <blockquote>
     <i>
@@ -35,28 +44,3 @@
 <li>
     03. Cruise Ship - 100/100
 </li>
-
-<li>
-    04. Best Plane Tickets - 0/100
-</li>
-
-<li>
-    04. Darts Tournament - 0/100
-</li>
-
-<li>
-    05. Seats - 0/100
-</li>
-
-<li>
-    05. Cruise Games - 0/100
-</li>
-
-<li>
-    06. Trip Expenses - 0/100
-</li>
-
-<li>
-    06. Baking Competition - 0/100
-</li>
-</ul>
