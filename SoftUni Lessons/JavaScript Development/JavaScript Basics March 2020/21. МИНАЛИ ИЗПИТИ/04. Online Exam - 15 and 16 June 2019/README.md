@@ -37,19 +37,19 @@
 </li>
 
 <li>
-    04. Cinema - 0/100
+    04. Cinema - 100/100
 </li>
 
 <li>
-    04. Movie Stars - 0/100
+    04. Movie Stars - 100/100
 </li>
 
 <li>
-    05. Series - 0/100
+    05. Series - 100/100
 </li>
 
 <li>
-    05. Oscars - 0/100
+    05. Oscars - 100/100
 </li>
 
 <li>
