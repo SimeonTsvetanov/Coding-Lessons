@@ -11,49 +11,49 @@
 </blockquote>
 
 <h3>Problems Progress:</h3>
-    <ul>
-        <li>
-            01. Change Bureau - 0/100
-        </li>
+<ul>
+<li>
+    01. Change Bureau - 100/100
+</li>
 
-        <li>
-            01. Supplies for School - 0/100
-        </li>
+<li>
+    01. Supplies for School - 100/100
+</li>
 
-        <li>
-            02. Cat Walking - 0/100
-        </li>
+<li>
+    02. Cat Walking - 100/100
+</li>
 
-        <li>
-            02. Mountain Run - 0/100
-        </li>
+<li>
+    02. Mountain Run - 100/100
+</li>
 
-        <li>
-            03. Energy Booster - 0/100
-        </li>
+<li>
+    03. Energy Booster - 100/100
+</li>
 
-        <li>
-            03. Fitness Card - 0/100
-        </li>
+<li>
+    03. Fitness Card - 100/100
+</li>
 
-        <li>
-            04. Food for Pets - 0/100
-        </li>
+<li>
+    04. Food for Pets - 100/100
+</li>
 
-        <li>
-            04. Trekking Mania - 0/100
-        </li>
+<li>
+    04. Trekking Mania - 100/100
+</li>
 
-        <li>
-            05. Care of Puppy - 0/100
-        </li>
+<li>
+    05. Care of Puppy - 100/100
+</li>
 
-        <li>
-            05. Suitcases Load - 0/100
-        </li>
+<li>
+    05. Suitcases Load - 100/100
+</li>
 
-        <li>
-            06. Tournament of Christmas - 0/100
-        </li>
+<li>
+    06. Tournament of Christmas - 0/100
+</li>
 
-    </ul>
+</ul>
