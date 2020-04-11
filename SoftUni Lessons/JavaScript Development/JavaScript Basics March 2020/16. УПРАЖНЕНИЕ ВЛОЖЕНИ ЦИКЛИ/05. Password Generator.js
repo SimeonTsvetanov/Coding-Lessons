@@ -1,3 +1,5 @@
+// shorty: https://git.io/Jvhwu
+
 function passwordGenerator(input) {
     // Mask
     // You will suffer from brain crys with this task:
