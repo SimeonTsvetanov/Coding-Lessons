@@ -1,5 +1,6 @@
 // Just remember, this task has taken 1.5 bloody hours of my life.
 // So be caferfull with it :D
+// късо линкче : https://git.io/JvhVA
 
 function streamOfLetters(params) {
     let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
