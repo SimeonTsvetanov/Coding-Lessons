@@ -1,3 +1,5 @@
+// Къс линк: https://git.io/JvjRq
+
 function dishwasher(params) {
     let detergent = 750 * Number(params.shift());
     let dishes = 0;
