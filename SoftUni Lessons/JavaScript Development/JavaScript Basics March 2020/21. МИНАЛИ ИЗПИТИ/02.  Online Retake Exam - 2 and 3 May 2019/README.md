@@ -33,6 +33,6 @@
 </li>
 
 <li>
-    06. Vet Parking - 0/100
+    06. Vet Parking - 100/100
 </li>
 </ul>
