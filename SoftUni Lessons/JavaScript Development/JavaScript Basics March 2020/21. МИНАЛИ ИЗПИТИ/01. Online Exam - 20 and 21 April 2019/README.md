@@ -53,10 +53,10 @@
 </li>
 
 <li>
-    06. Easter Competition - 0/100
+    06. Easter Competition - 100/100
 </li>
 
 <li>
-    06. Easter Decoration - 0/100
+    06. Easter Decoration - 100/100
 </li>
 </ul>
