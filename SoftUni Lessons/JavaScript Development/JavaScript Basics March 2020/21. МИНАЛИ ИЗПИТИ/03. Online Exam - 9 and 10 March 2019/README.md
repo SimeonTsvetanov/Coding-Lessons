@@ -53,10 +53,10 @@
 </li>
 
 <li>
-    06. High Jump - 0/100
+    06. High Jump - 100/100
 </li>
 
 <li>
-    06. Basketball Tournament - 0/100
+    06. Basketball Tournament - 100/100
 </li>
 </ul>
