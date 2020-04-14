@@ -1,3 +1,8 @@
+<hr>
+<h2>
+Certificate of Completion: <a href="https://softuni.bg/certificates/details/79543/77c4df0a"> here</a>
+</h2>
+<hr>
 <h1 align="center">Python OOP - февруари 2020</h1>
     <br>
 <blockquote>
