@@ -10,7 +10,7 @@
     </i>
     <br>
     <i>
-    Youtube Playlist: <a href="#"> here</a>
+    Youtube Playlist: <a href="https://www.youtube.com/playlist?list=PLdu5EMqCM5n93getutvTEJJMAgIZvY8Em"> here</a>
     </i>
 </blockquote>
 </hr>
