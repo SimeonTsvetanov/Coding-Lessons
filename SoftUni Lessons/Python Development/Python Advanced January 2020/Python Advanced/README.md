@@ -1,10 +1,8 @@
 <h1 align="center">Python Advanced - януари 2020</h1>
     <br>
-
-<p>I did finish this course with 300/300 points on the exam.</p>
 <p>
     Certificate:
-    <a href="#">Will be here (as soon it comes out)</a>
+    <a href="https://softuni.bg/certificates/details/76484/88f11048"> here</a>
 </p>
 
 <hr>
