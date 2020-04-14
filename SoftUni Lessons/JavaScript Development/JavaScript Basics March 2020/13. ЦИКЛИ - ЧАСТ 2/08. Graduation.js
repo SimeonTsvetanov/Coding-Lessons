@@ -1,3 +1,5 @@
+// short link: https://git.io/Jfeal
+
 function graduation(params) {
     let name = params.shift();
     
