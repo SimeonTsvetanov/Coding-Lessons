@@ -1,3 +1,5 @@
+// Късо линкче: https://git.io/JfvMz
+
 function touristShop(input) {
     // Mask
     let budget = Number(input.shift());
