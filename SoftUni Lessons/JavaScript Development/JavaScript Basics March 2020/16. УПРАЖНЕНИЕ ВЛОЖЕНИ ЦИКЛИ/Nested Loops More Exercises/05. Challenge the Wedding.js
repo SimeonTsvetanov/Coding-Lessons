@@ -1,3 +1,5 @@
+// shorty: https://git.io/JfJ9l
+
 function challengeTheWedding(input) {
     // Mask
     let men = Number(input.shift());
