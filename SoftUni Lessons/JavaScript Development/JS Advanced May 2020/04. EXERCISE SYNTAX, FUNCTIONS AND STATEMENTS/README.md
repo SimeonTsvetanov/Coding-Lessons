@@ -3,7 +3,7 @@
 
 <blockquote>
     <p>
-        Short Link: 
+        Short Link: https://git.io/JfEGe
     </p>
     <p>
         Link for video:
