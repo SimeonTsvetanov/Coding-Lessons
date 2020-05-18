@@ -3,14 +3,10 @@
 
 <hr>
 <blockquote>
-    <i> Short link: UNDER CONSTRUCTION </i>
+    <i> Short link: https://git.io/JfEsd</i>
     <br>
     <i>
     Link for Judge: <a href="https://judge.softuni.bg/Contests/#!/List/ByCategory/168/JS-Advanced-3-0-Exercises"> here</a>
-    </i>
-    <br>
-    <i>
-    Youtube Playlist: <a href="#"> Under Construction</a>
     </i>
 </blockquote>
 </hr>
