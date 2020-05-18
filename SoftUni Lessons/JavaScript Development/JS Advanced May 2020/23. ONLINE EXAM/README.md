@@ -5,6 +5,6 @@
 
 <blockquote>
     <p>
-        Short Link: 
+        Short Link: https://git.io/JfEG2
     </p>
 </blockquote>
