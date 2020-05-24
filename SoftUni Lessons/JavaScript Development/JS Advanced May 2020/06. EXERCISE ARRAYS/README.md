@@ -7,7 +7,7 @@
     </p>
     <p>
         Link for video:
-        <a href="#">will be here</a>
+        <a href="https://softuni.bg/trainings/resources/video/49933/video-22-may-2020-denitsa-marinova-js-advanced-may-2020/2838"> here</a>
     </p>
     <p>
         Link for Judge: 
