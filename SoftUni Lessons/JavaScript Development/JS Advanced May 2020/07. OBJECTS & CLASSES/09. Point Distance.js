@@ -9,7 +9,7 @@ class Point {
         let b = p1.y - p2.y;
 
         let c = Math.sqrt( a*a + b*b );
-        return c
+        return c;
     }
 }
 
