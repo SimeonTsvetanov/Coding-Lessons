@@ -1,5 +1,5 @@
 function sortArray(array) {
-    // Mask
+    // Mask - https://git.io/JfwFw
     array.sort(function (a, b) {
         return a.length - b.length || a.localeCompare(b);
     });
