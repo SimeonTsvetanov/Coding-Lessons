@@ -1,5 +1,5 @@
 function magicMatrices(matrix) {
-    // Mask
+    // Mask Short Link - https://git.io/Jfw9o
     let result = [];
     for (let row = 0; row < matrix.length; row++) {
         result.push(matrix[row].map(Number).reduce((a, b) => a + b, 0));
