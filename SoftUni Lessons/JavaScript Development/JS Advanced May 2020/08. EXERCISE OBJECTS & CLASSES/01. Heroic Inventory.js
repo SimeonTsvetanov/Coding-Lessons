@@ -1,5 +1,5 @@
 function heroicInventory(input) {
-    // Mask
+    // Mask - https://git.io/Jfre1
     let heroes = [];  // for safe keep :D
 
     class Hero {
