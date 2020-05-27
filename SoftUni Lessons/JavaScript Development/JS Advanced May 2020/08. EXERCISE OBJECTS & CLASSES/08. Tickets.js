@@ -1,5 +1,5 @@
 function tickets(input, criteria) {
-    // Mask
+    // Mask - https://git.io/Jfred
     let tickets = [];
 
     class Ticket {
