@@ -1,5 +1,5 @@
 function jsonsTable(input) {
-    // Mask
+    // Mask - https://git.io/JfreM
     let employees = [];
     input.map(data => employees.push(JSON.parse(data)));
     let result = '<table>\n';
