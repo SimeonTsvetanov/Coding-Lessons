@@ -1,4 +1,4 @@
-// Mask
+// Mask - https://git.io/Jfre7
 
 class Request {
     constructor(method = '', uri = '', version = '', message = '') {
