@@ -1,5 +1,5 @@
 function cappyJuice(input) {
-    // Mask
+    // Mask - https://git.io/JfreD
     let juice = {};
     let bottles = {};
     input.map(data => {
