@@ -1,3 +1,5 @@
+// Mask - https://git.io/JfreF
+
 class SortedList {
     constructor(list = []) {
         this.list = [];
