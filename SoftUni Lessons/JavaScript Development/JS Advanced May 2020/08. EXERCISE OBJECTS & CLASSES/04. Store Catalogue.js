@@ -1,5 +1,5 @@
 function storeCatalogue(input) {
-    // Mask
+    // Mask - https://git.io/JfreS
     catalogue = {};
     input.map(data => { catalogue[data.split(' : ')[0]] = Number(data.split(' : ')[1]); });
 
