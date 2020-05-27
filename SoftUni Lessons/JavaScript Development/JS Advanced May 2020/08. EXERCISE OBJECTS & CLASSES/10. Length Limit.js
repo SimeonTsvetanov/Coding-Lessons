@@ -1,3 +1,5 @@
+// Mask - https://git.io/JfreA
+
 class Stringer{
     constructor(string, length){
         this.innerString = string;
