@@ -1,5 +1,5 @@
 function systemComponents(input) {
-    // Mask
+    // Mask - https://git.io/JfreH
     let systems = {};
 
     input.map(data => {
