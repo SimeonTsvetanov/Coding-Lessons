@@ -1,3 +1,5 @@
+// Mask - https://git.io/Jfo4k
+
 class Point {
     constructor(x, y) {
         this.x = x;
