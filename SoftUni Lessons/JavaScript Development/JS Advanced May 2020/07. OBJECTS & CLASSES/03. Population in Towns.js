@@ -1,5 +1,5 @@
 function populationInTowns(input) {
-    // Mask
+    // Mask - https://git.io/Jfo89
     let towns = {};
     for (let data of input) {
         let [town, population] = data.split(' <-> ');
