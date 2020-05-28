@@ -1,5 +1,5 @@
 function getPersons() {
-    // Mask
+    // Mask - https://git.io/Jfo4e
     class Person {
         constructor(firstName, lastName, age, email) {
             this.firstName = firstName;
