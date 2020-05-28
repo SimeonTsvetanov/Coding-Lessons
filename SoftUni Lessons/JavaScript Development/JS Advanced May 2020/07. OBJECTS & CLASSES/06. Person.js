@@ -1,4 +1,5 @@
 class Person {
+    // Mask - https://git.io/Jfo8b
     constructor(firstName, lastName, age, email) {
         this.firstName = firstName;
         this.lastName = lastName;
