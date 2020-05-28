@@ -1,5 +1,5 @@
 function sumByTowns(input) {
-    // Mask
+    // Mask - https://git.io/Jfo8S
     let towns = {};
 
     while (input.length > 0) {
