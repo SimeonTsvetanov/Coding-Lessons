@@ -1,5 +1,5 @@
 function townsToJson(input) {
-    // Mask
+    // Mask - https://git.io/Jfo8y
     let [town, latitude, longitude]= input[0].split(' ').join('').split('|').filter(Boolean);
 
     let towns = [];
