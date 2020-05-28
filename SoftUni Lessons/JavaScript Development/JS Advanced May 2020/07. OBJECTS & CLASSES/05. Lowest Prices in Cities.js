@@ -1,4 +1,5 @@
 function solve(array) {
+    // Mask - https://git.io/Jfo87
     let products = new Map();
     for (let line of array) {
         let [town, product, price] = line.split(" | ");
