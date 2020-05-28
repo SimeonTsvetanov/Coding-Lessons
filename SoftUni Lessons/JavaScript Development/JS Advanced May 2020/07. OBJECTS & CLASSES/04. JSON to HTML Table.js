@@ -1,5 +1,5 @@
 function solve(data) {
-    // Not mine solution... But this task is Stupid...
+    // Not mine solution... But this task is Stupid... - https://git.io/Jfo8Q
     function escapeHtml(unsafe) {
         return unsafe.toString()
             .replace(/&/g, "&amp;")
