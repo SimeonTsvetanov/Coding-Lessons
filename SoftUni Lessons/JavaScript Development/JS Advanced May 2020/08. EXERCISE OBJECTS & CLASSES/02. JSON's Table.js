@@ -1,20 +1,23 @@
-function jsonsTable(input) {
+function jsonsTable(inputData) {
     // Mask - https://git.io/JfreM
-    let employees = [];
-    input.map(data => employees.push(JSON.parse(data)));
-    let result = '<table>\n';
-    employees.forEach(employee => {
-        result += `\t<tr>\n` + Object.values(employee).map(value => result += `\t\t<td>${value}</td>\n`) + `\t</tr>\n`;
-    })
-    result += '</table>';
-    console.log(result);
+    let html = '<table>\n'
+    for(let row of inputData){
+        let parsed = JSON.parse(row)
+        html += '\t<tr>\n'
+        html += '\t\t<td>' + parsed.name + '</td>\n'
+        html += '\t\t<td>' + parsed.position + '</td>\n'
+        html += '\t\t<td>' + parsed.salary + '</td>\n'
+        html += '\t</tr>\n'
+    }
+    html += '</table>'
+    return html
 }
 
-jsonsTable([
+console.log(jsonsTable([
     '{"name":"Pesho","position":"Promenliva","salary":100000}',
     '{"name":"Teo","position":"Lecturer","salary":1000}',
     '{"name":"Georgi","position":"Lecturer","salary":1000}']
-);
+));
 // Should return:
 // <table>
 //  <tr>
