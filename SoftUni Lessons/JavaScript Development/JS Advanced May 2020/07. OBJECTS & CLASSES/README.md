@@ -7,7 +7,7 @@
     </p>
     <p>
         Link for video:
-        <a href="#">will be here</a>
+        <a href="https://www.youtube.com/watch?v=l_8bx64s9zU&feature=emb_title"> here</a>
     </p>
     <p>
         Link for Judge: 
