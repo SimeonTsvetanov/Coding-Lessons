@@ -4,6 +4,7 @@ function storeCatalogue(input) {
     input.map(data => { catalogue[data.split(' : ')[0]] = Number(data.split(' : ')[1]); });
 
     let letter = ''
+    // The sort method doesn't require a second argument for sort by value BUT it it's for testing :).
     Array.from(Object.keys(catalogue)).sort((a, b) => { return a.localeCompare(b) || catalogue[a] - catalogue[b] }).map(product => {
         if (product[0] !== letter) {
             letter = product[0];
