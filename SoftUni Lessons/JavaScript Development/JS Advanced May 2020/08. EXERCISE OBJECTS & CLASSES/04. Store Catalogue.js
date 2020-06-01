@@ -1,6 +1,6 @@
 function storeCatalogue(input) {
     // Mask - https://git.io/JfreS
-    catalogue = {};
+    let catalogue = {};
     input.map(data => { catalogue[data.split(' : ')[0]] = Number(data.split(' : ')[1]); });
 
     let letter = ''
