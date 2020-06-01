@@ -4,7 +4,7 @@ function storeCatalogue(input) {
     input.map(data => { catalogue[data.split(' : ')[0]] = Number(data.split(' : ')[1]); });
 
     let letter = ''
-    Array.from(Object.keys(catalogue)).sort((a, b) => a.localeCompare(b)).map(product => {
+    Array.from(Object.keys(catalogue)).sort((a, b) => { a.localeCompare(b) || catalogue[a] - catalogue[b] }).map(product => {
         if (product[0] !== letter) {
             letter = product[0];
             console.log(product[0]);
