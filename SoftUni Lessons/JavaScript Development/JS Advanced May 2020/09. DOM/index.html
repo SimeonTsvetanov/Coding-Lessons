@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mask</title>
+    <!-- <script src="00. Testing.js"></script> -->
+</head>
+<body>
+    <div>
+        <p>This is a paragraph</p>
+        <p>This is another paragraph</p>
+    </div>
+
+    <ul id="myList">
+        <li>JS RLZ!</li>
+        <li>C#</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+
+    <script>
+        function workWithLists() {
+            // let pElements = document.getElementsByTagName('div')[0].children;
+            // console.log(pElements);
+            let list = document.getElementById('myList');
+            let firstChild = list.firstElementChild;
+            let lastChild = list.lastElementChild;
+
+            let nextToFirstChild = firstChild.nextElementSibling;
+            let previousToLastChild = lastChild.previousElementSibling;
+
+            // Add new child to the END:
+            let newLastChild = document.createElement('li')
+            newLastChild.innerText = 'The new last Child';
+            list.appendChild(newLastChild);
+
+            // Add new child at the beginning:
+            let newFirstChild = document.createElement('li');
+            newFirstChild.innerText = 'The new First Child';
+            list.prepend(newFirstChild);
+            console.log(firstChild, nextToFirstChild, previousToLastChild, lastChild);
+        }
+
+
+        function bom() {
+            // console.dir(window);
+            // console.dir(navigator);
+            // console.dir(screen);
+            // console.dir(location);
+            // console.log(history);
+            // console.log(document);
+
+            // console.log(navigator.language)
+            // history.back();
+        }
+
+        bom();
+    </script>
+</body>
+</html>
