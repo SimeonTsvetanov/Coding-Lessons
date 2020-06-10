@@ -7,7 +7,7 @@
     </p>
     <p>
         Link for video:
-        <a href="#">will be here</a>
+        <a href="https://www.brannik.bg/takticheska-chanta-za-krasta-nerka-possum/"> here</a>
     </p>
     <p>
         Link for Judge: 
