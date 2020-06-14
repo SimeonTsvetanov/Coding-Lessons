@@ -1,3 +1,5 @@
+// Short link: https://git.io/JfQ1b
+
 class Company {
     constructor () {
         this.departments = [];
