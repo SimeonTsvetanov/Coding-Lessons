@@ -8,6 +8,8 @@
     <p>
         Link for video:
         <a href="https://www.youtube.com/watch?v=ZGZXwCVJfrw&feature=emb_title"> here</a>
+        and from the previous lector:
+        <a href="https://www.youtube.com/watch?v=0Kmlt3RcOIE&feature=emb_title"> here</a>
     </p>
     <p>
         Link for Judge: 
