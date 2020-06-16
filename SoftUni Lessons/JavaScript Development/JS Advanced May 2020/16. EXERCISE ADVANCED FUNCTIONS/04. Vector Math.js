@@ -8,3 +8,4 @@
     }
 })();
 
+// Shortlink: https://git.io/Jf5Dv
