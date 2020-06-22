@@ -1,4 +1,4 @@
-
+// Shortlink: https://git.io/JfAbO
 (function stringExtension() {
     String.prototype.ensureStart = function (str) {
         if(! this.toString().startsWith(str)){
