@@ -1,3 +1,5 @@
+// Shortlink here: https://git.io/JfAoq
+
 function pressHouse() {
     class Article {
         constructor(title, content) {
