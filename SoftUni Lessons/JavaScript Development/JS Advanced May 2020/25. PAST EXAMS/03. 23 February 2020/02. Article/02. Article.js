@@ -1,3 +1,5 @@
+// Shortlink here: https://git.io/JfAPf
+
 class Article {
     constructor(title, creator) {
         this.title = title;        // string
