@@ -1,3 +1,5 @@
+// Shortlink here: https://git.io/JfA5G
+
 class Bank {
     constructor(bankName) {
         this._bankName = bankName;
