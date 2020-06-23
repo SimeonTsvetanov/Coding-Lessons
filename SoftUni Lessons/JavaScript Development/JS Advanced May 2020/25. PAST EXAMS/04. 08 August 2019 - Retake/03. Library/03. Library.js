@@ -1,3 +1,5 @@
+// Short link: https://git.io/JfpIp
+
 class Library {
     constructor(libraryName) {
         this.libraryName = libraryName;       // should be the same as the received libraryName
