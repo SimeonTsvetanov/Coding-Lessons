@@ -1,3 +1,6 @@
+// shortlink: https://git.io/JfhLj
+
+
 class ChristmasDinner {
     constructor(budget) {
         this.budget = budget;
