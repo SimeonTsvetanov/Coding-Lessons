@@ -1,4 +1,5 @@
-// First is the short version and second is the same task but easy on the eyes:
+// First is the short version and second is the same task but easier on the eyes:
+// Short link: https://git.io/Jfjje
 function solve() {
     let openMenu = document.querySelectorAll('section').item(1).lastElementChild;
     let inProgressMenu = document.querySelectorAll('section').item(2).lastElementChild;
