@@ -1,4 +1,40 @@
+// First is the short version and second is the same task but easy on the eyes:
 function solve() {
+    let openMenu = document.querySelectorAll('section').item(1).lastElementChild;
+    let inProgressMenu = document.querySelectorAll('section').item(2).lastElementChild;
+    let completeMenu = document.querySelectorAll('section').item(3).lastElementChild;
+    document.querySelector('#add').addEventListener('click', mask);
+    function mask(e) {
+        e.preventDefault();
+        let titleField = document.querySelector("#task");
+        let descField = document.querySelector('#description');
+        let dateField = document.querySelector('#date');
+        let title = titleField.value; let desc = descField.value; let date = dateField.value;
+        if (!(title && desc && date)) { return; }
+        let task = document.createElement('article');
+        task.innerHTML = `<h3>${title}</h3><p>Description: ${desc}</p><p>Due Date: ${date}</p><div class="flex"><button class="green">Start</button><button class="red">Delete</button></div>`;
+        task.addEventListener('click', (e) => {
+            if (e.target.textContent === 'Start') {
+                task.querySelector('.flex').removeChild(task.querySelector('.green'));
+                let finishBtn = document.createElement('button');
+                finishBtn.classList.add('orange');
+                finishBtn.textContent = 'Finish';
+                task.querySelector('.flex').appendChild(finishBtn);
+                inProgressMenu.appendChild(task);
+            } else if (e.target.textContent === 'Delete') {
+                task.parentElement.removeChild(task);
+            } else if (e.target.textContent === 'Finish') {
+                task.removeChild(task.lastElementChild);
+                completeMenu.appendChild(task);
+            }
+        });
+        openMenu.appendChild(task);
+        titleField.value = ''; descField.value = ''; dateField.value = '';
+    }
+}
+
+
+function solveLongerButBetterVersion() {
     // Get the Add button;
     let addButton = document.getElementById('add');
 
