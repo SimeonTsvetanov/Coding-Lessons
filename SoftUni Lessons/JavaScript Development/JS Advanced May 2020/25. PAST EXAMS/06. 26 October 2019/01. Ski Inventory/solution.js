@@ -1,3 +1,5 @@
+// Short link: https://git.io/JfjFL
+
 function solve() {
     // Available Products:
     let availableProductS = document.querySelector('#products');
