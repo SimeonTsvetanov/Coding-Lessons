@@ -1,75 +1,87 @@
 function solve() {
-    //Todo... Not mine solution I'll make one later...
-    function makeEl(type, text) {
-        let el = document.createElement(type);
-        el.textContent = text;
-        return el;
+    // Available Products:
+    let availableProductS = document.querySelector('#products');
+    let availableProductSUL = document.querySelector('#products > ul');
+    let availableProductSFilterInputField = document.querySelector('#filter');
+    let availableProductFilterBtn = document.querySelector('.filter > button');
+    availableProductFilterBtn.addEventListener('click', filterUL);
+
+    // Add Products:
+    let addProductS = document.querySelector('#add-new');
+    let addNameField = addProductS.querySelectorAll('input').item(0);
+    let addQuantityField = addProductS.querySelectorAll('input').item(1);
+    let addPriceField = addProductS.querySelectorAll('input').item(2);
+    let addButton = addProductS.querySelector('button');
+    addButton.addEventListener('click', addItem);
+
+    // Total Price:
+    let totalPriceH1 = document.querySelectorAll('h1').item(1);
+
+    // My Products:
+    let myProductsS = document.querySelector('#myProducts');
+    let myProductsSUL = document.querySelector('#myProducts > ul');
+    let myProductsSBtn = document.querySelector('#myProducts > button');
+    myProductsSBtn.addEventListener('click', buyAll);
+
+    function addItem(e) {
+        e.preventDefault();
+        let name = addNameField.value; let quantity = addQuantityField.value; let price = Number(addPriceField.value);
+        if (!(name && quantity && price)) { return; }
+
+        // Create the product
+        let product = document.createElement('li');
+        product.innerHTML = `<span>${name}</span><strong>Available: ${quantity}</strong><div><strong>${price.toFixed(2)}</strong><button>Add to Client's List</button></div>`
+        // Set the Event Listener:
+        product.addEventListener('click', clickedOnProduct);
+
+        // Append the product
+        availableProductSUL.appendChild(product);
+
+        // Clean the form
+        addNameField.value = ''; addQuantityField.value = ''; addPriceField.value = '';
     }
 
-    const addBtn = document.querySelector('#add-new > button');
-    let avlProd = document.getElementById('products').children[1].children;
-    const products = document.getElementById('products').children[1];
-    const myProducts = document.getElementById('myProducts').children[1];
-    let totalPriceHTML = document.getElementsByTagName('h1')[1];
-    let totalPrice = 0;
+    function clickedOnProduct(e) {
+        if (!(e.target.textContent === `Add to Client's List`)) { return; }
+        let product = e.target.parentElement.parentElement;
+        let name = product.firstElementChild.textContent;
 
-    addBtn.addEventListener('click', function () {
-        function priceSec() {
-            let div = document.createElement('div');
-            div.appendChild(makeEl('strong', Number(price).toFixed(2)));
-            div.appendChild(makeEl('button', `Add to Client's List`));
-            return div;
+        let availableField = product.querySelectorAll('strong').item(0);
+        let available = Number(availableField.textContent.split(' ')[1]);
+
+        let price =  Number(product.querySelectorAll('strong').item(1).textContent);
+        let current = Number(totalPriceH1.textContent.split(' ')[2]);
+        let total = price + current;
+        totalPriceH1.textContent = `Total Price: ${total.toFixed(2)}`;
+
+        let boughtProduct = document.createElement('li');
+        boughtProduct.innerHTML = `${name}<strong>${price.toFixed(2)}</strong>`;
+        myProductsSUL.appendChild(boughtProduct);
+
+        available -= 1;
+        if (available === 0) {
+            product.parentElement.removeChild(product);
+        } else {
+            availableField.textContent = `Available: ${available}`;
         }
-        function makeProduct() {
-            let li = document.createElement('li');
-            li.appendChild(makeEl('span', name));
-            li.appendChild(makeEl('strong', `Available: ${Number(qty).toFixed()}`));
-            li.appendChild(priceSec());
-            return li;
-        }
-        const name = document.getElementById('add-new').children[1].value;
-        const qty = document.getElementById('add-new').children[2].value;
-        const price = document.getElementById('add-new').children[3].value;
+    }
 
-        products.appendChild(makeProduct());
+    function filterUL(e) {
+        let criteria = availableProductSFilterInputField.value;
+        if (!criteria) { return; }
 
-        Array.from(avlProd).forEach(function (e) {
-            let eBtn = e.lastElementChild.lastElementChild;
-            eBtn.addEventListener('click', function (e) {
-                e.preventDefault();
-                const button = e.target;
-                let myItmName = button.parentNode.previousSibling.previousSibling;
-                let myItemValue = Number(button.previousSibling.textContent);
-                let itemQty = Number(button.parentNode.previousSibling.textContent.split(' ')[1]) - 1;
-                if (itemQty < 1) {
-                    products.removeChild(button.parentNode.parentNode);
-                } else {
-                    button.parentNode.previousSibling.textContent = `Available: ${itemQty.toFixed()}`;
-                }
+        let items = Array.from(availableProductSUL.querySelectorAll('li'));
+        availableProductSUL.innerHTML = '';
+        items.forEach(item => {
+            if (!(item.firstElementChild.textContent.includes(criteria))) {
+                item.style.display = 'none';
+            }
+            availableProductSUL.appendChild(item);
+        })
+    }
 
-                let myItem = makeEl('li', myItmName.textContent)
-                myItem.appendChild(makeEl('strong', myItemValue.toFixed(2)));
-                myProducts.appendChild(myItem);
-
-                totalPrice += myItemValue;
-                totalPriceHTML.textContent = `Total Price: ${totalPrice.toFixed(2)}`;
-            });
-        });
-    });
-
-    const filterBtn = document.querySelector('#products > div > button');
-    filterBtn.addEventListener('click', function () {
-        let filterWord = document.getElementById('filter').value.toLowerCase();
-        Array.from(avlProd).map(p => {
-            let name = p.firstElementChild.textContent.toLowerCase();
-            p.style.display = name.includes(filterWord) ? 'block' : 'none';
-        });
-    });
-
-    const buyBtn = document.querySelector('#myProducts > button');
-    buyBtn.addEventListener('click', function () {
-        totalPrice = 0;
-        totalPriceHTML.textContent = `Total Price: ${totalPrice.toFixed(2)}`;
-        myProducts.innerHTML = '';
-    });
+    function buyAll(e) {
+        myProductsSUL.innerHTML = '';
+        totalPriceH1.textContent = `Total Price: 0.00`;
+    }
 }
