@@ -3,6 +3,6 @@
 
 <blockquote>
     <p>
-        Short Link: 
+        Short Link: https://git.io/JJvLT
     </p>
 </blockquote>
