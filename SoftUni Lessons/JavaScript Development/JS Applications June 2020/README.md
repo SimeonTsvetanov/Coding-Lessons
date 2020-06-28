@@ -3,7 +3,7 @@
 
 <hr>
 <blockquote>
-    <i> Short link: UNDER CONSTRUCTION </i>
+    <i> Short link: https://git.io/JJvLm </i>
     <br>
     <i>
     Link for Judge: <a href="https://judge.softuni.bg/Contests/#!/List/ByCategory/170/JS-Applications-Exercises"> here</a>
