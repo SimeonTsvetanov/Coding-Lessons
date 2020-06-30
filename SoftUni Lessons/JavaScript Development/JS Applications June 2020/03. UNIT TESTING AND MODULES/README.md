@@ -10,3 +10,7 @@
 <p>
 Video link: <a href='#'> will be here</a>
 </p>
+
+<p>
+Setup Mocha and Chai for WebStorm: <a href='#'> will be here</a>
+</p>
