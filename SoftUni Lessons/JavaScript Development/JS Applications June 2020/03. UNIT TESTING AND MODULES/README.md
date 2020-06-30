@@ -12,5 +12,5 @@ Video link: <a href='#'> will be here</a>
 </p>
 
 <p>
-Setup Mocha and Chai for WebStorm: <a href='#'> will be here</a>
+Setup Mocha and Chai for WebStorm: <a href='https://www.youtube.com/watch?time_continue=598&v=LVYf-s0wDRc&feature=emb_title'> here</a>
 </p>
