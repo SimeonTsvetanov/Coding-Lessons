@@ -8,5 +8,5 @@
 </blockquote>
 
 <p>
-Video link: <a href='#'> will be here</a>
+Video link: <a href='https://www.youtube.com/watch?v=Es_xUgluf-M&feature=emb_title'> here</a>
 </p>
