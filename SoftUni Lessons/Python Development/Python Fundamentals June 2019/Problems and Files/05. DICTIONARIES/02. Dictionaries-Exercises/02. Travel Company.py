@@ -109,4 +109,4 @@ def another_solution():
             print(f"{town} -> all except {needed_capacity - current_capacity} accommodated")
 
 
-another_solution()
+# another_solution()
