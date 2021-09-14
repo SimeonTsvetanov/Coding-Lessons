@@ -36,3 +36,7 @@ square_numbers.sort(reverse=True)
 for square_number in square_numbers:
     print(square_number, end=" ")
 
+
+# nums = [int(num) for num in input().split(" ") if int(num) > 0]
+# squares = [num for num in nums if (num**0.5) % 1 == 0]
+# print(*sorted(squares, reverse=True))
