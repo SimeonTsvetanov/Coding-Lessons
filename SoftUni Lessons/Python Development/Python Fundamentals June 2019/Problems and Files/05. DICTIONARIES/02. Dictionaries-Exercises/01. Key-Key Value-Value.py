@@ -70,3 +70,21 @@ for key, value in dictionary.items():
     print(f"{key}:")
     for item in value:
         print(f"-{item}")
+        
+        
+def another_solution_without_dict():
+    input_key = input()
+    input_value = input()
+    for each_time in range(int(input())):
+        command_line = input().split(" => ")
+        key = command_line[0]
+        values = command_line[1].split(";")
+        if input_key in key:
+            print(f"{key}:")
+            for value in values:
+                if input_value in value:
+                    print(f"-{value}")
+
+
+# another_solution_without_dict()
+
