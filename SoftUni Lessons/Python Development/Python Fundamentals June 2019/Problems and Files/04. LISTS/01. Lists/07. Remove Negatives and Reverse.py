@@ -36,7 +36,8 @@ if nums:
 else:
     print("empty")
 
-
+# nums = [int(num) for num in input().split(" ") if int(num) >= 0][::-1]
+# print(*nums) if nums else print("empty")
 
 
 
