@@ -72,4 +72,4 @@ def number_filter():
         print([num for num in nums if num >= 0])
 
 
-number_filter()
+# number_filter()
