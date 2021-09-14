@@ -24,3 +24,22 @@ def sign_of_integer(num=int(input())):
 
 
 sign_of_integer()
+
+# # Redoing the task 
+# def sign_of_number(n):
+#     """Create a function that prints the sign of an integer number n."""
+# 
+#     sign = None
+# 
+#     if n > 0:
+#         sign = "positive"
+#     elif n < 0:
+#         sign = "negative"
+#     else:
+#         sign = "zero"
+# 
+#     print(f"The number {n} is {sign}.")
+# 
+# 
+# sign_of_number(int(input()))
+
