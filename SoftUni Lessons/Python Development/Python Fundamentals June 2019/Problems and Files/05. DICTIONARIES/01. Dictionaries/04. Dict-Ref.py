@@ -89,3 +89,24 @@ for key, value in dict_ref.items():
     print(f"{key} === {int(value)}")
 
 
+  def redo_solution():
+    dictionary = {}
+
+    while True:
+        command = input().split(" = ")
+        if command[0] == "end":
+            break
+        name, value = command
+
+        if value.isdigit():
+            dictionary[name] = int(value)
+        else:
+            if value in dictionary.keys():
+                dictionary[name] = dictionary[value]
+
+    for word, val in dictionary.items():
+        print(f"{word} === {val}")
+
+
+# redo_solution()
+
