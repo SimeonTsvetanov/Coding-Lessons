@@ -56,3 +56,30 @@ while True:
         counter += 1
 
 print(f"unsuccessful login attempts: {counter}")
+
+
+def another_solution():
+    users = {}
+    unsuccessful_login_attempts = 0
+
+    while True:
+        in_command = input().split(" -> ")
+        if in_command[0] == "login":
+            break
+        in_name, in_password = in_command[0], in_command[1]
+        users[in_name] = in_password
+
+    while True:
+        command = input().split(" -> ")
+        if command[0] == "end":
+            print(f"unsuccessful login attempts: {unsuccessful_login_attempts}")
+            break
+        username, password = command[0], command[1]
+        if username in users.keys() and password == users[username]:
+            print(f"{username}: logged in successfully")
+        else:
+            print(f"{username}: login failed")
+            unsuccessful_login_attempts += 1
+
+
+# another_solution()
