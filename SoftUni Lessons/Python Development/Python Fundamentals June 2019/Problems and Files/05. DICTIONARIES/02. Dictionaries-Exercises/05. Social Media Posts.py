@@ -110,3 +110,36 @@ for post, key, in social_media.items():
                 for val in key[value]:
                     print(f"*  {val}: ", end="")
                     print(" ".join(key[value][val]))
+
+                    
+def another_solution():
+    posts = {}
+
+    while True:
+        command = input().split(" ")
+        if command[0] == "drop":
+            break
+
+        if command[0] == "post":
+            posts[command[1]] = {
+                "Likes": 0,
+                "Dislikes": 0,
+                "Comments": []
+            }
+        elif command[0] == 'like':
+            posts[command[1]]["Likes"] += 1
+        elif command[0] == 'dislike':
+            posts[command[1]]["Dislikes"] += 1
+        elif command[0] == "comment":
+            posts[command[1]]["Comments"].append(f"*  {command[2]}: {' '.join(command[3:])}")
+
+    for post, data in posts.items():
+        print(f"Post: {post} | Likes: {data['Likes']} | Dislikes: {data['Dislikes']}")
+        print("Comments:")
+        if len(data["Comments"]) == 0:
+            print("None")
+        else:
+            [print(comment) for comment in data["Comments"]]
+
+
+# another_solution()
