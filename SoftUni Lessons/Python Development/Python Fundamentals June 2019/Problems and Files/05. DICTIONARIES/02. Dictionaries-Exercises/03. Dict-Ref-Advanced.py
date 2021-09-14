@@ -62,7 +62,30 @@ for k, v in di.items():
     print(", ".join(str(o) for o in v))
 
 
+def another_solution():
+    dictionary = {}
+
+    while True:
+        command = input().split(" -> ")
+        if command[0] == "end":
+            break
+
+        key = command[0]
+        if command[1].isalpha():
+            # Then its another Key
+            other_key = command[1]
+            if other_key in dictionary.keys():
+                dictionary[key] = dictionary[other_key].copy()
+        else:
+            # Its a Values
+            values = [int(value) for value in command[1].split(", ")]
+            if key not in dictionary.keys():
+                dictionary[key] = values
+            else:
+                dictionary[key].extend(values)
+
+    for key, values in dictionary.items():
+        print(f"{key} === {', '.join([str(value) for value in values])}")
 
 
-
-
+# another_solution()
