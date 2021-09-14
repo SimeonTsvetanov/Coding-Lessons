@@ -105,3 +105,48 @@ elif action == "Position":
         print(f"Name: {name}")
         print(f"Position: {position}")
         print("====================")
+        
+
+def another_solution():
+    """this is the corrected solution, the way it's supposed to be (I think :D)."""
+    base = {
+        "age": {},
+        "salary": {},
+        "position": {},
+    }
+
+    def check_type(data_to_check):
+        try:
+            int(data_to_check)
+            return int
+        except ValueError:
+            try:
+                float(data_to_check)
+                return float
+            except ValueError:
+                try:
+                    str(data_to_check)
+                    return str
+                except ValueError:
+                    pass
+
+    while True:
+        command = input()
+        if command == "filter base":
+            break
+        name, data = command.split(" -> ")
+        if check_type(data) == int:
+            base["age"][name] = data
+        elif check_type(data) == float:
+            base["salary"][name] = data
+        elif check_type(data) == str:
+            base["position"][name] = data
+
+    print_command = input()
+    for name, age_salary_or_position in base[print_command.lower()].items():
+        print(f"Name: {name}")
+        print(f"{print_command}: {age_salary_or_position}")
+        print(f"====================")
+
+
+# another_solution()
