@@ -26,3 +26,19 @@ for letter in letters_input:
 
 for key, value in letter_repetition.items():
     print(f"{key} -> {value}")
+
+    
+def redo_solution():
+    list_letters = [i for i in input()]
+
+    letters = {}
+
+    for j in list_letters:
+        if j not in letters.keys():
+            letters[j] = list_letters.count(j)
+
+    for letter, count in letters.items():
+        print(f"{letter} -> {count}")
+
+
+# redo_solution()
