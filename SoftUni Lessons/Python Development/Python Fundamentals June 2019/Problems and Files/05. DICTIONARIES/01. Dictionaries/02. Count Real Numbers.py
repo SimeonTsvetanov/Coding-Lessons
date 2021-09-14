@@ -41,3 +41,14 @@ for num in nums:
 
 for key, value in counts.items():
     print(f"{key} -> {value} times")
+
+    
+def redo_solution():
+    print(int("-1"))
+
+    a = "as"
+    if a.isalpha():
+        print('word')
+        
+
+# redo_solution()
