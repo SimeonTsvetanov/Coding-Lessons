@@ -52,3 +52,37 @@ def compare(type_value = input(), value_1 = input(), value_2 = input()):
             return print(value_1)
         return print(value_2)
 
+
+    # """
+# You are given two values of the same type as input. The values can be of type int, char of string.
+# Create a function that returns the greater of the two values:
+# """
+# 
+# 
+# def compare_int(first, second):
+#     print(first) if int(first) > int(second) else print(second)
+# 
+# 
+# def compare_char(first, second):
+#     print(first) if first > second else print(second)
+# 
+# 
+# def compare_string(first, second):
+#     print(first) if first > second else print(second)
+# 
+# 
+# def run():
+#     type_to_compare = input()
+#     first = input()
+#     second = input()
+# 
+#     if type_to_compare == "int":
+#         compare_int(first, second)
+#     elif type_to_compare == "char":
+#         compare_char(first, second)
+#     elif type_to_compare == "string":
+#         compare_string(first, second)
+# 
+# 
+# if __name__ == '__main__':
+#     run()
