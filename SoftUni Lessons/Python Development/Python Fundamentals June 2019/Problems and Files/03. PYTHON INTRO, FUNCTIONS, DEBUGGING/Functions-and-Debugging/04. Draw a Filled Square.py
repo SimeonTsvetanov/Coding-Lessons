@@ -50,3 +50,35 @@ def square():
 
 square()
 
+# """
+# Input: 4
+# 
+# Output:
+# --------
+# -\/\/\/-
+# -\/\/\/-
+# --------
+# """
+# 
+# 
+# def header_and_footer(number):
+#     print(number * 2 * "-")
+# 
+# 
+# def filling(number):
+#     internal = int((number * 2 - 2) / 2) * "\\/"
+#     for row in range(number - 2):
+#         print(f"-{internal}-")
+# 
+# 
+# def print_square(number):
+#     header_and_footer(number)
+#     filling(number)
+#     header_and_footer(number)
+# 
+# 
+# if __name__ == '__main__':
+#     print_square(number=int(input()))
+# 
+# 
+
