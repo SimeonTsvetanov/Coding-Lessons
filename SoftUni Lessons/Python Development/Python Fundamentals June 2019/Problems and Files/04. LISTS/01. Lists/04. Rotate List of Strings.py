@@ -26,4 +26,20 @@ rotated_strings = strings[-1:] + strings[:-1]
 for item in rotated_strings:
     print(item, end=" ")
 
+# """
+# Write a program to read a list of strings, rotate it to the right and print its rotated items.
+# Examples
+# 
+# Input	            Output
+# a b c d e	        e a b c d
+# soft uni hi	        hi soft uni
+# i r a b 	        b i r a
+# 
+# Hints
+# •	You can store the rotated list in a second list alongside the first one
+# """
+# 
+# list_of_words = input().split(" ")
+# list_of_words.insert(0, list_of_words.pop())
+# print(" ".join(list_of_words))
 
