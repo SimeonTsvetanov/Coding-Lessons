@@ -50,4 +50,15 @@ for item in nums:
             print(f"Index {counter} -> {item}")
     counter += 1
 
-
+"""Write a program to read a list of integers and find how many odd numbers at odd positions the list holds.
+# If there are no numbers, which match this criterion, do not print anything"""
+# 
+# nums = [int(num) for num in input().split()]
+# odd_nums = []
+# 
+# for position in range(len(nums)):
+#     if position % 2 != 0 and nums[position] % 2 != 0:
+#         odd_nums.append(f"Index {position} -> {nums[position]}")
+# 
+# if odd_nums:
+#     [print(num) for num in odd_nums]
