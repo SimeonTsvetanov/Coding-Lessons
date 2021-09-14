@@ -46,3 +46,27 @@ numbers_to_turn = math_power(float(input()), int(input()))
 
 print(numbers_to_turn)
 
+# """
+# Create a function that calculates and returns the value of a number raised to a given power:
+# Examples
+# Input	Output
+# 
+# 2
+# 8	    256.0
+# 
+# 1.5
+# 3	    3.375
+# """
+# 
+# 
+# def math_power(num_one, num_two):
+#     return num_one ** num_two
+# 
+# 
+# def run():
+#     print(math_power(num_one=float(input()), num_two=float(input())))
+# 
+# 
+# if __name__ == '__main__':
+#     run()
+# 
