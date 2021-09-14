@@ -71,3 +71,37 @@ for color, item in colors.items():
             print(f"* {values} - {count} (found!)")
         else:
             print(f"* {values} - {count}")
+            
+            
+            
+ def another_solution():
+    wardrobe = {}
+
+    for each_time in range(int(input())):
+        command = input().split(" -> ")
+        color = command[0]
+        new_clothes = command[1].split(",")
+        if color not in wardrobe.keys():
+            wardrobe[color] = {}
+            for cloth in new_clothes:
+                if cloth not in wardrobe[color].keys():
+                    wardrobe[color][cloth] = new_clothes.count(cloth)
+        else:
+            for cloth in new_clothes:
+                if cloth not in wardrobe[color].keys():
+                    wardrobe[color][cloth] = 1
+                else:
+                    wardrobe[color][cloth] += 1
+
+    command_check = [item for item in input().split(" ")]
+
+    for color, item in wardrobe.items():
+        print(f"{color} clothes:")
+        for values, count in item.items():
+            if command_check[0] == color and command_check[1] == values:
+                print(f"* {values} - {count} (found!)")
+            else:
+                print(f"* {values} - {count}")
+
+
+# another_solution()
