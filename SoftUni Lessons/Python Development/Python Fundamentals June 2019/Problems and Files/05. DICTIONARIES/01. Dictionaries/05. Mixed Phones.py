@@ -45,4 +45,25 @@ for name, number in sorted(phonebook.items()):
     print(f"{name} -> {number}")
 
 
+def redo_solution():
+    phonebook = {}
+
+    while True:
+        command = input().split(" : ")
+        if command[0] == "Over":
+            break
+
+        first_element, second_element = command
+
+        if second_element.isdigit():
+            phonebook[first_element] = second_element
+        else:
+            phonebook[second_element] = first_element
+
+    for name, number in sorted(phonebook.items()):
+        print(f"{name} -> {number}")
+
+
+# redo_solution()
+
 
