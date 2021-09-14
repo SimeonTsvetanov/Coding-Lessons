@@ -41,4 +41,19 @@ print(min(nums))
 
 print(min([int(item) for item in input().split(" ")]))
 
+# """
+# Write a program to read a list of integers, find the smallest item and print it.
+# Examples
+# 
+# Input	                Output
+# 1 2 3 4	                1
+# 3 2 9 -9 6 1	        -9
+# -6 0 -17 -1	            -17
+# 
+# Hints
+# •	Loop through the integer list until you find the smallest item
+# """
+# 
+# print(min([int(num) for num in input().split(" ")]))
+# 
 
