@@ -51,6 +51,9 @@ print(sum(list_1))
 
 nums = [int(input()) for entry in range(n)]
 
-
-
-
+# """
+# Write a program, which reads a list of integers, calculates its sum and prints it.
+# The input consists of a number n (the number of items) + n integers, each as a separate line.
+# """
+# 
+# print(sum([int(input()) for each_time in range(int(input()))]))
