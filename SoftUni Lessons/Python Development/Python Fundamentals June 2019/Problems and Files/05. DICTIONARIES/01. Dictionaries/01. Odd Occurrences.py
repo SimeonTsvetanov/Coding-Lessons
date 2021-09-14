@@ -31,4 +31,21 @@ for item, value in odd_occurrences.items():
 print(", ".join(print_words))
 
 
+def redo_solution():
+    words = [wor.lower() for wor in input().split(" ")]
+    leftovers = {}
+    lo = []
+
+    for word in words:
+        if (word not in leftovers.keys()) and (words.count(word) != 0):
+            leftovers[word] = words.count(word)
+
+    for wo, count in leftovers.items():
+        if count % 2 != 0:
+            lo.append(wo)
+
+    print(", ".join(lo))
+
+
+# redo_solution()
 
