@@ -40,7 +40,7 @@ Entry3 = Entry4
 end
     ----------------------------------
 """
-# There are 2 Different approaches for the problem that I've used. :)
+# There are 2 Different approaches for the problem that I've used. And a redo solution done years later. :)
 """
 input_line = input()
 
