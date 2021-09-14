@@ -75,15 +75,38 @@ while True:
             print(f"{check_city} -> all except {abs(cities[check_city] - value)} accommodated")
 
 
+def another_solution():
+    towns = {}
+
+    while True:
+        command = input().split(":")
+        if command[0] == "ready":
+            break
+
+        city = command[0]
+        transports = command[1].split(",")
+
+        if city not in towns.keys():
+            towns[city] = {}
+
+        for transport_and_capacity in transports:
+            transport = transport_and_capacity.split("-")[0]
+            capacity = int(transport_and_capacity.split("-")[1])
+            towns[city][transport] = capacity
+
+    while True:
+        command = input()
+        if command == "travel time!":
+            break
+
+        town = command.split(" ")[0]
+        needed_capacity = int(command.split(" ")[1])
+        current_capacity = sum([capacity for transport, capacity in towns[town].items()])
+
+        if needed_capacity <= current_capacity:
+            print(f"{town} -> all {needed_capacity} accommodated")
+        else:
+            print(f"{town} -> all except {needed_capacity - current_capacity} accommodated")
 
 
-
-
-
-
-
-
-
-
-
-
+another_solution()
