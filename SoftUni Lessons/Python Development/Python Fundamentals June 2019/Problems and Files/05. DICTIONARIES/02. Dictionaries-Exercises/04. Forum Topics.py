@@ -72,12 +72,29 @@ for topic, items in topics.items():
         print(", #".join(items))
 
 
+def another_solution():
+    topics = {}
+
+    while True:
+        command = input().split(" -> ")
+        if command[0] == "filter":
+            break
+
+        new_topic = command[0]
+        new_tags = [word for word in command[1].split(", ")]
+
+        if new_topic not in topics.keys():
+            topics[new_topic] = new_tags
+        else:
+            for new_tag in new_tags:
+                if new_tag not in topics[new_topic]:
+                    topics[new_topic].append(new_tag)
+
+    hot_tags = input().split(", ")
+
+    for topic, tags in topics.items():
+        if all(elem in tags for elem in hot_tags):
+            print(f"{topic} | {', '.join([f'#{tag}' for tag in tags])}")
 
 
-
-
-
-
-
-
-
+# another_solution()
