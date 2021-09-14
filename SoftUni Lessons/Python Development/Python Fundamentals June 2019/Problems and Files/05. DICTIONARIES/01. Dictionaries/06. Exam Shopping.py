@@ -68,3 +68,46 @@ while True:
 for item, value in stock.items():
     if stock.__getitem__(item) > 0:
         print(f"{item} -> {value}")
+    
+    
+    def another_solution():
+    shop = {}
+
+    while True:
+        command = input().split(" ")
+        if command[0] == "shopping" and command[1] == "time":
+            break
+
+        product, quantity = command[1], command[2]
+
+        if product not in shop.keys():
+            shop[product] = int(quantity)
+        else:
+            shop[product] += int(quantity)
+
+    while True:
+        command_two = input().split(" ")
+        if command_two[0] == "exam" and command_two[1] == "time":
+            break
+
+        buy_product = command_two[1]
+        buy_quantity = int(command_two[2])
+
+        if buy_product not in shop.keys():
+            # Check if product exists
+            print(f"{buy_product} doesn't exist")
+        elif shop[buy_product] == 0:
+            # Check if product is out of stock
+            print(f"{buy_product} out of stock")
+        else:
+            # Sell the product quantity should be minimum at 0 quantity
+            shop[buy_product] -= buy_quantity
+            if shop[buy_product] < 0:
+                shop[buy_product] = 0
+
+    for print_product, print_quantity in shop.items():
+        if print_quantity != 0:
+            print(f"{print_product} -> {print_quantity}")
+
+
+# another_solution()
