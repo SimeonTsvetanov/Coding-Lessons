@@ -42,10 +42,11 @@ for num in nums:
     if num != "":
         print(num, end=" ")
 
-
-
-
-
-
-
-
+# tokens = [str(item) for item in input().split("|")]
+# nums = []
+# 
+# for item in reversed(tokens):
+#     nums += item.split(" ")
+# for num in nums:
+#     if num != "":
+#         print(num, end=" ")
