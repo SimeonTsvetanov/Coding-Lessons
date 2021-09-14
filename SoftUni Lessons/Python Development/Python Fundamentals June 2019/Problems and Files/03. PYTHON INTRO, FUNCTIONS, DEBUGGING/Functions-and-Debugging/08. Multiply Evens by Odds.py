@@ -49,3 +49,21 @@ def numbers():
 
 
 print(numbers())
+
+# """
+# Create a program that reads an integer number and
+# multiplies the sum of all its even digits by the sum of all its odd digits:
+# """
+# 
+# 
+# def multiply_even_by_odd():
+#     number = abs(int(input()))
+# 
+#     even_sum = sum([int(num) for num in str(number) if int(num) % 2 == 0])
+#     odd_sum = sum([int(num) for num in str(number) if int(num) % 2 != 0])
+# 
+#     print(even_sum * odd_sum)
+# 
+# 
+# multiply_even_by_odd()
+
