@@ -35,6 +35,5 @@ for num in nums:
         break
     print(end="<= ")
 
-
-
-
+# nums = sorted([int(num) for num in input().split(" ")])
+# print(" <= ".join([str(num) for num in nums]))
