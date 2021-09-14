@@ -58,3 +58,30 @@ for region, value in regions.items():
         sum_of_value += int(i)
     grand_crab = math.ceil(sum_of_value - (sum_of_value / count_value))
     print(f"({grand_crab})")
+
+    
+def another_solution():
+    import math
+
+    regions = {}
+
+    while True:
+        command = input().split(" ")
+        if command[0] == "Aggregate":
+            break
+
+        region = command[0]
+        shell = int(command[1])
+
+        if region not in regions.keys():
+            regions[region] = [shell]
+        else:
+            if shell not in regions[region]:
+                regions[region].append(shell)
+
+    for region, shells in regions.items():
+        giant_shell = math.ceil((sum(shells)) - (sum(shells) / len(shells)))
+        print(f"{region} -> {', '.join(str(sh) for sh in shells)} ({giant_shell})")
+
+
+# another_solution()
