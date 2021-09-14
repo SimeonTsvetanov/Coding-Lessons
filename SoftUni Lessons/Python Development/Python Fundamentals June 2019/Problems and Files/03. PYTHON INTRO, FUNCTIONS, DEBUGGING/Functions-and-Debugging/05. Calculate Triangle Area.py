@@ -33,13 +33,20 @@ def triangle_area(b, h):
 
 print(triangle_area(float(input()), float(input())))
 
-
-
-
-
-
-
-
-
-
-
+# """
+# Create a function that calculates and returns the area of a triangle by given base and height.
+# Use a general formatting with 12 digits after the decimal point (e.g. {area:.12g})
+# Examples:
+#     INPUT |  OUTPUT
+#     3     |  6
+#     4     |
+# """
+# 
+# 
+# def get_area(base, height):
+#     area = (base * height) / 2
+#     print(f"{area:.12g}")
+# 
+# 
+# if __name__ == '__main__':
+#     get_area(base=float(input()), height=float(input()))
