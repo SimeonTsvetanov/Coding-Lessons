@@ -104,3 +104,85 @@ try:
     print(person.__str__())
 except Exception as e:
     print(str(e))
+
+    
+def another_solution():
+    """ This solution is extremely long but it's just for flexing :)"""
+
+    class Animal:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+        @property
+        def type_animal(self):
+            return self.__class__.__name__
+
+        @property
+        def age(self):
+            return self.__age
+
+        @age.setter
+        def age(self, var):
+            self.__age = int(var)
+
+    class Dog(Animal):
+        def __init__(self, name, age, number_of_legs):
+            Animal.__init__(self, name, age)
+            self.number_of_legs = number_of_legs
+            self.sound = "I'm a Distinguishedog, and I will now produce a distinguished sound! Bau Bau."
+
+        @property
+        def number_of_legs(self):
+            return self.__number_of_legs
+
+        @number_of_legs.setter
+        def number_of_legs(self, value):
+            self.__number_of_legs = int(value)
+
+    class Cat(Animal):
+        def __init__(self, name, age, intelligence_quotient):
+            Animal.__init__(self, name, age)
+            self.intelligence_quotient = intelligence_quotient
+            self.sound = "I'm an Aristocat, and I will now produce an aristocratic sound! Myau Myau."
+
+        @property
+        def intelligence_quotient(self):
+            return self.__intelligence_quotient
+
+        @intelligence_quotient.setter
+        def intelligence_quotient(self, value):
+            self.__intelligence_quotient = int(value)
+
+    class Snake(Animal):
+        def __init__(self, name, age, cruelty_coefficient):
+            Animal.__init__(self, name, age)
+            self.cruelty_coefficient = cruelty_coefficient
+            self.sound = "I'm a Sophistisnake, and I will now produce a sophisticated sound! Honey, I'm home."
+
+        @property
+        def cruelty_coefficient(self):
+            return self.__cruelty_coefficient
+
+        @cruelty_coefficient.setter
+        def cruelty_coefficient(self, value):
+            self.__cruelty_coefficient = int(value)
+
+    animals = []
+
+    while True:
+        command = input()
+        if command == "I'm your Huckleberry":
+            break
+        elif command.split(" ")[0] == "talk":
+            [print(animal.sound) for animal in animals if animal.name == command.split(" ")[1]]
+        else:
+            class_name, a_name, a_age, parameter = command.split(" ")
+            animals.append(eval(class_name)(a_name, a_age, parameter))
+
+    for animal in [a for a in animals if a.type_animal == "Dog"]:
+        print(f"Dog: {animal.name}, Age: {animal.age}, Number Of Legs: {animal.number_of_legs}")
+    for animal in [a for a in animals if a.type_animal == "Cat"]:
+        print(f"Cat: {animal.name}, Age: {animal.age}, IQ: {animal.intelligence_quotient}")
+    for animal in [a for a in animals if a.type_animal == "Snake"]:
+        print(f"Snake: {animal.name}, Age: {animal.age}, Cruelty: {animal.cruelty_coefficient}")
