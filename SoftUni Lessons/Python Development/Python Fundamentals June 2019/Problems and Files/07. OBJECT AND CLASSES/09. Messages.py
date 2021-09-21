@@ -80,7 +80,7 @@ Examples:
         John: I_need_you!
 """
 # P.S. I have lost my own solution, of this problem... SO this is copy and paste from someone else's code.
-
+# P.S.S I have created a new solution. Ypu can see the code in a function below.
 
 class User:
 
@@ -150,3 +150,62 @@ if __name__ == '__main__':
                     print(message_list_2[i])
         else:
             print('No messages')
+            
+            
+ def messages_take_two():
+    class User:
+        def __init__(self, username: str):
+            self.username = username
+            self.received_messages = []
+
+    class Message:
+        def __init__(self, content: str, sender: User):
+            self.content = content
+            self.sender = sender
+
+    users = []
+
+    while True:
+        command = input().split(" ")
+        if command[0] == "exit":
+            break
+        if len(command) == 2:
+            # Register new User
+            users.append(User(username=command[1]))
+        else:
+            # Add a message
+            in_sender = command[0]
+            in_recipient = command[2]
+            in_message = command[3]
+
+            # Check if we have both names in the users list
+            sender_present = [u for u in users if u.username == in_sender]
+            recipient_present = [u for u in users if u.username == in_recipient]
+
+            # IF we have the both
+            if sender_present and recipient_present:
+                new_message = Message(content=in_message, sender=sender_present[0])
+                recipient_present[0].received_messages.append(new_message)
+
+    from_sender, to_recipient = input().split(" ")
+
+    # Check if we have conversation between them:
+    sender_present = [u for u in users if u.username == from_sender]
+    recipient_present = [u for u in users if u.username == to_recipient]
+
+    if sender_present and recipient_present:
+        started_conversation_from_sender = [m for m in recipient_present[0].received_messages if
+                                            m.sender.username == from_sender]
+        started_conversation_from_recipient = [m for m in sender_present[0].received_messages if
+                                               m.sender.username == to_recipient]
+
+        if started_conversation_from_sender or started_conversation_from_recipient:
+            for i in range(max(len(started_conversation_from_sender), len(started_conversation_from_recipient))):
+                if i < len(started_conversation_from_sender):
+                    print(f"{from_sender}: {started_conversation_from_sender[i].content}")
+                if i < len(started_conversation_from_recipient):
+                    print(f"{started_conversation_from_recipient[i].content} :{to_recipient}")
+        else:
+            print(f"No messages")
+    else:
+        print(f"No messages")
