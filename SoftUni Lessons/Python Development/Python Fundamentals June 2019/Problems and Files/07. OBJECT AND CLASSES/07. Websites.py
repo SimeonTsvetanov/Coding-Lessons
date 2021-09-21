@@ -68,3 +68,37 @@ for item in web_addresses:
                 print(f"[{query}]")
     else:
         print(f"https://www.{item.host}.{item.domain}")
+
+        
+# Another Solution
+"""
+class Website:
+    def __init__(self, host: str, domain: str, queries: list):
+        self.host = host
+        self.domain = domain
+        self.queries = queries
+
+    def __str__(self):
+        result = f"https://www.{self.host}.{self.domain}"
+        if self.queries:
+            result += f"/query?={'&'.join(self.queries)}"
+        return result
+
+
+websites = []
+
+
+while True:
+    command = input().split(" | ")
+    if command[0] == "end":
+        break
+    in_host = command[0]
+    in_domain = command[1]
+    in_queries = []
+    if len(command) == 3:
+        in_queries = [f'[{q}]' for q in command[2].split(",")]
+    website = Website(host=in_host, domain=in_domain, queries=in_queries)
+    websites.append(website)
+
+[print(website) for website in websites]
+"""
