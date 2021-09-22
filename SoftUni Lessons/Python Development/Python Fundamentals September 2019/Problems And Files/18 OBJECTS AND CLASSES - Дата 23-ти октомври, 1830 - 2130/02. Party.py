@@ -36,3 +36,29 @@ while True:
 print(f"Going: {', '.join(party.people)}")
 print(f"Total: {len(party.people)}")
 
+
+def party_take_two():
+    class Party:
+        def __init__(self):
+            self.people = []
+
+        @property
+        def total(self):
+            return len(self.people)
+
+        def __str__(self):
+            result = ""
+            result += f"Going: {', '.join(party.people)}\n"
+            result += f"Total: {party.total}"
+            return result
+
+    party = Party()
+
+    while True:
+        name = input()
+        if name == "End":
+            break
+        party.people.append(name)
+
+    print(party)
+
