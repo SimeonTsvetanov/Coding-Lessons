@@ -70,3 +70,33 @@ for animal in range(count_animals):
     spice, animal_kind = input().split()
     zoo.add_animal(species=spice, name=animal_kind)
 print(zoo.get_info(input()))
+
+
+def zoo_advanced_solution():
+    class Zoo:
+        __animals = 0
+
+        def __init__(self, name: str):
+            self.name = name
+            self.mammal = []
+            self.fish = []
+            self.bird = []
+
+        def add_animal(self, species, name):
+            getattr(self, species).append(name)
+            Zoo.__animals += 1
+
+        def get_info(self, species):
+            animals = "Mammals" if species == "mammal" else "Fishes" if species == "fish" else "Birds"
+            return f"{animals} in {self.name}: {', '.join(getattr(self, species))}\nTotal animals: {Zoo.__animals}"
+
+    zoo = Zoo(name=input())
+
+    for i in range(int(input())):
+        animal = input().split(" ")
+        zoo.add_animal(species=animal[0], name=animal[1])
+
+    print(zoo.get_info(input()))
+
+
+zoo_advanced_solution()
