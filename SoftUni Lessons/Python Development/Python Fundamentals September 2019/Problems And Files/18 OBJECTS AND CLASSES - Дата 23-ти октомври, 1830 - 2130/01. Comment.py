@@ -27,3 +27,9 @@ class Comment:
         self.content = content
         self.likes = likes
 
+
+ class Comment_take_two:
+    def __init__(self, username: str, content: str, likes=0):
+        self.username = username
+        self.content = content
+        self.likes = likes
