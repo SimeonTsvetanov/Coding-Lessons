@@ -30,10 +30,9 @@ class Storage:
         self.capacity = capacity
         self.storage = []
 
-    def add_product(self, product):
-        if self.capacity > 0:
+    def add_product(self, product: str):
+        if self.capacity > len(self.storage):
             self.storage.append(product)
-            self.capacity -= 1
 
     def get_products(self):
         return self.storage
