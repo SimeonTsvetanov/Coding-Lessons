@@ -38,7 +38,7 @@ class Circle:
         self.radius = diameter / 2
 
     def calculate_circumference(self):
-        return Circle.__pi * self.radius
+        return Circle.__pi * self.diameter
 
     def calculate_area(self):
         return Circle.__pi * self.radius * self.radius
@@ -52,3 +52,32 @@ class Circle:
 # print(f"{circle.calculate_circumference():.2f}")
 # print(f"{circle.calculate_area():.2f}")
 # print(f"{circle.calculate_area_of_sector(angle):.2f}")
+
+
+class Circle_better_solution:
+    __pi = 3.14
+
+    def __init__(self, diameter):
+        self.diameter = diameter
+        self.radius = self.diameter / 2
+
+    def calculate_circumference(self):
+        """
+        :return: returns the circumference of the circle
+        """
+        pass
+        return Circle.__pi * self.diameter
+
+    def calculate_area(self):
+        """
+        :return: returns the area of the circle
+        """
+        return Circle.__pi * self.radius * self.radius
+
+    def calculate_area_of_sector(self, angle):
+        """
+        gives the central angle in degrees
+        :param angle:
+        :return: returns the area that fills the sector
+        """
+        return (angle / 360) * Circle.__pi * self.radius * self.radius
