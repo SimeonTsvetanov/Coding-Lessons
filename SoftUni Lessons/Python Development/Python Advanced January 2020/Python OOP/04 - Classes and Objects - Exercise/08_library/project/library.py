@@ -18,7 +18,6 @@ class Library:
         already_rented = [[[n, d] for n, d in data.items() if n == book_name] for u, data in self.rented_books.items()]
         if already_rented:
             book = already_rented[0][0]
-            print(book)
             return f'The book "{book[0]}" is already rented and will be available in {book[1]} days!'
 
     def return_book(self, author: str, book_name: str, user: User):
